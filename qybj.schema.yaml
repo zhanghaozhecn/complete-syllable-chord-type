@@ -1,0 +1,187 @@
+schema:
+  schema_id: qybj
+  name: 全音并击1.0
+  version: 20220729
+  author:
+    - 张皓哲（576440085@qq.com）
+    - 大牛（大牛双拼形码）
+  description:
+  dependencies:
+    # 反查方案
+    - fc
+
+switches:
+  - name: zh_simp_s2t
+    reset: 0
+    states: [ 简, 繁 ]
+  - name: ascii_punct
+    reset: 0
+    states: [ 。，, ．， ]
+  - name: full_shape
+    reset: 0
+    states: [ 半, 全 ]
+  - name: ascii_mode
+    reset: 0
+    states: [ 中, 英 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - chord_composer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - reverse_lookup_translator
+    - table_translator
+  filters:
+    - simplifier
+    - uniquifier
+
+
+# 简体转繁体
+simplifier:
+  option_name: zh_simp_s2t
+  opencc_config: s2t.json
+
+
+speller:
+  # 编码唯一自动上屏，需配合enable_completion，如果启用本项但不启用最大码长和自动上屏模式，那么只要编码唯一就会自动上屏，在这种模式下，自动造词会出问题，原因不明，所以必须启用自动上屏模式和最大码长。
+  auto_select: true  
+  # 进入输入区的字符
+  alphabet: 'abcdefghijklmnopqrstuvwxyz'
+  # 作为开头的字符
+  initials: 'abcdefghijklmnopqrstuvwxyz'
+  algebra:
+
+chord_composer:
+  alphabet: 'qazwsxedcrfvtgbyhnujmik,ol.p;/ '
+  algebra:
+    # 非字母键名转换为大写字母方便处理
+    - xlit|;,./ |FDJGO|
+    # 用=作键位后缀区分键位和编码
+    - xform/([a-zFDJGO])/$1=/
+    # 123列
+    - xform/^([^asdqwezxc]=)/o$1/
+    - xform/s=d=/z/
+    - xform/w=e=/m/
+    - xform/x=c=/i/
+    - xform/a=s=/f/
+    - xform/q=w=/r/
+    - xform/z=x=/n/
+    - xform/x=d=/s/
+    - xform/s=e=/c/
+    - xform/z=s=/p/
+    - xform/d=/g/
+    - xform/s=/d/
+    - xform/a=/h/
+    - xform/e=/u/
+    - xform/w=/v/
+    - xform/q=/l/
+    - xform/c=/k/
+    - xform/x=/b/
+    - xform/z=/t/
+    # 45列
+    - xform/^(.)([^rtfgvb]=)/$1o$2/
+    - xform/^(.)$/$1o/
+    - xform/^(..)=/$1/
+    # 67列
+    - xform/^(..)([^yuhjnm]=)/$1o$2/
+    - xform/^(..)$/$1o/
+    - xform/u=/r/
+    - xform/y=/t/
+    - xform/j=/f/
+    - xform/h=/g/
+    - xform/m=/v/
+    - xform/n=/b/
+    # 890列
+    - xform/^(...)([^iopklFDJG]=)/$1o$2/
+    - xform/^(...)$/$1o/
+    - xform/k=l=/z/
+    - xform/i=o=/m/
+    - xform/D=J=/i/
+    - xform/l=F=/f/
+    - xform/o=p=/r/
+    - xform/J=G=/n/
+    - xform/k=J=/s/
+    - xform/i=l=/c/
+    - xform/l=G=/p/
+    - xform/k=/g/
+    - xform/l=/d/
+    - xform/F=/h/
+    - xform/i=/u/
+    - xform/o=/v/
+    - xform/p=/l/
+    - xform/D=/k/
+    - xform/J=/b/
+    - xform/G=/t/
+    # 空格
+    - xform/^(....)O=$/$1x/
+    - xform/^(....)$/$1o/
+    - xform/^oooox$/ /
+    # 禁止输出非法组合
+    - xform/^(....)([ox])$/#$1$2/
+    - erase/^[^#\d ].*//
+    - xform/#//
+  # 并击过程中套用的式样
+  prompt_format:
+    # 过程编码加方括号
+    - xform/(.+)/[$1]/
+
+translator:
+  dictionary: qybj
+  enable_charset_filter: false  # 字符集过滤
+  enable_completion: true  # 显示编码未输入完整的词条
+  enable_sentence: false  # 整句模式
+  enable_user_dict: false  # 用户词典（用户词典记录动态字词频，用户词）
+  enable_encoder: false  # 自动编码
+  encode_commit_history: false  # 上屏组词
+  # 编码区格式
+  preedit_format:
+  # 提示区格式
+  comment_format:
+    - xform/.*//
+    
+# 反查
+reverse_lookup:
+  # 默认笔画反查，可以自行修改
+  dictionary: fc
+  enable_completion: true
+  prefix: "&"  # 反查前缀
+  suffix: "'"
+  tips: 【反查】
+  preedit_format:
+  comment_format:
+
+# 符号
+punctuator:
+  import_preset: symbols_sydbj
+
+# 功能键、组合键功能
+key_binder:
+  bindings:
+    #- { accept: Tab, send: "Shift+Right", when: composing }
+    #- { accept: "Shift+Tab", send: "Shift+Left", when: composing }
+    - { accept: BackSpace, send: Escape, when: composing }
+    #- { accept: bracketleft, send: Page_Up, when: paging }
+    #- { accept: bracketright, send: Page_Down, when: has_menu }
+    #- { accept: "Shift+Shift_R", select: .next, when: always }
+
+# 进入翻译器前的模式判断，符合模式的会进入对应的翻译器
+recognizer:
+  patterns:
+    # 用\引导其他符号
+    punct: '^\\([0-9]0?|[A-Za-z*\[\]\{\}\$%#~`\\|/=<>]+)?$'
+    # 用&引导反查
+    reverse_lookup: "&[a-z]*'?$"
