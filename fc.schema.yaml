@@ -1,7 +1,7 @@
 schema:
   schema_id: fc
   name: 反查
-  version: 2022-05-01
+  version: 20221017
   author:
   description:
   dependencies:
@@ -36,10 +36,9 @@ engine:
     - table_translator
 
 speller:
-  alphabet: "asdfg"
+  alphabet: "12345"
   delimiter: " "
   algebra:
-    - xlit/12345/asdfg/
 
 translator:
   dictionary: fc
