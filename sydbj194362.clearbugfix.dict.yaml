@@ -1,0 +1,63 @@
+# 修复清码吞码的漏洞
+
+---
+name: sydbj194362.clearbugfix
+version: 20221019
+sort: original
+columns:
+  - text
+  - code
+...
+
+a	a
+aa	a
+b	b
+bb	b
+c	c
+cc	c
+d	d
+dd	d
+e	e
+ee	e
+f	f
+ff	f
+g	g
+gg	g
+h	h
+hh	h
+i	i
+ii	i
+j	j
+jj	j
+k	k
+kk	k
+l	l
+ll	l
+m	m
+mm	m
+n	n
+nn	n
+o	o
+oo	o
+p	p
+pp	p
+q	q
+qq	q
+r	r
+rr	r
+s	s
+ss	s
+t	t
+tt	t
+u	u
+uu	u
+v	v
+vv	v
+w	w
+ww	w
+x	x
+xx	x
+y	y
+yy	y
+z	z
+zz	z
