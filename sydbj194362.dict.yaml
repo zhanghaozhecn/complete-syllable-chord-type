@@ -16,10 +16,10 @@
 
 ---
 name: sydbj194362
-version: 20221019
+version: 20221020
 sort: original
 import_tables:
-  - sydbj194362.clearbugfix
+  - sydbj194362.len1bugfix
   - sydbj194362.fh
   - sydbj194362.dz1
   - sydbj194362.dz21

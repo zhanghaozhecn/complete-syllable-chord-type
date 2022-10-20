@@ -1,7 +1,7 @@
 # 修复清码吞码的漏洞
 
 ---
-name: sydbj194362.clearbugfix
+name: sydbj194362.len1bugfix
 version: 20221019
 sort: original
 columns:

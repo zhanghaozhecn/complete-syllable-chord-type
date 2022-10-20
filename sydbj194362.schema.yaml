@@ -1,7 +1,7 @@
 schema:
   schema_id: sydbj194362
   name: 声韵调并击(19-4-36-2)
-  version: 1.0(20221019)
+  version: 1.1(20221020)
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -60,8 +60,12 @@ speller:
   # 只有选重上屏、最大码长顶上屏、自动上屏模式可以参与自动造词
   # 顶功方案无法自动造词
   auto_select: true
-  # 自动清空码
-  auto_clear: auto
+  # 符合格式编码唯一自动上屏，需要较精确匹配，避免第一击恰好只有一个候选上屏
+  auto_select_pattern: "^oo[a-z][a-z][ox]|[a-z][a-z]oo[ox]|[a-z]{4}x|[a-z]{10}$"
+  # 自动清屏空码，若设置为auto，清屏能力较强，但是需要依靠recognizer:patterns停留合法编码，很麻烦，且在字词库变动的条件下是不可行的
+  auto_clear: max_length
+  # 最大码长
+  max_code_length: 10
   # 进入输入区的字符
   alphabet: 'abcdefghijklmnopqrstuvwxyz'
   # 作为开头的字符，若省略，则与alphabet相同
@@ -148,15 +152,8 @@ chord_composer:
     - xform/^(....)$/$1o/
     - xform/^oooox$/ /
     # 禁止输出非法组合
-    # dz1
-    - xform/^(lrooo|hvooo|ofooo|voooo|goooo|doooo|vrooo|urooo|vtooo|bbooo|nbooo|lfooo|orooo|cfooo|tvooo|koooo|ltooo|dvooo|ufooo|dfooo|noooo|ogooo|sgooo|hgooo|utooo|nfooo|hoooo|sfooo|kbooo|ggooo|ovooo|rfooo|nvooo|kfooo|gfooo|zoooo|ivooo|zvooo|mrooo|bvooo|coooo|boooo|ifooo|soooo|zgooo|tfooo|gvooo|dgooo|roooo|uoooo|mfooo|mtooo|hfooo|fgooo|loooo|ffooo|ctooo|kvooo|foooo|toooo|ioooo|ibooo|bfooo|moooo|pbooo|poooo|tbooo|svooo|pvooo|fvooo|vfooo|crooo|pfooo|zfooo|rtooo|rrooo|ooogo|ooovo|oofoo|oofho|ooroo|oooho|oorlo|ooodo|oooko|oofdo|ooomo|ooolo|oooto|oooio|ooflo|ooruo|ooouo|oofgo|ooozo|oovko|oovho|ooobo|oogoo|oovbo|oovoo|oorvo|ootoo|oovgo|oofuo|ooggo|ooboo|oofvo|oovto|oovdo|oogdo|oogho)$/#$1/
-    # dz2
-    - xform/^(bbfd|bbfg|bbfo|bbob|bbod|bboh|bboi|bbol|bbou|bbov|bboz|bbrl|bbro|bbvb|bbvo|bffg|bffo|bfod|bfoh|bfov|bfoz|bfrl|bfro|bofd|bofg|bofo|boob|bood|booh|booi|bool|boou|boov|booz|borl|boro|borv|bovb|bovo|bvfd|bvfg|bvfo|bvob|bvod|bvoh|bvoi|bvol|bvou|bvov|bvoz|bvrl|bvro|bvrv|bvvb|bvvo|cffd|cffg|cffo|cffu|cfob|cfod|cfoh|cfok|cfol|cfov|cfoz|cfvt|cofg|cofo|cofu|coob|cood|coog|cooh|coom|coot|coov|cooz|covt|crfd|crfg|crfo|crfu|crob|crod|croh|crok|crol|crot|crov|croz|crro|crvt|ctfg|ctfo|ctfu|ctob|ctoh|ctot|ctov|dffd|dffg|dffh|dffo|dffu|dfob|dfod|dfog|dfoh|dfoi|dfok|dfom|dfot|dfou|dfov|dfoz|dfrl|dfro|dfvb|dfvo|dfvt|dgfd|dgfg|dgfo|dgfu|dggo|dgob|dgod|dgoh|dgoi|dgok|dgom|dgou|dgov|dgoz|dgro|dgvb|dgvo|dgvt|dofd|dofg|dofo|dofu|doob|dood|doog|dooh|dooi|dook|dool|doom|doot|doou|doov|dooz|doro|dovo|dovt|dvfg|dvfo|dvod|dvog|dvoh|dvrl|dvro|fffd|ffob|ffod|ffol|ffoz|ffro|ffvb|fgfd|fgob|fgod|fgol|fgom|fgoz|fgro|fgvb|fofd|foob|food|fool|fooz|foro|fovb|fvfd|fvob|fvod|fvoh|fvol|fvoz|fvro|fvvb|gfbo|gffd|gffg|gffh|gffo|gffv|gfgg|gfgo|gfob|gfod|gfog|gfoh|gfoi|gfok|gfol|gfom|gfot|gfou|gfov|gfoz|gfrl|gfro|gfru|gfrv|gfto|gfvd|gfvg|gfvh|gfvk|gfvo|gfvt|ggbo|ggfd|ggfg|ggfh|ggfo|ggfu|ggfv|gggg|gggo|ggob|ggod|ggog|ggoh|ggoi|ggok|ggol|ggom|ggot|ggou|ggov|ggoz|ggrl|ggro|ggru|ggrv|ggto|ggvb|ggvg|ggvh|ggvk|ggvo|ggvt|gobo|gofd|gofg|gofh|gofo|gofu|gofv|gogg|gogo|goob|good|goog|gooh|gooi|gook|gool|goom|goot|goou|goov|gooz|gorl|goro|goru|gorv|goto|govd|govg|govk|govo|govt|gvfo|gvgo|gvog|gvoh|gvoi|gvol|gvrl|gvro|gvru|gvto|hfbo|hffd|hffg|hffh|hffo|hffu|hffv|hfgo|hfob|hfod|hfog|hfoh|hfoi|hfok|hfol|hfom|hfot|hfou|hfov|hfoz|hfrl|hfro|hfru|hfrv|hfto|hfvb|hfvd|hfvg|hfvh|hfvk|hfvo|hfvt|hgbo|hgfg|hgfh|hgfo|hgfv|hgob|hgod|hgoh|hgoi|hgok|hgol|hgom|hgot|hgou|hgov|hgrl|hgro|hgru|hgrv|hgto|hgvk|hgvo|hgvt|hobo|hofd|hofg|hofh|hofo|hofu|hofv|hogg|hogo|hoob|hood|hoog|hooh|hooi|hook|hool|hoom|hoot|hoou|hoov|hooz|horl|horo|horu|horv|hoto|hovd|hovg|hovh|hovk|hovo|hovt|hvbo|hvfd|hvfg|hvfo|hvfu|hvfv|hvgg|hvgo|hvob|hvod|hvog|hvoh|hvoi|hvok|hvol|hvom|hvot|hvou|hvov|hvoz|hvrl|hvro|hvru|hvrv|hvto|hvvd|hvvg|hvvh|hvvk|hvvo|hvvt|ibfd|ibfg|ibfo|ibfu|ibfv|ibgg|ibob|ibod|ibog|ibok|ibol|ibom|ibov|iboz|ibro|ibvt|iffd|iffg|iffo|iffu|iffv|ifob|ifod|ifok|ifol|ifom|ifot|ifov|ifoz|ifro|ifvt|iofd|iofg|iofo|iofv|iogg|ioob|iood|ioog|iooh|iook|iool|ioom|ioov|iooz|ioro|iovt|ivfd|ivfg|ivfo|ivfu|ivfv|ivgg|ivob|ivod|ivog|ivoh|ivok|ivol|ivom|ivot|ivov|ivoz|ivro|ivvg|ivvt|kbbo|kbfg|kbfh|kbfo|kbfu|kbfv|kbgg|kbgo|kbob|kbod|kbog|kboi|kbok|kbol|kbom|kbot|kbou|kbov|kbrl|kbro|kbru|kbrv|kbvg|kbvk|kbvo|kbvt|kfbo|kffd|kffh|kffo|kffv|kfgo|kfog|kfoi|kfot|kfou|kfrl|kfru|kfrv|kfto|kfvd|kfvh|kfvk|kfvo|kobo|kofd|kofg|kofo|kofu|kofv|kogg|kogo|koob|kood|koog|kooh|kooi|kook|kool|koom|koot|koou|koov|korl|koru|korv|koto|kovg|kovk|kovo|kvbo|kvfd|kvfg|kvfh|kvfo|kvfu|kvfv|kvgo|kvob|kvod|kvog|kvoi|kvok|kvom|kvot|kvou|kvov|kvoz|kvrl|kvro|kvru|kvrv|kvto|kvvb|kvvd|kvvg|kvvk|kvvo|kvvt|lffd|lffg|lffh|lffo|lffu|lfob|lfod|lfoh|lfoi|lfok|lfom|lfou|lfov|lfoz|lfro|lfru|lfrv|lfvb|lfvk|lfvo|lfvt|lofd|lofg|lofh|lofo|lofu|loob|lood|loog|looh|looi|look|loom|loou|loov|looz|lorl|loro|loru|lorv|loto|lovb|lovk|lovo|lovt|lrfd|lrfg|lrfh|lrfo|lrfu|lrgd|lrod|lrog|lroh|lroi|lrok|lrom|lroz|lrrl|lrro|lrrv|lrvb|ltfd|ltfg|ltfh|ltfo|ltfu|ltgo|ltob|ltod|ltoh|ltoi|ltok|ltom|ltou|ltoz|ltrl|ltro|ltru|ltrv|ltvb|ltvk|ltvo|ltvt|mffd|mffg|mffo|mfob|mfod|mfoh|mfoi|mfol|mfom|mfou|mfov|mfoz|mfro|mfrv|mfvb|mfvo|mofg|mofh|mofo|moob|mood|mooh|mooi|mool|moou|moov|mooz|morl|moro|movb|movo|mrfd|mrfg|mrfo|mrob|mrog|mroh|mroi|mrol|mrom|mroz|mrrl|mrro|mtfd|mtfg|mtfo|mtob|mtod|mtoh|mtoi|mtom|mtou|mtov|mtoz|mtro|mtrv|mtvb|mtvo|nbfd|nbfg|nbfh|nbfo|nbob|nbod|nboi|nbou|nbov|nbro|nbru|nbvb|nbvo|nbvt|nffd|nffg|nffh|nffo|nfob|nfod|nfog|nfoh|nfok|nfou|nfoz|nfro|nfrv|nfvk|nfvo|nofd|nofg|nofh|nofo|noob|nood|noog|nooh|nooi|nook|nool|noom|noou|noov|norl|noro|noru|noto|novb|novk|novo|nvfd|nvfg|nvfh|nvfo|nvob|nvog|nvou|nvrl|nvro|ofbo|offd|offg|offh|offo|offu|offv|ofgd|ofgg|ofgh|ofgo|ofob|ofod|ofog|ofoh|ofoi|ofok|ofol|ofom|ofot|ofou|ofov|ofoz|ofrl|ofro|ofru|ofrv|ofto|ofvb|ofvd|ofvg|ofvh|ofvk|ofvo|ofvt|ogbo|ogfg|ogfh|ogfl|ogfo|ogfu|ogfv|oggd|oggg|oggo|ogob|ogod|ogog|ogoh|ogoi|ogok|ogol|ogom|ogot|ogou|ogov|ogrl|ogro|ogru|ogrv|ogto|ogvb|ogvd|ogvg|ogvh|ogvk|ogvo|ogvt|orbo|orfd|orfg|orfh|orfl|orfo|orfu|orfv|orgd|orgg|orgo|orob|orod|orog|oroh|oroi|orok|orol|orom|orot|orou|orov|orrl|orro|orru|orrv|orto|orvb|orvd|orvg|orvh|orvk|orvo|orvt|ovbo|ovfd|ovfg|ovfh|ovfl|ovfo|ovfu|ovfv|ovgd|ovgo|ovod|ovog|ovoi|ovol|ovot|ovou|ovov|ovrl|ovro|ovru|ovrv|ovvb|ovvd|ovvg|ovvh|ovvk|ovvo|ovvt|pbfd|pbfg|pbfo|pbod|pboh|pboi|pbom|pbou|pbov|pboz|pbrl|pbrv|pffd|pffg|pffo|pfob|pfod|pfoh|pfoi|pfol|pfom|pfou|pfov|pfoz|pfro|pfrv|pfvb|pfvo|pofd|pofg|pofo|poob|pood|pooh|pooi|pool|poou|poov|pooz|poro|porv|povb|pvfd|pvfg|pvfo|pvob|pvod|pvoh|pvoi|pvol|pvom|pvou|pvov|pvoz|pvrl|pvro|pvrv|pvvb|pvvo|rffd|rffg|rfob|rfod|rfoh|rfok|rfol|rfom|rfot|rfoz|rfvg|rfvt|rofd|rofg|rofo|rofu|rood|roog|rooh|rool|room|root|rrfd|rroz|rtfd|rtfg|rtob|rtod|rtog|rtok|rtol|rtot|rtvt|sffd|sffg|sffo|sffu|sfob|sfod|sfoh|sfok|sfol|sfom|sfot|sfov|sfoz|sfro|sfvt|sgfd|sgfg|sgfo|sgfu|sgob|sgoh|sgok|sgom|sgot|sgro|sofd|sofg|sofo|soob|sood|soog|sook|soom|soot|soov|soro|sovt|svod|svot|tbfd|tbfg|tbfo|tbob|tbod|tboh|tboi|tbok|tbom|tbot|tbou|tbov|tbrl|tbro|tbvo|tbvt|tffd|tffg|tffo|tffu|tfob|tfod|tfoh|tfoi|tfok|tfom|tfot|tfou|tfov|tfoz|tfvo|tfvt|tofd|tofg|tofo|tofu|toob|tood|toog|tooh|tooi|took|toom|toot|toou|toov|torl|toro|tovo|tovt|tvfd|tvfg|tvfo|tvfu|tvob|tvod|tvoh|tvoi|tvok|tvom|tvot|tvou|tvov|tvoz|tvrl|tvro|tvvb|tvvo|tvvt|uffg|uffo|ufod|ufog|ufol|ufom|ufot|ufoz|ufro|ufvb|uofd|uofg|uofo|uofu|uogg|uoob|uood|uoog|uooh|uool|uoom|uoot|uoov|uooz|uoro|uovg|uovt|urfd|urfg|urfo|urfv|urgg|urob|urod|urog|uroh|urol|urom|urov|uroz|urro|urvg|urvt|utfd|utfg|utfo|utfu|utfv|utgg|utob|utod|utog|utol|utom|utot|utov|utoz|utro|utvg|vffg|vffo|vfod|vfog|vfoh|vfom|vfov|vfro|vofd|vofg|vofo|vofv|vogg|voob|vood|voog|vook|vool|voom|voot|voov|vooz|voro|vovb|vovt|vrfd|vrfg|vrfo|vrfu|vrfv|vrgg|vrob|vrod|vrog|vroh|vrok|vrol|vrom|vrot|vrov|vroz|vrro|vrvg|vrvt|vtfd|vtfg|vtfo|vtfu|vtfv|vtob|vtod|vtog|vtok|vtol|vtom|vtov|vtoz|vtro|vtvg|vtvt|zffd|zffg|zffo|zffu|zfob|zfod|zfoh|zfok|zfom|zfov|zfoz|zfro|zfvt|zgfd|zgfg|zgfo|zgfu|zgob|zgod|zgoh|zgok|zgol|zgom|zgot|zgov|zgro|zgvt|zofd|zofg|zofo|zoob|zoog|zooh|zook|zool|zoom|zoot|zoov|zooz|zovt|zvfg|zvob|zvod|zvog|zvoh|zvro|zvvb)([ox])$/#$1$2/
-    # dz3
-    - xform/^(hooo|ovoo|oood|ofoo|oovo|tooo|oool|ooto|oobo|ooou|vooo|oofo|ooov|oogo|booo|oboo|ooro|gooo|oroo|ooog|looo|otoo|ogoo|kooo|dooo|uooo)([ox])$/#$1$2/
-    # fh
-    - xform/^(looox|vooox|uooox|oroox|otoox|hooox|dooox|gooox|ofoox|ogoox|tooox|booox|kooox|ovoox|oboox|gfoox|zooox|dfoox|hfoox|uroox|mooox|vroox|lroox|kvoox|iooox|bvoox|tvoox|ooolx|ooovx|oooux|oorox|ootox|ooohx|ooodx|ooogx|oofox|oogox|oootx|ooobx|oookx|oovox|oobox|oofgx|ooozx|oofdx|oofhx|oorux|ooomx|oorvx|oorlx|oovkx|oooix|oovbx|oovtx)$/#$1/
-#    - xform/^(....[ox])$/#$1/
+    # 考虑到字词库变动会影响合法组合种类，不能进行精确禁止，仅限制19*7*37种
+    - xform/^(oo|go|do|ho|uo|vo|lo|ko|bo|to|zo|mo|io|fo|ro|no|so|co|po|or|gr|dr|hr|ur|vr|lr|kr|br|tr|zr|mr|ir|fr|rr|nr|sr|cr|pr|of|gf|df|hf|uf|vf|lf|kf|bf|tf|zf|mf|if|ff|rf|nf|sf|cf|pf|ov|gv|dv|hv|uv|vv|lv|kv|bv|tv|zv|mv|iv|fv|rv|nv|sv|cv|pv|ot|gt|dt|ht|ut|vt|lt|kt|bt|tt|zt|mt|it|ft|rt|nt|st|ct|pt|og|gg|dg|hg|ug|vg|lg|kg|bg|tg|zg|mg|ig|fg|rg|ng|sg|cg|pg|ob|gb|db|hb|ub|vb|lb|kb|bb|tb|zb|mb|ib|fb|rb|nb|sb|cb|pb)(oo|og|od|oh|ou|ov|ol|ok|ob|ot|oz|om|oi|of|or|on|os|oc|op|ro|rg|rd|rh|ru|rv|rl|rk|rb|rt|rz|rm|ri|rf|rr|rn|rs|rc|rp|fo|fg|fd|fh|fu|fv|fl|fk|fb|ft|fz|fm|fi|ff|fr|fn|fs|fc|fp|vo|vg|vd|vh|vu|vv|vl|vk|vb|vt|vz|vm|vi|vf|vr|vn|vs|vc|vp|to|tg|td|th|tu|tv|tl|tk|tb|tt|tz|tm|ti|tf|tr|tn|ts|tc|tp|go|gg|gd|gh|gu|gv|gl|gk|gb|gt|gz|gm|gi|gf|gr|gn|gs|gc|gp|bo|bg|bd|bh|bu|bv|bl|bk|bb|bt|bz|bm|bi|bf|br|bn|bs|bc|bp)([ox])$/#$1$2$3/
     - erase/^[^#\d ].*//
     - xform/#//
   # 并击过程中套用的式样
@@ -167,7 +164,7 @@ chord_composer:
 translator:
   dictionary: sydbj194362
   enable_charset_filter: false  # 字符集过滤
-  enable_completion: true  # 显示编码未输入完整的词条
+  enable_completion: true  # 显示编码未输入完整的词条，如果打开并且是自由顶，部分空码就不能清码，会变成错码顶功
   enable_sentence: false  # 整句模式
   enable_user_dict: false  # 用户词典（用户词典记录动态字词频，用户词）
   enable_encoder: false  # 自动编码
@@ -210,17 +207,3 @@ recognizer:
     punct: '^\\([0-9]0?|[A-Za-z*\[\]\{\}\$%#~`\\|/=<>]+)?$'
     # 用`引导反查
     reverse_lookup: "`[12345]*'?$"
-    # 保留编码，确保空码能到清码位(10,15)被清除
-    hold2: "^[a-z][a-z]"
-    hold3: "^[a-z][a-z][a-z]"
-    hold4: "^[a-z][a-z][a-z][a-z]"
-    hold5: "^([a-z][a-np-z]|[a-np-z]o)([a-z][a-np-z]|[a-np-z]o)o"
-    hold6: "^([a-z][a-np-z]|[a-np-z]o)([a-z][a-np-z]|[a-np-z]o)o[a-z]"
-    hold7: "^([a-z][a-np-z]|[a-np-z]o)([a-z][a-np-z]|[a-np-z]o)o[a-z][a-z]"
-    hold8: "^([a-z][a-np-z]|[a-np-z]o)([a-z][a-np-z]|[a-np-z]o)o[a-z][a-z][a-z]"
-    hold9: "^([a-z][a-np-z]|[a-np-z]o)([a-z][a-np-z]|[a-np-z]o)o[a-z][a-z][a-z][a-z]"
-    hold10: "^[a-z]{4}o([a-z][a-np-z]|[a-np-z]o)([a-z][a-np-z]|[a-np-z]o)x"
-    hold11: "^[a-z]{4}o([a-z][a-np-z]|[a-np-z]o)([a-z][a-np-z]|[a-np-z]o)x[a-z]"
-    hold12: "^[a-z]{4}o([a-z][a-np-z]|[a-np-z]o)([a-z][a-np-z]|[a-np-z]o)x[a-z][a-z]"
-    hold13: "^[a-z]{4}o([a-z][a-np-z]|[a-np-z]o)([a-z][a-np-z]|[a-np-z]o)x[a-z][a-z][a-z]"
-    hold14: "^[a-z]{4}o([a-z][a-np-z]|[a-np-z]o)([a-z][a-np-z]|[a-np-z]o)x[a-z][a-z][a-z][a-z]"
