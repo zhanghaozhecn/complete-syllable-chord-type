@@ -16,7 +16,7 @@
 
 ---
 name: sydbj194362
-version: 20221020
+version: 20221022
 sort: original
 import_tables:
   - sydbj194362.len1bugfix
@@ -26,5 +26,30 @@ import_tables:
   - sydbj194362.dz22dn
   - sydbj194362.dz23
   - sydbj194362.dz3dn
-  - sydbj194362.cz
+  - sydbj194362.cz1
+  - sydbj194362.cz2
+encoder:
+  exclude_patterns:
+    - '^oo[a-z][a-z]x|[a-z][a-z]oox|o[tb]ooo$'
+  rules:
+    - length_equal: 2
+      formula: "AaAbAcAdAeBaBbBcBdBe"
+    - length_equal: 3
+      formula: "AaAbBbBaBeCaCbCcCdCf"
+    - length_equal: 4
+      formula: "AaAbBbBaBeCaCbDbDaDe"
+    - length_equal: 5
+      formula: "AaAbBbBaBeCaCbEbEaEe"
+    - length_equal: 6
+      formula: "AaAbBbBaBeCaCbFbFaFe"
+    - length_equal: 7
+      formula: "AaAbBbBaBeCaCbGbGaGe"
+    - length_equal: 8
+      formula: "AaAbBbBaBeCaCbHbHaHe"
+    - length_equal: 9
+      formula: "AaAbBbBaBeCaCbIbIaIe"
+    - length_equal: 10
+      formula: "AaAbBbBaBeCaCbJbJaJe"
+    #- length_in_range: [4, 10]
+      #formula: ""
 ...

@@ -1,7 +1,7 @@
 schema:
   schema_id: sydbj194362
   name: 声韵调并击(19-4-36-2)
-  version: 1.1(20221020)
+  version: 1.1(20221022)
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -26,8 +26,8 @@ switches:
 engine:
   processors:
     - ascii_composer
-    - chord_composer
     - recognizer
+    - chord_composer
     - speller
     - key_binder
     - punctuator
@@ -61,7 +61,8 @@ speller:
   # 顶功方案无法自动造词
   auto_select: true
   # 符合格式编码唯一自动上屏，需要较精确匹配，避免第一击恰好只有一个候选上屏
-  auto_select_pattern: "^oo[a-z][a-z][ox]|[a-z][a-z]oo[ox]|[a-z]{4}x|[a-z]{10}$"
+  #auto_select_pattern: "^oo[a-z][a-z][ox]|[a-z][a-z]oo[ox]|[a-z]{4}x|[a-z]{10}$"
+  auto_select_pattern: "^[a-z]{5}|[a-z]{10}$"
   # 自动清屏空码，若设置为auto，清屏能力较强，但是需要依靠recognizer:patterns停留合法编码，很麻烦，且在字词库变动的条件下是不可行的
   auto_clear: max_length
   # 最大码长
@@ -166,14 +167,16 @@ translator:
   enable_charset_filter: false  # 字符集过滤
   enable_completion: true  # 显示编码未输入完整的词条，如果打开并且是自由顶，部分空码就不能清码，会变成错码顶功
   enable_sentence: false  # 整句模式
-  enable_user_dict: false  # 用户词典（用户词典记录动态字词频，用户词）
-  enable_encoder: false  # 自动编码
-  encode_commit_history: false  # 上屏组词
+  enable_user_dict: true  # 用户词典（用户词典记录动态字词频，用户词）
+  enable_encoder: true  # 自动编码
+  encode_commit_history: true  # 上屏组词
+  max_phrase_length: 4  # 造词长度
+  disable_user_dict_for_patterns: # 用户词典无效格式
+    - '^.{5}$'
   # 编码区格式
   preedit_format:
   # 提示区格式
   comment_format:
-    - xform/.*//
     
 # 反查
 reverse_lookup:

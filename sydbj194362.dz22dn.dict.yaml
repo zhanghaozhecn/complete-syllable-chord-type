@@ -2,1146 +2,1147 @@
 
 ---
 name: sydbj194362.dz22dn
-version: 20221015
+version: 20221021
 sort: original
 columns:
   - text
   - code
+  - stem
 ...
 
-坐	zooho
-工	gfoko
-计	gofoo
-升	urozo
-视	uofoo
-味	oroto
-哇	ofvgo
-束	uoodo
-付	foodo
-盒	hvogo
-梅	mfvbo
-剪	ggouo
-梁	lfvko
-园	ovboo
-臂	bofoo
-役	orfoo
-摩	mfoho
-剑	goouo
-滞	vofoo
-醉	zooto
-脓	nfoko
-适	uofoo
-迹	gofoo
-议	orfoo
-嗬	hfogo
-良	lfvko
-肖	hfoio
-掷	vofoo
-纪	gofoo
-煎	gfouo
-蚀	uffoo
-逸	orfoo
-扳	bvobo
-嗳	ofovo
-嗳	orovo
-豫	orruo
-介	gorlo
-途	tfodo
-监	gfouo
-扮	boobo
-荣	rfoko
-午	ogodo
-舰	goouo
-绞	ggoio
-烈	lorlo
-玄	hvboo
-誓	uofoo
-蝇	ovvoo
-逾	ovruo
-枢	urodo
-吏	lofoo
-桨	ggvko
-括	kooho
-洲	vromo
-睛	gfvoo
-践	goouo
-绩	gofoo
-伍	ogodo
-宪	hoouo
-励	lofoo
-黎	lffoo
-傅	foodo
-巩	ggoko
-厉	lofoo
-毅	orfoo
-漠	mooho
-秩	vofoo
-夕	hffoo
-膨	pfozo
-谊	orfoo
-苹	pfvoo
-甫	fgodo
-址	vtfoo
-泳	ogvho
-胳	gfogo
-蕴	orvdo
-谅	lovko
-沫	mooho
-挫	cooho
-巷	hovko
-芒	mffdo
-仑	lffuo
-魄	pooho
-鹏	pfozo
-吱	vrfoo
-萎	ogoto
-裳	iffdo
-羡	hoouo
-柑	gfobo
-昧	movbo
-暮	moodo
-伽	gfgoo
-尉	oroto
-挚	vofoo
-荆	gfvoo
-彰	vrfdo
-咨	zffoo
-尧	ovoio
-屿	ogruo
-腑	fgodo
-薇	ofoto
-棘	gvfoo
-茸	rfoko
-鲫	gofoo
-诬	ofodo
-鲨	urroo
-灸	ggfho
-恺	kbovo
-厥	gvtoo
-芹	kfrvo
-祠	cffoo
-噬	uofoo
-濒	bvrvo
-渤	bfoho
-嘘	hfruo
-泓	hvoko
-睦	moodo
-栅	urobo
-栅	voroo
-邱	kvfho
-蜻	kvvoo
-荔	lofoo
-萤	ovvoo
-婪	lfobo
-橘	gvruo
-埠	boodo
-谕	orruo
-谛	dofoo
-粱	lfvko
-蘑	mfoho
-涧	goouo
-靳	gorvo
-娴	hvouo
-拭	uofoo
-峙	vofoo
-驭	orruo
-奕	orfoo
-号	hvfgo
-姥	mtodo
-哑	ofgoo
-荫	ofrvo
-吁	orruo
-荀	hvvdo
-曙	utodo
-蕃	ffobo
-苓	lfvoo
-鑫	hfrvo
-瀚	hoobo
-俨	ogouo
-屹	orfoo
-蟋	hffoo
-鹦	ofvoo
-嗤	ivfoo
-诣	orfoo
-臼	gofho
-芥	gorlo
-祁	kffoo
-僮	tfoko
-楂	ifroo
-羁	gffoo
-蟾	ifobo
-髻	gofoo
-缰	gfvko
-曦	hffoo
-伢	ovgoo
-箕	gffoo
-渝	ovruo
-痢	lofoo
-甥	urozo
-汐	hffoo
-忡	ivoko
-膈	gvogo
-谚	orouo
-匍	pfodo
-邬	ofodo
-侥	ggoio
-漱	uoodo
-颚	orogo
-唏	hffoo
-勐	mtozo
-黍	utodo
-唆	sfoho
-俐	lofoo
-聆	lfvoo
-惬	korlo
-鸳	ofboo
-痞	pbfoo
-厩	gofho
-垠	ovrvo
-螅	hffoo
-膺	ofvoo
-涸	hvogo
-辄	vfogo
-晔	orrlo
-阈	orruo
-杷	pfroo
-沏	kvfoo
-颞	norlo
-茉	mooho
-酉	ogfho
-彷	fgfdo
-溥	pbodo
-栉	vofoo
-抉	gvtoo
-勰	hvrlo
-裨	bofoo
-刍	ifodo
-戍	uoodo
-毓	orruo
-蜚	fgvbo
-菁	gfvoo
-亵	horlo
-粳	gfvoo
-舢	urobo
-硒	hffoo
-桧	gooto
-呓	orfoo
-笺	gfouo
-羚	lfvoo
-犟	govko
-甬	ogvho
-噤	gorvo
-皙	hffoo
-砣	tfoho
-茭	gfoio
-恣	zofoo
-壅	ofvho
-沅	ovboo
-戮	loodo
-凇	sfoko
-迩	ogflo
-迨	doovo
-缄	gfouo
-轼	uofoo
-雉	vofoo
-舐	uofoo
-澍	uoodo
-釜	fgodo
-偻	ltruo
-赓	gfozo
-犄	gffoo
-霆	tfvoo
-禺	ovruo
-阉	ofouo
-熨	orruo
-蜇	vfogo
-羲	hffoo
-丕	pvfoo
-蛊	ggodo
-轶	orfoo
-崴	ofoto
-窸	hffoo
-荠	gofoo
-孛	bovbo
-迤	ovfoo
-涪	fvodo
-痈	ofvho
-蛆	kvruo
-茜	hffoo
-濂	lfouo
-袈	gfgoo
-撷	hvrlo
-钎	kvouo
-迳	govoo
-睨	nofoo
-氅	ibfdo
-悒	orfoo
-戾	lofoo
-痣	vofoo
-谩	mfobo
-佚	orfoo
-愠	orvdo
-榭	horlo
-砻	lfoko
-臾	ovruo
-淄	zffoo
-鸪	gfodo
-呲	zffoo
-攸	offho
-翦	ggouo
-榛	vrolo
-颀	kffoo
-挲	sfoho
-汴	boouo
-蕙	hooto
-郗	hffoo
-咝	sffoo
-羿	orfoo
-澹	tfobo
-爰	ovboo
-炷	voodo
-茯	fvodo
-斛	hvodo
-钰	orruo
-莘	hfrvo
-蓖	bofoo
-轭	orogo
-栀	vrfoo
-葳	ofoto
-谡	soodo
-罄	kovoo
-鸵	tfoho
-旃	vrobo
-帏	ovoto
-伧	crfdo
-鹘	ggodo
-鬻	orruo
-弈	orfoo
-鹬	orruo
-罂	ofvoo
-胝	vrfoo
-骅	hvvgo
-徉	ovvko
-浣	hovto
-銮	lfvto
-贲	bofoo
-钤	kfouo
-邳	pvfoo
-菟	toodo
-祇	kffoo
-菽	urodo
-嵇	gffoo
-陉	hvvoo
-卟	bbodo
-肄	orfoo
-晗	hvobo
-酊	dfvoo
-黧	lffoo
-馔	vovto
-谀	ovruo
-邺	orrlo
-缢	orfoo
-繇	ovfho
-繇	ovoio
-莅	lofoo
-曝	bofgo
-兹	cffoo
-担	dgobo
-大	doovo
-服	foodo
-佛	fvodo
-期	gffoo
-几	gffoo
-价	gfrlo
-据	gfruo
-鹄	ggodo
-合	ggogo
-膏	gofgo
-监	goouo
-浆	govko
-革	gvfoo
-圩	hfruo
-嗨	hfvbo
-洗	hgouo
-侯	hoomo
-溃	hooto
-汗	hvobo
-倘	iffdo
-沈	ifolo
-丽	lffoo
-棱	lfvoo
-牟	moodo
-脉	mooho
-广	ofobo
-么	ofoio
-约	ofoio
-区	ofomo
-呵	ofroo
-疟	oroio
-咽	orrlo
-蛇	ovfoo
-暴	poodo
-扁	pvouo
-菟	tfodo
-洞	tfoko
-召	uofgo
-似	uofoo
-掸	uoobo
-著	vfoho
-蜡	voroo
-占	vrobo
-正	vrozo
-咋	vrroo
-查	vrroo
-解	gorlo
-价	gorlo
-栖	hffoo
-见	hoouo
-呵	ofroo
-艾	orfoo
-语	orruo
-挲	urroo
-柞	voroo
-翳	orfoo
-讦	gvrlo
-夯	boolo
-嗪	kfrvo
-鹜	orodo
-姹	ioroo
-镳	bvoio
-屐	gffoo
-癔	orfoo
-孓	gvtoo
-铷	rfodo
-聿	orruo
-豕	utfoo
-苻	fvodo
-鄯	uoobo
-蒺	gvfoo
-侩	koggo
-噱	gvtoo
-轳	lfodo
-踯	vffoo
-脘	ogvto
-璘	lfrvo
-谥	uofoo
-莆	pfodo
-悌	tofoo
-阏	ofouo
-谰	lfobo
-鸷	vofoo
-觎	ovruo
-鄠	hoodo
-鼬	orfho
-铋	bofoo
-塬	ovboo
-僖	hffoo
-偈	gofoo
-枭	hfoio
-圜	ovboo
-髡	kvfuo
-毖	bofoo
-赝	orouo
-芾	fvodo
-麋	mffoo
-愎	bofoo
-鹕	hvodo
-榉	ggruo
-疠	lofoo
-篑	kooto
-啁	vrfgo
-幛	vofdo
-澥	horlo
-僭	goouo
-衾	kvrvo
-诤	voozo
-劭	uofgo
-阕	kotoo
-鲇	nfouo
-狙	gfruo
-痔	vofoo
-瓯	ofomo
-縻	mffoo
-骛	orodo
-龢	hvogo
-帙	vofoo
-遒	kffho
-滢	ovvoo
-棰	ifoto
-傈	lofoo
-瀣	horlo
-妪	orruo
-拊	fgodo
-闳	hvoko
-缣	gfouo
-怿	orfoo
-樨	hffoo
-牾	ogodo
-疬	lofoo
-菏	hvogo
-鹗	orogo
-趺	ffodo
-餍	orouo
-鄄	goboo
-遴	lfrvo
-苎	voodo
-菪	dofdo
-瓴	lfvoo
-翮	hvogo
-膻	urobo
-佰	bbovo
-茀	fvodo
-鹮	hvvto
-颍	ogvoo
-赀	zffoo
-颢	hofgo
-蕲	kffoo
-俳	pfovo
-暝	mfvoo
-囟	horvo
-邙	mffdo
-槎	ifroo
-嬴	ovvoo
-峄	orfoo
-鬲	gvogo
-鬲	lofoo
-苈	lofoo
-玢	bvrvo
-醐	hvodo
-猡	lfoho
-鸻	hvozo
-玙	ovruo
-湲	ovboo
-甗	ogouo
-荩	gorvo
-洌	lorlo
-麽	mfoho
-伲	nffoo
-翊	orfoo
-庾	ogruo
-酢	coodo
-笥	sofoo
-觥	gfoko
-瘛	iofoo
-镏	lffho
-愍	mtrvo
-堋	pfozo
-渌	loodo
-俦	ifomo
-匏	pffgo
-芄	ovvto
-戬	ggouo
-蟪	hooto
-粢	zffoo
-嬖	bofoo
-俣	ogruo
-鲋	foodo
-宓	mofoo
-俅	kffho
-笪	dvroo
-筮	uofoo
-苁	croko
-罴	pffoo
-衿	gfrvo
-徼	ggoio
-逯	loodo
-澶	ifobo
-鼐	noovo
-煳	hvodo
-洎	gofoo
-菔	fvodo
-鞴	bovbo
-渫	horlo
-菀	ogvto
-菀	orruo
-薏	orfoo
-釐	hffoo
-郦	lofoo
-暌	kfoto
-樾	ortoo
-涠	ovoto
-鹆	orruo
-墼	gffoo
-硎	hvvoo
-莩	fvodo
-郅	vofoo
-粝	lofoo
-鞒	kfoio
-甓	pofoo
-蘧	kfruo
-绡	hfoio
-鄣	vrfdo
-萁	kffoo
-焐	orodo
-烊	ovvko
-苴	gfruo
-搴	kvouo
-莸	ovfho
-浠	hffoo
-鞔	mfobo
-酆	ffozo
-杼	voodo
-芫	ovboo
-枞	zfoko
-跫	kfvho
-郃	hvogo
-泠	lfvoo
-圉	ogruo
-湔	gfouo
-亓	kffoo
-赙	foodo
-鸬	lfodo
-纮	hvoko
-呒	mfodo
-摭	vffoo
-萸	ovruo
-嘏	ggodo
-雎	gfruo
-靓	govoo
-骘	vofoo
-跞	lofoo
-侑	orfho
-缃	hfvko
-愦	kooto
-渑	mtouo
-跽	gofoo
-穸	hffoo
-袼	gfogo
-仝	tfoko
-僬	gfoio
-逭	hovto
-敫	ggoio
-楮	ibodo
-鸺	hffho
-鹁	bfoho
-窀	vrfuo
-鞲	gfomo
-迕	ogodo
-菅	gfouo
-闫	ovouo
-逑	kffho
-薷	rfodo
-銎	kfvho
-泺	pvoho
-苊	orogo
-慊	korlo
-鸲	kfruo
-艽	gfoio
-舁	ovruo
-邽	gfoto
-舾	hffoo
-掎	ggfoo
-萆	bofoo
-驽	nfodo
-剡	uoobo
-絷	vffoo
-鎏	lffho
-菥	hffoo
-薹	tfovo
-鐾	bovbo
-郛	fvodo
-觜	zffoo
-屦	goruo
-吖	ofroo
-絜	gvrlo
-絜	hvrlo
-嫫	mfoho
-尢	ovfho
-锔	gfruo
-刳	kvodo
-钲	vrozo
-砹	orovo
-仵	ogodo
-苾	bofoo
-樘	ivozo
-镈	bfoho
-酹	lovbo
-觚	gfodo
-殪	orfoo
-粞	hffoo
-劓	orfoo
-憷	ioodo
-鲔	ogoto
-崦	ofouo
-鹛	mfvbo
-縠	hvodo
-鹎	bvvbo
-擐	hovto
-芴	orodo
-靺	mooho
-贳	uofoo
-遹	orruo
-荜	bofoo
-郿	mfvbo
-踬	vofoo
-怫	fvodo
-潆	ovvoo
-胬	nbodo
-蜉	fvodo
-赆	gorvo
-蒨	koouo
-镪	kvvko
-祓	fvodo
-郇	hvvto
-郇	hvvdo
-喈	gfrlo
-黉	hvoko
-仟	kvouo
-绋	fvodo
-瘐	ogruo
-浍	hooto
-莳	uofoo
-庳	bofoo
-茆	mffgo
-椹	vrolo
-蝣	ovfho
-唣	zofgo
-跂	kbfoo
-跂	kffoo
-漯	looho
-肸	hffoo
-鳚	oroto
-阽	ovouo
-蒹	gfouo
-嶝	doozo
-葚	roolo
-觏	goomo
-薤	horlo
-鲡	lffoo
-埤	pffoo
-耤	gvfoo
-沭	uoodo
-噍	gooio
-硙	oroto
-觿	hffoo
-芃	pfozo
-眭	sfoto
-骍	hfvoo
-觖	gvtoo
-鄫	zfozo
-縢	tfozo
-辋	ogfvo
-瘥	cfoho
-鸮	hfoio
-郈	hoomo
-郪	kvfoo
-嘬	ioggo
-篯	gfouo
-鄘	ofvho
-觱	bofoo
-鳢	ltfoo
-螣	tfozo
-仡	orfoo
-葸	hgfoo
-鲐	tfovo
-簏	loodo
-趑	zffoo
-鹯	vrobo
-禔	vrfoo
-镮	hvvto
-羕	orvko
-蒱	pfodo
-眢	ofboo
-戋	gfouo
-铫	dooio
-袪	kvruo
-襻	poobo
-鲚	gofoo
-蹐	gvfoo
-窅	ogoio
-裛	orfoo
-黡	ogouo
-鹢	orfoo
-椠	koouo
-蝥	mffgo
-汔	kofoo
-鼷	hffoo
-褕	ovruo
-枧	ggouo
-漶	hovto
-瞢	mfozo
-韨	fvodo
-禛	vrolo
-隩	orruo
-柒	kvfoo
-茈	cffoo
-薁	orruo
-矞	orruo
-帱	ifomo
-睎	hffoo
-缲	sffgo
-碶	kofoo
-瓞	dvrlo
-蓰	hgfoo
-鄃	urodo
-剞	gffoo
-艴	fvodo
-繄	offoo
-邶	bovbo
-觫	soodo
-洇	ofrvo
-蓠	lffoo
-钘	hvvoo
-毹	urodo
-鳂	ofoto
-浈	vrolo
-鬘	mfobo
-跱	vofoo
-葙	hfvko
-玟	mfrvo
-冱	hoodo
-藟	ltvbo
-绤	hofoo
-屺	kbfoo
-眵	ivfoo
-蒗	lofdo
-柃	lfvoo
-鸰	lfvoo
-鲖	tfoko
-蓣	orruo
-蝤	ovfho
-穄	gofoo
-鹴	urfvo
-邘	ovruo
-耔	zgfoo
-蕺	gvfoo
-螗	tffdo
-讱	roolo
-穟	sooto
-哳	vrroo
-搛	gfouo
-茚	orrvo
-飔	sffoo
-葴	vrolo
-芼	mofgo
-鳈	kfboo
-芣	fvodo
-岈	ovgoo
-耏	ovflo
-鸤	urfoo
-疰	voodo
-郚	ovodo
-怊	ivfgo
-艎	hvfvo
-糒	bovbo
-糵	norlo
-箅	bofoo
-鬒	vtolo
-滗	bofoo
-萩	kvfho
-隺	hoogo
-藦	mfoho
-蒟	ggruo
-镃	zffoo
-醾	mffoo
-靰	orodo
-荓	pfvoo
-蹜	soodo
-磜	kofoo
-蹢	dvfoo
-蹢	vffoo
-艅	ovruo
-螱	oroto
-莙	gfvdo
-竫	govoo
-碨	oroto
-蕗	loodo
-菍	norlo
-踺	goouo
-蒻	rooho
-鲹	urolo
-犋	goruo
-磏	lfouo
-荁	hvvto
-觟	hovgo
-蹾	dffuo
-薢	horlo
-蓇	gfodo
-疸	dfroo
-铤	dovoo
-宓	fvodo
-呷	gfroo
-锬	hfouo
-哕	hooto
-一	hvozo
-嗑	kvogo
-将	kvvko
-喇	lrroo
-貉	mooho
-眄	mtouo
-雅	ofgoo
-阿	ofroo
-蛾	ogfoo
-铻	ogruo
-殷	ogrvo
-阏	orogo
-圻	ovrvo
-般	pfobo
-穜	vooko
-碴	vtroo
-孛	bfoho
-齐	gofoo
-胳	gvogo
-行	hvozo
-令	lfvoo
-牮	goouo
-鹐	kvouo
-襫	uofoo
-茳	gfvko
-荙	dvroo
-撖	hoobo
-蔊	hoobo
-螠	orfoo
-翈	hvgoo
-鸼	vromo
-蒄	gfvto
-铴	tvfdo
-馝	bofoo
-𫇭	ogoto
-孖	zffoo
-晞	hffoo
-纟	sffoo
-玓	dofoo
-𫖯	fgodo
-弢	tvfgo
-埗	boodo
-劼	gvrlo
-曈	tfoko
-崚	lfvoo
-涘	sofoo
-玹	hvboo
-玹	hvouo
-婞	hovoo
-玦	gvtoo
-畬	ovruo
-烜	hfboo
-傕	gvtoo
-叚	hvgoo
-澪	lfvoo
-婳	hovgo
-浥	orfoo
-嗞	zffoo
-榖	ggodo
-叆	orovo
-姤	goomo
-渼	mtvbo
-悢	lovko
-扆	ogfoo
-嫄	ovboo
-皞	hofgo
-朓	tboio
-淏	hofgo
-扞	ggobo
-扞	hoobo
-玡	ovgoo
-晢	vfogo
-弇	ogouo
-髎	lfoio
-垕	hoomo
-潩	orfoo
-熻	hffoo
-傒	hffoo
-庤	vofoo
-岠	goruo
-洿	ofodo
-匜	ovfoo
-伋	gvfoo
-俙	hffoo
-扂	doouo
-浉	urfoo
-妧	ovboo
-悆	orruo
-崁	koobo
-涴	oroho
-弆	ggruo
-狝	hgouo
-亹	ogoto
-𫍽	hfboo
-洢	offoo
-浡	bfoho
-棨	kbfoo
-泙	pfvoo
-棓	bofdo
-淯	orruo
-埫	utfdo
-弶	govko
-剅	lfomo
-珛	hofho
-俫	lfovo
-浛	hvobo
-皕	bofoo
-凘	sffoo
-瀍	ifobo
-𫍣	tfoko
-棐	fgvbo
-玚	ovvko
-瑬	lffho
-洈	ovoto
-焌	kvruo
-𫚭	lorlo
-皦	ggoio
-恓	hffoo
-璆	kffho
-憺	doobo
-洓	kofoo
-燏	orruo
-昽	lfoko
-朸	lofoo
-擿	vofoo
-廙	orfoo
-桲	bfoho
-嶲	hffoo
-汋	vfoho
-沇	ogouo
-淜	pfozo
-掞	orouo
-昫	horuo
-傃	soodo
-攽	bvobo
-梣	kfrvo
-潏	orruo
-湑	hgruo
-湑	horuo
-澼	pofoo
-𫘪	ovboo
-沺	tfouo
-惙	iooho
-杕	dofoo
-杕	dooho
-琄	hoboo
-巇	hffoo
-珌	bofoo
-𣲗	ovoto
-昡	hoboo
-嶓	bvoho
-佁	iofoo
-佁	ogfoo
-漴	urfvo
-梼	tffgo
-榃	tfobo
-媂	dofoo
-璱	soogo
-墕	orouo
-嫕	orfoo
-洴	pfvoo
-暿	hffoo
-浰	lofoo
-熛	bvoio
-滍	vofoo
-旴	hfruo
-叇	doovo
-璲	sooto
-峿	ovodo
-猇	hfoio
-橞	hooto
-岨	gfruo
-宧	ovfoo
-琔	doouo
-弨	ivfgo
-僎	vovto
-𫠜	nffoo
-嶍	hvfoo
-玃	gvtoo
-坒	bofoo
-枍	orfoo
-欂	bfoho
-漹	ofouo
-玱	kvvko
-榑	fvodo
-揕	voolo
-爔	hffoo
-漦	sffoo
-璥	ggvoo
-坽	lfvoo
-馞	bfoho
-勚	orfoo
-𦝼	lfruo
-嵲	norlo
-愃	hfboo
-觃	orouo
-坥	kvruo
-峗	ovoto
-勠	loodo
-鹲	mfozo
-凓	lofoo
-䓖	kfvho
-𫔶	norlo
-烻	orouo
-浲	fvozo
-涢	ovvdo
-浕	gorvo
-烶	tbvoo
-瀱	gofoo
-溁	ovvoo
-埼	kffoo
-𪟝	gofoo
-䜣	hfrvo
-𪾢	hoouo
-橦	tfoko
-浬	ltfoo
-𨱇	kffho
-劄	vrroo
-楙	mofgo
-𫘝	gvtoo
-𫐄	ortoo
-𫗧	soodo
-䴔	gfoio
-𫐐	nffoo
-疍	doobo
-屃	hofoo
-汈	dfoio
-㑊	orfoo
-㙦	hvrlo
-㛃	gvrlo
-㠇	gofho
-㠓	mfozo
-㤘	voomo
-㳇	foodo
-㳚	horuo
-㴔	gvfoo
-㵐	gvtoo
-㽏	goobo
-䎃	rtobo
-䎖	zfozo
-䓫	kffoo
-䓬	vfoho
-䗴	tfvoo
-䣘	tffdo
-䥽	pvoho
-䲢	tfozo
-䴓	urfoo
-峧	gfoio
-𠅤	hvfoo
-𤧛	dofoo
-𦒍	tfoko
-𦭜	vrfoo
-𨚕	boouo
-𪨰	kvruo
-𫭟	kvruo
-𫮃	uoobo
-𫷷	hfrvo
-𬀩	ogoto
-𬀪	hoouo
-𬃊	vofoo
-𬒈	kotoo
-𬕂	ltoko
-𬘫	hvvto
-𬘬	koouo
-𬟁	orfoo
-𬣙	hfruo
-𬣡	goouo
-𬤇	ofrvo
-𬤊	uofoo
-𬤝	hooto
-𬩽	hvvdo
-𬬩	orfoo
-𬬸	uoodo
-𬬿	vrfgo
-𬭎	hvoko
-𬱖	dvfoo
-𬱟	ogoto
-𬳵	pvfoo
-𬶨	gofoo
-𬶭	gofoo
-𬸘	ogouo
-𫫇	orogo
+坐	zooho	zoohox
+工	gfoko	gfokox
+计	gofoo	gofoox
+升	urozo	urozox
+视	uofoo	uofoox
+味	oroto	orotox
+哇	ofvgo	ofvgox
+束	uoodo	uoodox
+付	foodo	foodox
+盒	hvogo	hvogox
+梅	mfvbo	mfvbox
+剪	ggouo	ggouox
+梁	lfvko	lfvkox
+园	ovboo	ovboox
+臂	bofoo	bofoox
+役	orfoo	orfoox
+摩	mfoho	mfohox
+剑	goouo	goouox
+滞	vofoo	vofoox
+醉	zooto	zootox
+脓	nfoko	nfokox
+适	uofoo	uofoox
+迹	gofoo	gofoox
+议	orfoo	orfoox
+嗬	hfogo	hfogox
+良	lfvko	lfvkox
+肖	hfoio	hfoiox
+掷	vofoo	vofoox
+纪	gofoo	gofoox
+煎	gfouo	gfouox
+蚀	uffoo	uffoox
+逸	orfoo	orfoox
+扳	bvobo	bvobox
+嗳	ofovo	ofovox
+嗳	orovo	orovox
+豫	orruo	orruox
+介	gorlo	gorlox
+途	tfodo	tfodox
+监	gfouo	gfouox
+扮	boobo	boobox
+荣	rfoko	rfokox
+午	ogodo	ogodox
+舰	goouo	goouox
+绞	ggoio	ggoiox
+烈	lorlo	lorlox
+玄	hvboo	hvboox
+誓	uofoo	uofoox
+蝇	ovvoo	ovvoox
+逾	ovruo	ovruox
+枢	urodo	urodox
+吏	lofoo	lofoox
+桨	ggvko	ggvkox
+括	kooho	koohox
+洲	vromo	vromox
+睛	gfvoo	gfvoox
+践	goouo	goouox
+绩	gofoo	gofoox
+伍	ogodo	ogodox
+宪	hoouo	hoouox
+励	lofoo	lofoox
+黎	lffoo	lffoox
+傅	foodo	foodox
+巩	ggoko	ggokox
+厉	lofoo	lofoox
+毅	orfoo	orfoox
+漠	mooho	moohox
+秩	vofoo	vofoox
+夕	hffoo	hffoox
+膨	pfozo	pfozox
+谊	orfoo	orfoox
+苹	pfvoo	pfvoox
+甫	fgodo	fgodox
+址	vtfoo	vtfoox
+泳	ogvho	ogvhox
+胳	gfogo	gfogox
+蕴	orvdo	orvdox
+谅	lovko	lovkox
+沫	mooho	moohox
+挫	cooho	coohox
+巷	hovko	hovkox
+芒	mffdo	mffdox
+仑	lffuo	lffuox
+魄	pooho	poohox
+鹏	pfozo	pfozox
+吱	vrfoo	vrfoox
+萎	ogoto	ogotox
+裳	iffdo	iffdox
+羡	hoouo	hoouox
+柑	gfobo	gfobox
+昧	movbo	movbox
+暮	moodo	moodox
+伽	gfgoo	gfgoox
+尉	oroto	orotox
+挚	vofoo	vofoox
+荆	gfvoo	gfvoox
+彰	vrfdo	vrfdox
+咨	zffoo	zffoox
+尧	ovoio	ovoiox
+屿	ogruo	ogruox
+腑	fgodo	fgodox
+薇	ofoto	ofotox
+棘	gvfoo	gvfoox
+茸	rfoko	rfokox
+鲫	gofoo	gofoox
+诬	ofodo	ofodox
+鲨	urroo	urroox
+灸	ggfho	ggfhox
+恺	kbovo	kbovox
+厥	gvtoo	gvtoox
+芹	kfrvo	kfrvox
+祠	cffoo	cffoox
+噬	uofoo	uofoox
+濒	bvrvo	bvrvox
+渤	bfoho	bfohox
+嘘	hfruo	hfruox
+泓	hvoko	hvokox
+睦	moodo	moodox
+栅	urobo	urobox
+栅	voroo	voroox
+邱	kvfho	kvfhox
+蜻	kvvoo	kvvoox
+荔	lofoo	lofoox
+萤	ovvoo	ovvoox
+婪	lfobo	lfobox
+橘	gvruo	gvruox
+埠	boodo	boodox
+谕	orruo	orruox
+谛	dofoo	dofoox
+粱	lfvko	lfvkox
+蘑	mfoho	mfohox
+涧	goouo	goouox
+靳	gorvo	gorvox
+娴	hvouo	hvouox
+拭	uofoo	uofoox
+峙	vofoo	vofoox
+驭	orruo	orruox
+奕	orfoo	orfoox
+号	hvfgo	hvfgox
+姥	mtodo	mtodox
+哑	ofgoo	ofgoox
+荫	ofrvo	ofrvox
+吁	orruo	orruox
+荀	hvvdo	hvvdox
+曙	utodo	utodox
+蕃	ffobo	ffobox
+苓	lfvoo	lfvoox
+鑫	hfrvo	hfrvox
+瀚	hoobo	hoobox
+俨	ogouo	ogouox
+屹	orfoo	orfoox
+蟋	hffoo	hffoox
+鹦	ofvoo	ofvoox
+嗤	ivfoo	ivfoox
+诣	orfoo	orfoox
+臼	gofho	gofhox
+芥	gorlo	gorlox
+祁	kffoo	kffoox
+僮	tfoko	tfokox
+楂	ifroo	ifroox
+羁	gffoo	gffoox
+蟾	ifobo	ifobox
+髻	gofoo	gofoox
+缰	gfvko	gfvkox
+曦	hffoo	hffoox
+伢	ovgoo	ovgoox
+箕	gffoo	gffoox
+渝	ovruo	ovruox
+痢	lofoo	lofoox
+甥	urozo	urozox
+汐	hffoo	hffoox
+忡	ivoko	ivokox
+膈	gvogo	gvogox
+谚	orouo	orouox
+匍	pfodo	pfodox
+邬	ofodo	ofodox
+侥	ggoio	ggoiox
+漱	uoodo	uoodox
+颚	orogo	orogox
+唏	hffoo	hffoox
+勐	mtozo	mtozox
+黍	utodo	utodox
+唆	sfoho	sfohox
+俐	lofoo	lofoox
+聆	lfvoo	lfvoox
+惬	korlo	korlox
+鸳	ofboo	ofboox
+痞	pbfoo	pbfoox
+厩	gofho	gofhox
+垠	ovrvo	ovrvox
+螅	hffoo	hffoox
+膺	ofvoo	ofvoox
+涸	hvogo	hvogox
+辄	vfogo	vfogox
+晔	orrlo	orrlox
+阈	orruo	orruox
+杷	pfroo	pfroox
+沏	kvfoo	kvfoox
+颞	norlo	norlox
+茉	mooho	moohox
+酉	ogfho	ogfhox
+彷	fgfdo	fgfdox
+溥	pbodo	pbodox
+栉	vofoo	vofoox
+抉	gvtoo	gvtoox
+勰	hvrlo	hvrlox
+裨	bofoo	bofoox
+刍	ifodo	ifodox
+戍	uoodo	uoodox
+毓	orruo	orruox
+蜚	fgvbo	fgvbox
+菁	gfvoo	gfvoox
+亵	horlo	horlox
+粳	gfvoo	gfvoox
+舢	urobo	urobox
+硒	hffoo	hffoox
+桧	gooto	gootox
+呓	orfoo	orfoox
+笺	gfouo	gfouox
+羚	lfvoo	lfvoox
+犟	govko	govkox
+甬	ogvho	ogvhox
+噤	gorvo	gorvox
+皙	hffoo	hffoox
+砣	tfoho	tfohox
+茭	gfoio	gfoiox
+恣	zofoo	zofoox
+壅	ofvho	ofvhox
+沅	ovboo	ovboox
+戮	loodo	loodox
+凇	sfoko	sfokox
+迩	ogflo	ogflox
+迨	doovo	doovox
+缄	gfouo	gfouox
+轼	uofoo	uofoox
+雉	vofoo	vofoox
+舐	uofoo	uofoox
+澍	uoodo	uoodox
+釜	fgodo	fgodox
+偻	ltruo	ltruox
+赓	gfozo	gfozox
+犄	gffoo	gffoox
+霆	tfvoo	tfvoox
+禺	ovruo	ovruox
+阉	ofouo	ofouox
+熨	orruo	orruox
+蜇	vfogo	vfogox
+羲	hffoo	hffoox
+丕	pvfoo	pvfoox
+蛊	ggodo	ggodox
+轶	orfoo	orfoox
+崴	ofoto	ofotox
+窸	hffoo	hffoox
+荠	gofoo	gofoox
+孛	bovbo	bovbox
+迤	ovfoo	ovfoox
+涪	fvodo	fvodox
+痈	ofvho	ofvhox
+蛆	kvruo	kvruox
+茜	hffoo	hffoox
+濂	lfouo	lfouox
+袈	gfgoo	gfgoox
+撷	hvrlo	hvrlox
+钎	kvouo	kvouox
+迳	govoo	govoox
+睨	nofoo	nofoox
+氅	ibfdo	ibfdox
+悒	orfoo	orfoox
+戾	lofoo	lofoox
+痣	vofoo	vofoox
+谩	mfobo	mfobox
+佚	orfoo	orfoox
+愠	orvdo	orvdox
+榭	horlo	horlox
+砻	lfoko	lfokox
+臾	ovruo	ovruox
+淄	zffoo	zffoox
+鸪	gfodo	gfodox
+呲	zffoo	zffoox
+攸	offho	offhox
+翦	ggouo	ggouox
+榛	vrolo	vrolox
+颀	kffoo	kffoox
+挲	sfoho	sfohox
+汴	boouo	boouox
+蕙	hooto	hootox
+郗	hffoo	hffoox
+咝	sffoo	sffoox
+羿	orfoo	orfoox
+澹	tfobo	tfobox
+爰	ovboo	ovboox
+炷	voodo	voodox
+茯	fvodo	fvodox
+斛	hvodo	hvodox
+钰	orruo	orruox
+莘	hfrvo	hfrvox
+蓖	bofoo	bofoox
+轭	orogo	orogox
+栀	vrfoo	vrfoox
+葳	ofoto	ofotox
+谡	soodo	soodox
+罄	kovoo	kovoox
+鸵	tfoho	tfohox
+旃	vrobo	vrobox
+帏	ovoto	ovotox
+伧	crfdo	crfdox
+鹘	ggodo	ggodox
+鬻	orruo	orruox
+弈	orfoo	orfoox
+鹬	orruo	orruox
+罂	ofvoo	ofvoox
+胝	vrfoo	vrfoox
+骅	hvvgo	hvvgox
+徉	ovvko	ovvkox
+浣	hovto	hovtox
+銮	lfvto	lfvtox
+贲	bofoo	bofoox
+钤	kfouo	kfouox
+邳	pvfoo	pvfoox
+菟	toodo	toodox
+祇	kffoo	kffoox
+菽	urodo	urodox
+嵇	gffoo	gffoox
+陉	hvvoo	hvvoox
+卟	bbodo	bbodox
+肄	orfoo	orfoox
+晗	hvobo	hvobox
+酊	dfvoo	dfvoox
+黧	lffoo	lffoox
+馔	vovto	vovtox
+谀	ovruo	ovruox
+邺	orrlo	orrlox
+缢	orfoo	orfoox
+繇	ovfho	ovfhox
+繇	ovoio	ovoiox
+莅	lofoo	lofoox
+曝	bofgo	bofgox
+兹	cffoo	cffoox
+担	dgobo	dgobox
+大	doovo	doovox
+服	foodo	foodox
+佛	fvodo	fvodox
+期	gffoo	gffoox
+几	gffoo	gffoox
+价	gfrlo	gfrlox
+据	gfruo	gfruox
+鹄	ggodo	ggodox
+合	ggogo	ggogox
+膏	gofgo	gofgox
+监	goouo	goouox
+浆	govko	govkox
+革	gvfoo	gvfoox
+圩	hfruo	hfruox
+嗨	hfvbo	hfvbox
+洗	hgouo	hgouox
+侯	hoomo	hoomox
+溃	hooto	hootox
+汗	hvobo	hvobox
+倘	iffdo	iffdox
+沈	ifolo	ifolox
+丽	lffoo	lffoox
+棱	lfvoo	lfvoox
+牟	moodo	moodox
+脉	mooho	moohox
+广	ofobo	ofobox
+么	ofoio	ofoiox
+约	ofoio	ofoiox
+区	ofomo	ofomox
+呵	ofroo	ofroox
+疟	oroio	oroiox
+咽	orrlo	orrlox
+蛇	ovfoo	ovfoox
+暴	poodo	poodox
+扁	pvouo	pvouox
+菟	tfodo	tfodox
+洞	tfoko	tfokox
+召	uofgo	uofgox
+似	uofoo	uofoox
+掸	uoobo	uoobox
+著	vfoho	vfohox
+蜡	voroo	voroox
+占	vrobo	vrobox
+正	vrozo	vrozox
+咋	vrroo	vrroox
+查	vrroo	vrroox
+解	gorlo	gorlox
+价	gorlo	gorlox
+栖	hffoo	hffoox
+见	hoouo	hoouox
+呵	ofroo	ofroox
+艾	orfoo	orfoox
+语	orruo	orruox
+挲	urroo	urroox
+柞	voroo	voroox
+翳	orfoo	orfoox
+讦	gvrlo	gvrlox
+夯	boolo	boolox
+嗪	kfrvo	kfrvox
+鹜	orodo	orodox
+姹	ioroo	ioroox
+镳	bvoio	bvoiox
+屐	gffoo	gffoox
+癔	orfoo	orfoox
+孓	gvtoo	gvtoox
+铷	rfodo	rfodox
+聿	orruo	orruox
+豕	utfoo	utfoox
+苻	fvodo	fvodox
+鄯	uoobo	uoobox
+蒺	gvfoo	gvfoox
+侩	koggo	koggox
+噱	gvtoo	gvtoox
+轳	lfodo	lfodox
+踯	vffoo	vffoox
+脘	ogvto	ogvtox
+璘	lfrvo	lfrvox
+谥	uofoo	uofoox
+莆	pfodo	pfodox
+悌	tofoo	tofoox
+阏	ofouo	ofouox
+谰	lfobo	lfobox
+鸷	vofoo	vofoox
+觎	ovruo	ovruox
+鄠	hoodo	hoodox
+鼬	orfho	orfhox
+铋	bofoo	bofoox
+塬	ovboo	ovboox
+僖	hffoo	hffoox
+偈	gofoo	gofoox
+枭	hfoio	hfoiox
+圜	ovboo	ovboox
+髡	kvfuo	kvfuox
+毖	bofoo	bofoox
+赝	orouo	orouox
+芾	fvodo	fvodox
+麋	mffoo	mffoox
+愎	bofoo	bofoox
+鹕	hvodo	hvodox
+榉	ggruo	ggruox
+疠	lofoo	lofoox
+篑	kooto	kootox
+啁	vrfgo	vrfgox
+幛	vofdo	vofdox
+澥	horlo	horlox
+僭	goouo	goouox
+衾	kvrvo	kvrvox
+诤	voozo	voozox
+劭	uofgo	uofgox
+阕	kotoo	kotoox
+鲇	nfouo	nfouox
+狙	gfruo	gfruox
+痔	vofoo	vofoox
+瓯	ofomo	ofomox
+縻	mffoo	mffoox
+骛	orodo	orodox
+龢	hvogo	hvogox
+帙	vofoo	vofoox
+遒	kffho	kffhox
+滢	ovvoo	ovvoox
+棰	ifoto	ifotox
+傈	lofoo	lofoox
+瀣	horlo	horlox
+妪	orruo	orruox
+拊	fgodo	fgodox
+闳	hvoko	hvokox
+缣	gfouo	gfouox
+怿	orfoo	orfoox
+樨	hffoo	hffoox
+牾	ogodo	ogodox
+疬	lofoo	lofoox
+菏	hvogo	hvogox
+鹗	orogo	orogox
+趺	ffodo	ffodox
+餍	orouo	orouox
+鄄	goboo	goboox
+遴	lfrvo	lfrvox
+苎	voodo	voodox
+菪	dofdo	dofdox
+瓴	lfvoo	lfvoox
+翮	hvogo	hvogox
+膻	urobo	urobox
+佰	bbovo	bbovox
+茀	fvodo	fvodox
+鹮	hvvto	hvvtox
+颍	ogvoo	ogvoox
+赀	zffoo	zffoox
+颢	hofgo	hofgox
+蕲	kffoo	kffoox
+俳	pfovo	pfovox
+暝	mfvoo	mfvoox
+囟	horvo	horvox
+邙	mffdo	mffdox
+槎	ifroo	ifroox
+嬴	ovvoo	ovvoox
+峄	orfoo	orfoox
+鬲	gvogo	gvogox
+鬲	lofoo	lofoox
+苈	lofoo	lofoox
+玢	bvrvo	bvrvox
+醐	hvodo	hvodox
+猡	lfoho	lfohox
+鸻	hvozo	hvozox
+玙	ovruo	ovruox
+湲	ovboo	ovboox
+甗	ogouo	ogouox
+荩	gorvo	gorvox
+洌	lorlo	lorlox
+麽	mfoho	mfohox
+伲	nffoo	nffoox
+翊	orfoo	orfoox
+庾	ogruo	ogruox
+酢	coodo	coodox
+笥	sofoo	sofoox
+觥	gfoko	gfokox
+瘛	iofoo	iofoox
+镏	lffho	lffhox
+愍	mtrvo	mtrvox
+堋	pfozo	pfozox
+渌	loodo	loodox
+俦	ifomo	ifomox
+匏	pffgo	pffgox
+芄	ovvto	ovvtox
+戬	ggouo	ggouox
+蟪	hooto	hootox
+粢	zffoo	zffoox
+嬖	bofoo	bofoox
+俣	ogruo	ogruox
+鲋	foodo	foodox
+宓	mofoo	mofoox
+俅	kffho	kffhox
+笪	dvroo	dvroox
+筮	uofoo	uofoox
+苁	croko	crokox
+罴	pffoo	pffoox
+衿	gfrvo	gfrvox
+徼	ggoio	ggoiox
+逯	loodo	loodox
+澶	ifobo	ifobox
+鼐	noovo	noovox
+煳	hvodo	hvodox
+洎	gofoo	gofoox
+菔	fvodo	fvodox
+鞴	bovbo	bovbox
+渫	horlo	horlox
+菀	ogvto	ogvtox
+菀	orruo	orruox
+薏	orfoo	orfoox
+釐	hffoo	hffoox
+郦	lofoo	lofoox
+暌	kfoto	kfotox
+樾	ortoo	ortoox
+涠	ovoto	ovotox
+鹆	orruo	orruox
+墼	gffoo	gffoox
+硎	hvvoo	hvvoox
+莩	fvodo	fvodox
+郅	vofoo	vofoox
+粝	lofoo	lofoox
+鞒	kfoio	kfoiox
+甓	pofoo	pofoox
+蘧	kfruo	kfruox
+绡	hfoio	hfoiox
+鄣	vrfdo	vrfdox
+萁	kffoo	kffoox
+焐	orodo	orodox
+烊	ovvko	ovvkox
+苴	gfruo	gfruox
+搴	kvouo	kvouox
+莸	ovfho	ovfhox
+浠	hffoo	hffoox
+鞔	mfobo	mfobox
+酆	ffozo	ffozox
+杼	voodo	voodox
+芫	ovboo	ovboox
+枞	zfoko	zfokox
+跫	kfvho	kfvhox
+郃	hvogo	hvogox
+泠	lfvoo	lfvoox
+圉	ogruo	ogruox
+湔	gfouo	gfouox
+亓	kffoo	kffoox
+赙	foodo	foodox
+鸬	lfodo	lfodox
+纮	hvoko	hvokox
+呒	mfodo	mfodox
+摭	vffoo	vffoox
+萸	ovruo	ovruox
+嘏	ggodo	ggodox
+雎	gfruo	gfruox
+靓	govoo	govoox
+骘	vofoo	vofoox
+跞	lofoo	lofoox
+侑	orfho	orfhox
+缃	hfvko	hfvkox
+愦	kooto	kootox
+渑	mtouo	mtouox
+跽	gofoo	gofoox
+穸	hffoo	hffoox
+袼	gfogo	gfogox
+仝	tfoko	tfokox
+僬	gfoio	gfoiox
+逭	hovto	hovtox
+敫	ggoio	ggoiox
+楮	ibodo	ibodox
+鸺	hffho	hffhox
+鹁	bfoho	bfohox
+窀	vrfuo	vrfuox
+鞲	gfomo	gfomox
+迕	ogodo	ogodox
+菅	gfouo	gfouox
+闫	ovouo	ovouox
+逑	kffho	kffhox
+薷	rfodo	rfodox
+銎	kfvho	kfvhox
+泺	pvoho	pvohox
+苊	orogo	orogox
+慊	korlo	korlox
+鸲	kfruo	kfruox
+艽	gfoio	gfoiox
+舁	ovruo	ovruox
+邽	gfoto	gfotox
+舾	hffoo	hffoox
+掎	ggfoo	ggfoox
+萆	bofoo	bofoox
+驽	nfodo	nfodox
+剡	uoobo	uoobox
+絷	vffoo	vffoox
+鎏	lffho	lffhox
+菥	hffoo	hffoox
+薹	tfovo	tfovox
+鐾	bovbo	bovbox
+郛	fvodo	fvodox
+觜	zffoo	zffoox
+屦	goruo	goruox
+吖	ofroo	ofroox
+絜	gvrlo	gvrlox
+絜	hvrlo	hvrlox
+嫫	mfoho	mfohox
+尢	ovfho	ovfhox
+锔	gfruo	gfruox
+刳	kvodo	kvodox
+钲	vrozo	vrozox
+砹	orovo	orovox
+仵	ogodo	ogodox
+苾	bofoo	bofoox
+樘	ivozo	ivozox
+镈	bfoho	bfohox
+酹	lovbo	lovbox
+觚	gfodo	gfodox
+殪	orfoo	orfoox
+粞	hffoo	hffoox
+劓	orfoo	orfoox
+憷	ioodo	ioodox
+鲔	ogoto	ogotox
+崦	ofouo	ofouox
+鹛	mfvbo	mfvbox
+縠	hvodo	hvodox
+鹎	bvvbo	bvvbox
+擐	hovto	hovtox
+芴	orodo	orodox
+靺	mooho	moohox
+贳	uofoo	uofoox
+遹	orruo	orruox
+荜	bofoo	bofoox
+郿	mfvbo	mfvbox
+踬	vofoo	vofoox
+怫	fvodo	fvodox
+潆	ovvoo	ovvoox
+胬	nbodo	nbodox
+蜉	fvodo	fvodox
+赆	gorvo	gorvox
+蒨	koouo	koouox
+镪	kvvko	kvvkox
+祓	fvodo	fvodox
+郇	hvvto	hvvtox
+郇	hvvdo	hvvdox
+喈	gfrlo	gfrlox
+黉	hvoko	hvokox
+仟	kvouo	kvouox
+绋	fvodo	fvodox
+瘐	ogruo	ogruox
+浍	hooto	hootox
+莳	uofoo	uofoox
+庳	bofoo	bofoox
+茆	mffgo	mffgox
+椹	vrolo	vrolox
+蝣	ovfho	ovfhox
+唣	zofgo	zofgox
+跂	kbfoo	kbfoox
+跂	kffoo	kffoox
+漯	looho	loohox
+肸	hffoo	hffoox
+鳚	oroto	orotox
+阽	ovouo	ovouox
+蒹	gfouo	gfouox
+嶝	doozo	doozox
+葚	roolo	roolox
+觏	goomo	goomox
+薤	horlo	horlox
+鲡	lffoo	lffoox
+埤	pffoo	pffoox
+耤	gvfoo	gvfoox
+沭	uoodo	uoodox
+噍	gooio	gooiox
+硙	oroto	orotox
+觿	hffoo	hffoox
+芃	pfozo	pfozox
+眭	sfoto	sfotox
+骍	hfvoo	hfvoox
+觖	gvtoo	gvtoox
+鄫	zfozo	zfozox
+縢	tfozo	tfozox
+辋	ogfvo	ogfvox
+瘥	cfoho	cfohox
+鸮	hfoio	hfoiox
+郈	hoomo	hoomox
+郪	kvfoo	kvfoox
+嘬	ioggo	ioggox
+篯	gfouo	gfouox
+鄘	ofvho	ofvhox
+觱	bofoo	bofoox
+鳢	ltfoo	ltfoox
+螣	tfozo	tfozox
+仡	orfoo	orfoox
+葸	hgfoo	hgfoox
+鲐	tfovo	tfovox
+簏	loodo	loodox
+趑	zffoo	zffoox
+鹯	vrobo	vrobox
+禔	vrfoo	vrfoox
+镮	hvvto	hvvtox
+羕	orvko	orvkox
+蒱	pfodo	pfodox
+眢	ofboo	ofboox
+戋	gfouo	gfouox
+铫	dooio	dooiox
+袪	kvruo	kvruox
+襻	poobo	poobox
+鲚	gofoo	gofoox
+蹐	gvfoo	gvfoox
+窅	ogoio	ogoiox
+裛	orfoo	orfoox
+黡	ogouo	ogouox
+鹢	orfoo	orfoox
+椠	koouo	koouox
+蝥	mffgo	mffgox
+汔	kofoo	kofoox
+鼷	hffoo	hffoox
+褕	ovruo	ovruox
+枧	ggouo	ggouox
+漶	hovto	hovtox
+瞢	mfozo	mfozox
+韨	fvodo	fvodox
+禛	vrolo	vrolox
+隩	orruo	orruox
+柒	kvfoo	kvfoox
+茈	cffoo	cffoox
+薁	orruo	orruox
+矞	orruo	orruox
+帱	ifomo	ifomox
+睎	hffoo	hffoox
+缲	sffgo	sffgox
+碶	kofoo	kofoox
+瓞	dvrlo	dvrlox
+蓰	hgfoo	hgfoox
+鄃	urodo	urodox
+剞	gffoo	gffoox
+艴	fvodo	fvodox
+繄	offoo	offoox
+邶	bovbo	bovbox
+觫	soodo	soodox
+洇	ofrvo	ofrvox
+蓠	lffoo	lffoox
+钘	hvvoo	hvvoox
+毹	urodo	urodox
+鳂	ofoto	ofotox
+浈	vrolo	vrolox
+鬘	mfobo	mfobox
+跱	vofoo	vofoox
+葙	hfvko	hfvkox
+玟	mfrvo	mfrvox
+冱	hoodo	hoodox
+藟	ltvbo	ltvbox
+绤	hofoo	hofoox
+屺	kbfoo	kbfoox
+眵	ivfoo	ivfoox
+蒗	lofdo	lofdox
+柃	lfvoo	lfvoox
+鸰	lfvoo	lfvoox
+鲖	tfoko	tfokox
+蓣	orruo	orruox
+蝤	ovfho	ovfhox
+穄	gofoo	gofoox
+鹴	urfvo	urfvox
+邘	ovruo	ovruox
+耔	zgfoo	zgfoox
+蕺	gvfoo	gvfoox
+螗	tffdo	tffdox
+讱	roolo	roolox
+穟	sooto	sootox
+哳	vrroo	vrroox
+搛	gfouo	gfouox
+茚	orrvo	orrvox
+飔	sffoo	sffoox
+葴	vrolo	vrolox
+芼	mofgo	mofgox
+鳈	kfboo	kfboox
+芣	fvodo	fvodox
+岈	ovgoo	ovgoox
+耏	ovflo	ovflox
+鸤	urfoo	urfoox
+疰	voodo	voodox
+郚	ovodo	ovodox
+怊	ivfgo	ivfgox
+艎	hvfvo	hvfvox
+糒	bovbo	bovbox
+糵	norlo	norlox
+箅	bofoo	bofoox
+鬒	vtolo	vtolox
+滗	bofoo	bofoox
+萩	kvfho	kvfhox
+隺	hoogo	hoogox
+藦	mfoho	mfohox
+蒟	ggruo	ggruox
+镃	zffoo	zffoox
+醾	mffoo	mffoox
+靰	orodo	orodox
+荓	pfvoo	pfvoox
+蹜	soodo	soodox
+磜	kofoo	kofoox
+蹢	dvfoo	dvfoox
+蹢	vffoo	vffoox
+艅	ovruo	ovruox
+螱	oroto	orotox
+莙	gfvdo	gfvdox
+竫	govoo	govoox
+碨	oroto	orotox
+蕗	loodo	loodox
+菍	norlo	norlox
+踺	goouo	goouox
+蒻	rooho	roohox
+鲹	urolo	urolox
+犋	goruo	goruox
+磏	lfouo	lfouox
+荁	hvvto	hvvtox
+觟	hovgo	hovgox
+蹾	dffuo	dffuox
+薢	horlo	horlox
+蓇	gfodo	gfodox
+疸	dfroo	dfroox
+铤	dovoo	dovoox
+宓	fvodo	fvodox
+呷	gfroo	gfroox
+锬	hfouo	hfouox
+哕	hooto	hootox
+一	hvozo	hvozox
+嗑	kvogo	kvogox
+将	kvvko	kvvkox
+喇	lrroo	lrroox
+貉	mooho	moohox
+眄	mtouo	mtouox
+雅	ofgoo	ofgoox
+阿	ofroo	ofroox
+蛾	ogfoo	ogfoox
+铻	ogruo	ogruox
+殷	ogrvo	ogrvox
+阏	orogo	orogox
+圻	ovrvo	ovrvox
+般	pfobo	pfobox
+穜	vooko	vookox
+碴	vtroo	vtroox
+孛	bfoho	bfohox
+齐	gofoo	gofoox
+胳	gvogo	gvogox
+行	hvozo	hvozox
+令	lfvoo	lfvoox
+牮	goouo	goouox
+鹐	kvouo	kvouox
+襫	uofoo	uofoox
+茳	gfvko	gfvkox
+荙	dvroo	dvroox
+撖	hoobo	hoobox
+蔊	hoobo	hoobox
+螠	orfoo	orfoox
+翈	hvgoo	hvgoox
+鸼	vromo	vromox
+蒄	gfvto	gfvtox
+铴	tvfdo	tvfdox
+馝	bofoo	bofoox
+𫇭	ogoto	ogotox
+孖	zffoo	zffoox
+晞	hffoo	hffoox
+纟	sffoo	sffoox
+玓	dofoo	dofoox
+𫖯	fgodo	fgodox
+弢	tvfgo	tvfgox
+埗	boodo	boodox
+劼	gvrlo	gvrlox
+曈	tfoko	tfokox
+崚	lfvoo	lfvoox
+涘	sofoo	sofoox
+玹	hvboo	hvboox
+玹	hvouo	hvouox
+婞	hovoo	hovoox
+玦	gvtoo	gvtoox
+畬	ovruo	ovruox
+烜	hfboo	hfboox
+傕	gvtoo	gvtoox
+叚	hvgoo	hvgoox
+澪	lfvoo	lfvoox
+婳	hovgo	hovgox
+浥	orfoo	orfoox
+嗞	zffoo	zffoox
+榖	ggodo	ggodox
+叆	orovo	orovox
+姤	goomo	goomox
+渼	mtvbo	mtvbox
+悢	lovko	lovkox
+扆	ogfoo	ogfoox
+嫄	ovboo	ovboox
+皞	hofgo	hofgox
+朓	tboio	tboiox
+淏	hofgo	hofgox
+扞	ggobo	ggobox
+扞	hoobo	hoobox
+玡	ovgoo	ovgoox
+晢	vfogo	vfogox
+弇	ogouo	ogouox
+髎	lfoio	lfoiox
+垕	hoomo	hoomox
+潩	orfoo	orfoox
+熻	hffoo	hffoox
+傒	hffoo	hffoox
+庤	vofoo	vofoox
+岠	goruo	goruox
+洿	ofodo	ofodox
+匜	ovfoo	ovfoox
+伋	gvfoo	gvfoox
+俙	hffoo	hffoox
+扂	doouo	doouox
+浉	urfoo	urfoox
+妧	ovboo	ovboox
+悆	orruo	orruox
+崁	koobo	koobox
+涴	oroho	orohox
+弆	ggruo	ggruox
+狝	hgouo	hgouox
+亹	ogoto	ogotox
+𫍽	hfboo	hfboox
+洢	offoo	offoox
+浡	bfoho	bfohox
+棨	kbfoo	kbfoox
+泙	pfvoo	pfvoox
+棓	bofdo	bofdox
+淯	orruo	orruox
+埫	utfdo	utfdox
+弶	govko	govkox
+剅	lfomo	lfomox
+珛	hofho	hofhox
+俫	lfovo	lfovox
+浛	hvobo	hvobox
+皕	bofoo	bofoox
+凘	sffoo	sffoox
+瀍	ifobo	ifobox
+𫍣	tfoko	tfokox
+棐	fgvbo	fgvbox
+玚	ovvko	ovvkox
+瑬	lffho	lffhox
+洈	ovoto	ovotox
+焌	kvruo	kvruox
+𫚭	lorlo	lorlox
+皦	ggoio	ggoiox
+恓	hffoo	hffoox
+璆	kffho	kffhox
+憺	doobo	doobox
+洓	kofoo	kofoox
+燏	orruo	orruox
+昽	lfoko	lfokox
+朸	lofoo	lofoox
+擿	vofoo	vofoox
+廙	orfoo	orfoox
+桲	bfoho	bfohox
+嶲	hffoo	hffoox
+汋	vfoho	vfohox
+沇	ogouo	ogouox
+淜	pfozo	pfozox
+掞	orouo	orouox
+昫	horuo	horuox
+傃	soodo	soodox
+攽	bvobo	bvobox
+梣	kfrvo	kfrvox
+潏	orruo	orruox
+湑	hgruo	hgruox
+湑	horuo	horuox
+澼	pofoo	pofoox
+𫘪	ovboo	ovboox
+沺	tfouo	tfouox
+惙	iooho	ioohox
+杕	dofoo	dofoox
+杕	dooho	doohox
+琄	hoboo	hoboox
+巇	hffoo	hffoox
+珌	bofoo	bofoox
+𣲗	ovoto	ovotox
+昡	hoboo	hoboox
+嶓	bvoho	bvohox
+佁	iofoo	iofoox
+佁	ogfoo	ogfoox
+漴	urfvo	urfvox
+梼	tffgo	tffgox
+榃	tfobo	tfobox
+媂	dofoo	dofoox
+璱	soogo	soogox
+墕	orouo	orouox
+嫕	orfoo	orfoox
+洴	pfvoo	pfvoox
+暿	hffoo	hffoox
+浰	lofoo	lofoox
+熛	bvoio	bvoiox
+滍	vofoo	vofoox
+旴	hfruo	hfruox
+叇	doovo	doovox
+璲	sooto	sootox
+峿	ovodo	ovodox
+猇	hfoio	hfoiox
+橞	hooto	hootox
+岨	gfruo	gfruox
+宧	ovfoo	ovfoox
+琔	doouo	doouox
+弨	ivfgo	ivfgox
+僎	vovto	vovtox
+𫠜	nffoo	nffoox
+嶍	hvfoo	hvfoox
+玃	gvtoo	gvtoox
+坒	bofoo	bofoox
+枍	orfoo	orfoox
+欂	bfoho	bfohox
+漹	ofouo	ofouox
+玱	kvvko	kvvkox
+榑	fvodo	fvodox
+揕	voolo	voolox
+爔	hffoo	hffoox
+漦	sffoo	sffoox
+璥	ggvoo	ggvoox
+坽	lfvoo	lfvoox
+馞	bfoho	bfohox
+勚	orfoo	orfoox
+𦝼	lfruo	lfruox
+嵲	norlo	norlox
+愃	hfboo	hfboox
+觃	orouo	orouox
+坥	kvruo	kvruox
+峗	ovoto	ovotox
+勠	loodo	loodox
+鹲	mfozo	mfozox
+凓	lofoo	lofoox
+䓖	kfvho	kfvhox
+𫔶	norlo	norlox
+烻	orouo	orouox
+浲	fvozo	fvozox
+涢	ovvdo	ovvdox
+浕	gorvo	gorvox
+烶	tbvoo	tbvoox
+瀱	gofoo	gofoox
+溁	ovvoo	ovvoox
+埼	kffoo	kffoox
+𪟝	gofoo	gofoox
+䜣	hfrvo	hfrvox
+𪾢	hoouo	hoouox
+橦	tfoko	tfokox
+浬	ltfoo	ltfoox
+𨱇	kffho	kffhox
+劄	vrroo	vrroox
+楙	mofgo	mofgox
+𫘝	gvtoo	gvtoox
+𫐄	ortoo	ortoox
+𫗧	soodo	soodox
+䴔	gfoio	gfoiox
+𫐐	nffoo	nffoox
+疍	doobo	doobox
+屃	hofoo	hofoox
+汈	dfoio	dfoiox
+㑊	orfoo	orfoox
+㙦	hvrlo	hvrlox
+㛃	gvrlo	gvrlox
+㠇	gofho	gofhox
+㠓	mfozo	mfozox
+㤘	voomo	voomox
+㳇	foodo	foodox
+㳚	horuo	horuox
+㴔	gvfoo	gvfoox
+㵐	gvtoo	gvtoox
+㽏	goobo	goobox
+䎃	rtobo	rtobox
+䎖	zfozo	zfozox
+䓫	kffoo	kffoox
+䓬	vfoho	vfohox
+䗴	tfvoo	tfvoox
+䣘	tffdo	tffdox
+䥽	pvoho	pvohox
+䲢	tfozo	tfozox
+䴓	urfoo	urfoox
+峧	gfoio	gfoiox
+𠅤	hvfoo	hvfoox
+𤧛	dofoo	dofoox
+𦒍	tfoko	tfokox
+𦭜	vrfoo	vrfoox
+𨚕	boouo	boouox
+𪨰	kvruo	kvruox
+𫭟	kvruo	kvruox
+𫮃	uoobo	uoobox
+𫷷	hfrvo	hfrvox
+𬀩	ogoto	ogotox
+𬀪	hoouo	hoouox
+𬃊	vofoo	vofoox
+𬒈	kotoo	kotoox
+𬕂	ltoko	ltokox
+𬘫	hvvto	hvvtox
+𬘬	koouo	koouox
+𬟁	orfoo	orfoox
+𬣙	hfruo	hfruox
+𬣡	goouo	goouox
+𬤇	ofrvo	ofrvox
+𬤊	uofoo	uofoox
+𬤝	hooto	hootox
+𬩽	hvvdo	hvvdox
+𬬩	orfoo	orfoox
+𬬸	uoodo	uoodox
+𬬿	vrfgo	vrfgox
+𬭎	hvoko	hvokox
+𬱖	dvfoo	dvfoox
+𬱟	ogoto	ogotox
+𬳵	pvfoo	pvfoox
+𬶨	gofoo	gofoox
+𬶭	gofoo	gofoox
+𬸘	ogouo	ogouox
+𫫇	orogo	orogox

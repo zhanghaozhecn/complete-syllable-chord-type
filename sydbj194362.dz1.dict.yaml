@@ -2,122 +2,141 @@
 
 ---
 name: sydbj194362.dz1
-version: 20221010
+version: 20221021
 sort: original
 columns:
   - text
   - code
+  - stem
 ...
 
-的	ooogo
-在	ooovo
-是	oofoo
-有	oofho
-他	ooroo
-我	oooho
-也	oorlo
-不	ooodo
-中	oooko
-上	oofdo
-都	ooomo
-人	ooolo
-为	oooto
-要	oooio
-而	ooflo
-与	ooruo
-年	ooouo
-到	oofgo
-等	ooozo
-两	oovko
-用	oovho
-但	ooobo
-下	oogoo
-被	oovbo
-并	oovoo
-新	oorvo
-却	ootoo
-话	oovgo
-问	oofuo
-外	ooggo
-全	ooboo
-往	oofvo
-段	oovto
-群	oovdo
-哦	oogdo
-哟	oogho
-了	lrooo
-和	hvooo
-一	ofooo
-这	voooo
-就	goooo
-地	doooo
-着	vrooo
-说	urooo
-种	vtooo
-把	bbooo
-你	nbooo
-来	lfooo
-又	orooo
-从	cfooo
-它	tvooo
-去	koooo
-里	ltooo
-得	dvooo
-时	ufooo
-多	dfooo
-那	noooo
-以	ogooo
-所	sgooo
-很	hgooo
-使	utooo
-能	nfooo
-或	hoooo
-三	sfooo
-可	kbooo
-给	ggooo
-由	ovooo
-如	rfooo
-呢	nvooo
-其	kfooo
-将	gfooo
-再	zoooo
-出	ivooo
-则	zvooo
-们	mrooo
-吧	bvooo
-次	coooo
-便	boooo
-成	ifooo
-四	soooo
-走	zgooo
-同	tfooo
-即	gvooo
-点	dgooo
-让	roooo
-事	uoooo
-没	mfooo
-每	mtooo
-先	hfooo
-法	fgooo
-另	loooo
-分	ffooo
-此	ctooo
-开	kvooo
-放	foooo
-太	toooo
-处	ioooo
-场	ibooo
-别	bfooo
-面	moooo
-跑	pbooo
-怕	poooo
-体	tbooo
-随	svooo
-批	pvooo
-幅	fvooo
-值	vfooo
-村	crooo
-排	pfooo
-钻	zfooo
-软	rtooo
-扔	rrooo
+的	ooogo	dfogox
+在	ooovo	zoovox
+是	oofoo	uofoox
+有	oofho	ogfhox
+他	ooroo	tvroox
+我	oooho	ogohox
+也	oorlo	ogrlox
+不	ooodo	boodox
+中	oooko	vrokox
+上	oofdo	uofdox
+都	ooomo	dfomox
+人	ooolo	rfolox
+为	oooto	orotox
+为	oooto	ovotox
+要	oooio	oroiox
+而	ooflo	ovflox
+与	ooruo	ogruox
+年	ooouo	nfouox
+到	oofgo	dofgox
+等	ooozo	dgozox
+两	oovko	ltvkox
+用	oovho	orvhox
+但	ooobo	doobox
+下	oogoo	hogoox
+被	oovbo	bovbox
+并	oovoo	bovoox
+新	oorvo	hfrvox
+却	ootoo	kotoox
+话	oovgo	hovgox
+问	oofuo	orfuox
+外	ooggo	orggox
+全	ooboo	kfboox
+往	oofvo	ogfvox
+段	oovto	dovtox
+群	oovdo	kfvdox
+哦	oogdo	orgdox
+哦	oogdo	ovgdox
+哟	oogho	ofghox
+哟	oogho	ofghox
+中	oooko	vookox
+并	oovoo	bvvoox
+上	oofdo	utfdox
+要	oooio	ofoiox
+有	oofho	orfhox
+与	ooruo	ovruox
+与	ooruo	orruox
+了	lrooo	lrogox
+和	hvooo	hvogox
+一	ofooo	offoox
+这	voooo	voogox
+就	goooo	gofhox
+地	doooo	dofoox
+着	vrooo	vrogox
+说	urooo	urohox
+种	vtooo	vtokox
+把	bbooo	bbroox
+你	nbooo	nbfoox
+来	lfooo	lfovox
+又	orooo	orfhox
+从	cfooo	cfokox
+它	tvooo	tvroox
+去	koooo	koruox
+里	ltooo	ltfoox
+得	dvooo	dvogox
+时	ufooo	uffoox
+多	dfooo	dfohox
+那	noooo	noroox
+以	ogooo	ogfoox
+所	sgooo	sgohox
+很	hgooo	hgolox
+使	utooo	utfoox
+能	nfooo	nfozox
+或	hoooo	hoohox
+三	sfooo	sfobox
+可	kbooo	kbogox
+给	ggooo	ggvbox
+由	ovooo	ovfhox
+如	rfooo	rfodox
+呢	nvooo	nvogox
+其	kfooo	kffoox
+将	gfooo	gfvkox
+再	zoooo	zoovox
+出	ivooo	ivodox
+则	zvooo	zvogox
+们	mrooo	mrolox
+吧	bvooo	bvroox
+次	coooo	cofoox
+便	boooo	boouox
+成	ifooo	ifozox
+四	soooo	sofoox
+走	zgooo	zgomox
+同	tfooo	tfokox
+即	gvooo	gvfoox
+点	dgooo	dgouox
+让	roooo	rofdox
+事	uoooo	uofoox
+没	mfooo	mfvbox
+每	mtooo	mtvbox
+先	hfooo	hfouox
+法	fgooo	fgroox
+另	loooo	lovoox
+分	ffooo	ffolox
+此	ctooo	ctfoox
+开	kvooo	kvovox
+放	foooo	fofdox
+太	toooo	toovox
+处	ioooo	ioodox
+场	ibooo	ibfdox
+别	bfooo	bfrlox
+面	moooo	moouox
+跑	pbooo	pbfgox
+怕	poooo	poroox
+体	tbooo	tbfoox
+随	svooo	svotox
+批	pvooo	pvfoox
+幅	fvooo	fvodox
+值	vfooo	vffoox
+村	crooo	crfuox
+排	pfooo	pfovox
+钻	zfooo	zfvtox
+软	rtooo	rtvtox
+扔	rrooo	rrozox
+吧	bvooo	bvroox
+给	ggooo	ggfoox
+着	vrooo	vrfgox
+和	hvooo	hvodox
+和	hvooo	hvohox
+那	noooo	novbox
+这	voooo	vovbox
+那	noooo	noogox
