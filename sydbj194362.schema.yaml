@@ -172,7 +172,9 @@ translator:
   encode_commit_history: true  # 上屏组词
   max_phrase_length: 4  # 造词长度
   disable_user_dict_for_patterns: # 用户词典无效格式
-    - '^.{5}$'
+    - '^[a-z]{5}$'
+    - '^[a-z]{5}oo[a-z][a-z][ox]$'
+    - '^[a-z]{5}[a-z][a-z]oo[ox]$'
   # 编码区格式
   preedit_format:
   # 提示区格式

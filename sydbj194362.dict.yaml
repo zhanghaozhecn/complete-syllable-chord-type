@@ -30,7 +30,9 @@ import_tables:
   - sydbj194362.cz2
 encoder:
   exclude_patterns:
-    - '^oo[a-z][a-z]x|[a-z][a-z]oox|o[tb]ooo$'
+    - '^oo[a-z][a-z]x$'
+    - '^[a-z][a-z]oox$'
+    - '^o[tb]ooo$'
   rules:
     - length_equal: 2
       formula: "AaAbAcAdAeBaBbBcBdBe"
