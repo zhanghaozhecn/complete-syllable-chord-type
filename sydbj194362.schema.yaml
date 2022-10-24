@@ -1,7 +1,7 @@
 schema:
   schema_id: sydbj194362
   name: 声韵调并击(19-4-36-2)
-  version: 1.1(20221022)
+  version: 1.2(20221024)
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -153,7 +153,7 @@ chord_composer:
     - xform/^(....)$/$1o/
     - xform/^oooox$/ /
     # 禁止输出非法组合
-    # 考虑到字词库变动会影响合法组合种类，不能进行精确禁止，仅限制19*7*37种
+    # 考虑到字词库变动会影响合法组合种类，不能进行精确禁止，仅限制19*7*7*19种
     - xform/^(oo|go|do|ho|uo|vo|lo|ko|bo|to|zo|mo|io|fo|ro|no|so|co|po|or|gr|dr|hr|ur|vr|lr|kr|br|tr|zr|mr|ir|fr|rr|nr|sr|cr|pr|of|gf|df|hf|uf|vf|lf|kf|bf|tf|zf|mf|if|ff|rf|nf|sf|cf|pf|ov|gv|dv|hv|uv|vv|lv|kv|bv|tv|zv|mv|iv|fv|rv|nv|sv|cv|pv|ot|gt|dt|ht|ut|vt|lt|kt|bt|tt|zt|mt|it|ft|rt|nt|st|ct|pt|og|gg|dg|hg|ug|vg|lg|kg|bg|tg|zg|mg|ig|fg|rg|ng|sg|cg|pg|ob|gb|db|hb|ub|vb|lb|kb|bb|tb|zb|mb|ib|fb|rb|nb|sb|cb|pb)(oo|og|od|oh|ou|ov|ol|ok|ob|ot|oz|om|oi|of|or|on|os|oc|op|ro|rg|rd|rh|ru|rv|rl|rk|rb|rt|rz|rm|ri|rf|rr|rn|rs|rc|rp|fo|fg|fd|fh|fu|fv|fl|fk|fb|ft|fz|fm|fi|ff|fr|fn|fs|fc|fp|vo|vg|vd|vh|vu|vv|vl|vk|vb|vt|vz|vm|vi|vf|vr|vn|vs|vc|vp|to|tg|td|th|tu|tv|tl|tk|tb|tt|tz|tm|ti|tf|tr|tn|ts|tc|tp|go|gg|gd|gh|gu|gv|gl|gk|gb|gt|gz|gm|gi|gf|gr|gn|gs|gc|gp|bo|bg|bd|bh|bu|bv|bl|bk|bb|bt|bz|bm|bi|bf|br|bn|bs|bc|bp)([ox])$/#$1$2$3/
     - erase/^[^#\d ].*//
     - xform/#//
