@@ -1,8 +1,8 @@
-# 一击词
+# 一击字词（二级字、简词）
 
 ---
 name: sydbj194362.lv2
-version: 20221025
+version: 20221029
 sort: original
 columns:
   - text
@@ -10,1272 +10,1229 @@ columns:
   - stem
 ...
 
-个	googx	googox
-对	dootx	dootox
-还	hvovx	hvovox
-大	dorox	doroox
-她	tvrox	tvroox
-小	hgoix	hgoiox
-之	vrfox	vrfoox
-看	koobx	koobox
-会	hootx	hootox
-好	hgfgx	hgfgox
-后	hoomx	hoomox
-向	hovkx	hovkox
-于	ovrux	ovruox
-过	goohx	goohox
-只	vtfox	vtfoox
-想	hgvkx	hgvkox
-几	ggfox	ggfoox
-更	goozx	goozox
-已	ogfox	ogfoox
-当	dffdx	dffdox
-最	zootx	zootox
-才	cfovx	cfovox
-二	orflx	orflox
-月	ortox	ortoox
-做	zoohx	zoohox
-条	tfoix	tfoiox
-高	gffgx	gffgox
-吗	mrrox	mrroox
-天	tvoux	tvouox
-叫	gooix	gooiox
-老	ltfgx	ltfgox
-比	bbfox	bbfoox
-起	kbfox	kbfoox
-内	novbx	novbox
-日	rofox	rofoox
-真	vrolx	vrolox
-长	iffdx	iffdox
-性	hovox	hovoox
-者	vtogx	vtogox
-家	gfgox	gfgoox
-前	kfoux	kfouox
-水	utotx	utotox
-吃	ivfox	ivfoox
-五	ogodx	ogodox
-跟	gfolx	gfolox
-见	gooux	goouox
-及	gvfox	gvfoox
-呀	ofgox	ofgoox
-听	tvvox	tvvoox
-位	orotx	orotox
-正	voozx	voozox
-打	dgrox	dgroox
-儿	ovflx	ovflox
-应	ofvox	ofvoox
-头	tfomx	tfomox
-无	ovodx	ovodox
-本	bbolx	bbolox
-谁	ufvbx	ufvbox
-受	uoomx	uoomox
-带	doovx	doovox
-啊	ofrox	ofroox
-图	tfodx	tfodox
-声	urozx	urozox
-手	utomx	utomox
-连	lfoux	lfouox
-啦	lrrox	lrroox
-十	uffox	uffoox
-间	gfoux	gfouox
-因	ofrvx	ofrvox
-该	gfovx	gfovox
-笑	hooix	hooiox
-相	hfvkx	hfvkox
-曾	cfozx	cfozox
-类	lovbx	lovbox
-快	koggx	koggox
-写	hgrlx	hgrlox
-既	gofox	gofoox
-按	orobx	orobox
-张	vrfdx	vrfdox
-总	zgokx	zgokox
-找	vtfgx	vtfgox
-学	hvtox	hvtoox
-讲	ggvkx	ggvkox
-岁	sootx	sootox
-道	dofgx	dofgox
-少	utfgx	utfgox
-句	gorux	goruox
-数	uoodx	uoodox
-数	utodx	utodox
-六	lofhx	lofhox
-心	hfrvx	hfrvox
-至	vofox	vofoox
-元	ovbox	ovboox
-变	booux	boouox
-非	ffvbx	ffvbox
-名	mfvox	mfvoox
-请	kbvox	kbvoox
-干	goobx	goobox
-站	voobx	voobox
-部	boodx	boodox
-您	nfrvx	nfrvox
-低	dffox	dffoox
-第	dofox	dofoox
-拿	nfrox	nfroox
-死	sgfox	sgfoox
-八	bvrox	bvroox
-半	boobx	boobox
-经	gfvox	gfvoox
-住	voodx	voodox
-副	foodx	foodox
-量	lovkx	lovkox
-书	urodx	urodox
-些	hfrlx	hfrlox
-自	zofox	zofoox
-近	gorvx	gorvox
-门	mfolx	mfolox
-哪	nbrox	nbroox
-早	zgfgx	zgfgox
-仍	rfozx	rfozox
-强	kfvkx	kfvkox
-光	gffvx	gffvox
-七	kvfox	kvfoox
-约	oftox	oftoox
-花	hfvgx	hfvgox
-米	mtfox	mtfoox
-美	mtvbx	mtvbox
-难	nfobx	nfobox
-某	mtomx	mtomox
-行	hvfdx	hvfdox
-行	hvvox	hvvoox
-倒	dgfgx	dgfgox
-口	kbomx	kbomox
-望	orfvx	orfvox
-式	uofox	uofoox
-气	kofox	kofoox
-买	mtovx	mtovox
-刚	gffdx	gffdox
-搞	ggfgx	ggfgox
-爱	orovx	orovox
-虽	sfotx	sfotox
-回	hvotx	hvotox
-病	bovox	bovoox
-重	vookx	vookox
-区	kvrux	kvruox
-除	ifodx	ifodox
-靠	kofgx	kofgox
-万	orvtx	orvtox
-路	loodx	loodox
-红	hvokx	hvokox
-旧	gofhx	gofhox
-化	hovgx	hovgox
-热	roogx	roogox
-百	bbovx	bbovox
-远	ogbox	ogboox
-亦	orfox	orfoox
-谈	tfobx	tfobox
-脸	ltoux	ltouox
-物	orodx	orodox
-发	ffrox	ffroox
-白	bfovx	bfovox
-力	lofox	lofoox
-管	ggvtx	ggvtox
-王	ovfvx	ovfvox
-派	poovx	poovox
-省	utozx	utozox
-词	cffox	cffoox
-竟	govox	govoox
-边	bvoux	bvouox
-论	lofux	lofuox
-信	horvx	horvox
-风	ffozx	ffozox
-双	urfvx	urfvox
-动	dookx	dookox
-反	fgobx	fgobox
-若	roohx	roohox
-仅	ggrvx	ggrvox
-穿	ivvtx	ivvtox
-忙	mffdx	mffdox
-线	hooux	hoouox
-女	nbrux	nbruox
-活	hvohx	hvohox
-马	mtrox	mtroox
-子	zgfox	zgfoox
-深	urolx	urolox
-黑	hfvbx	hfvbox
-厂	ibfdx	ibfdox
-共	gookx	gookox
-入	roodx	roodox
-故	goodx	goodox
-号	hofgx	hofgox
-底	dgfox	dgfoox
-算	sovtx	sovtox
-达	dvrox	dvroox
-送	sookx	sookox
-角	ggoix	ggoiox
-称	ivozx	ivozox
-提	tffox	tffoox
-九	ggfhx	ggfhox
-山	urobx	urobox
-么	mrogx	mrogox
-离	lffox	lffoox
-短	dgvtx	dgvtox
-船	ifvtx	ifvtox
-朝	iffgx	iffgox
-转	vtvtx	vtvtox
-转	vovtx	vovtox
-眼	ogoux	ogouox
-取	kbrux	kbruox
-初	ivodx	ivodox
-李	ltfox	ltfoox
-系	hofox	hofoox
-国	gvohx	gvohox
-留	lffhx	lffhox
-度	doodx	doodox
-表	bboix	bboiox
-哩	lrfox	lrfoox
-火	hgohx	hgohox
-差	iorox	ioroox
-唱	iofdx	iofdox
-团	tfvtx	tfvtox
-求	kffhx	kffhox
-哭	kvodx	kvodox
-片	pooux	poouox
-西	hffox	hffoox
-倍	bovbx	bovbox
-组	zgodx	zgodox
-卖	moovx	moovox
-车	ivogx	ivogox
-均	gfvdx	gfvdox
-篇	pvoux	pvouox
-千	kvoux	kvouox
-言	ovoux	ovouox
-睡	uootx	uootox
-周	vromx	vromox
-台	tfovx	tfovox
-神	ufolx	ufolox
-接	gfrlx	gfrlox
-喝	hfogx	hfogox
-方	fffdx	fffdox
-喊	hgobx	hgobox
-夜	orrlx	orrlox
-届	gorlx	gorlox
-铁	tbrlx	tbrlox
-跳	tooix	tooiox
-单	dfobx	dfobox
-黄	hvfvx	hvfvox
-东	dfokx	dfokox
-令	lovox	lovoox
-率	lorux	loruox
-满	mtobx	mtobox
-牛	nffhx	nffhox
-毛	mffgx	mffgox
-颗	kvogx	kvogox
-断	dovtx	dovtox
-班	bvobx	bvobox
-金	gfrvx	gfrvox
-且	kbrlx	kbrlox
-弄	nookx	nookox
-落	loohx	loohox
-抓	vrvgx	vrvgox
-左	zgohx	zgohox
-嘴	zgotx	zgotox
-装	vrfvx	vrfvox
-需	hfrux	hfruox
-节	gvrlx	gvrlox
-定	dovox	dovoox
-股	ggodx	ggodox
-顶	dgvox	dgvoox
-照	vofgx	vofgox
-直	vffox	vffoox
-包	bvfgx	bvfgox
-替	tofox	tofoox
-帮	bvfdx	bvfdox
-读	dvodx	dvodox
-田	tfoux	tfouox
-状	vofvx	vofvox
-拍	pvovx	pvovox
-北	bbvbx	bbvbox
-冷	ltozx	ltozox
-含	hvobx	hvobox
-清	kvvox	kvvoox
-背	bvvbx	bvvbox
-教	gfoix	gfoiox
-合	hvogx	hvogox
-掉	dooix	dooiox
-饭	foobx	foobox
-乱	lovtx	lovtox
-土	tbodx	tbodox
-户	hoodx	hoodox
-供	gfokx	gfokox
-卷	ggbox	ggboox
-卷	gobox	goboox
-苦	kbodx	kbodox
-咱	zvobx	zvobox
-换	hovtx	hovtox
-停	tfvox	tfvoox
-亩	mtodx	mtodox
-呈	ifozx	ifozox
-云	ovvdx	ovvdox
-架	gogox	gogoox
-凡	fvobx	fvobox
-任	roolx	roolox
-血	hotox	hotoox
-主	vtodx	vtodox
-设	uoogx	uoogox
-挂	govgx	govgox
-狗	ggomx	ggomox
-抱	bofgx	bofgox
-感	ggobx	ggobox
-瞧	kfoix	kfoiox
-坏	hoggx	hoggox
-兵	bvvox	bvvoox
-盖	goovx	goovox
-破	poohx	poohox
-海	hgovx	hgovox
-吨	dffux	dffuox
-收	uromx	uromox
-钟	vrokx	vrokox
-草	ctfgx	ctfgox
-量	lfvkx	lfvkox
-党	dgfdx	dgfdox
-得	dgvbx	dgvbox
-长	vtfdx	vtfdox
-少	uofgx	uofgox
-归	gfotx	gfotox
-干	gfobx	gfobox
-杀	urrox	urroox
-养	ogvkx	ogvkox
-克	koogx	koogox
-怪	goggx	goggox
-份	foolx	foolox
-推	tvotx	tvotox
-烟	ofoux	ofouox
-烧	urfgx	urfgox
-闹	nofgx	nofgox
-玩	ovvtx	ovvtox
-秒	mtoix	mtoiox
-林	lfrvx	lfrvox
-诗	urfox	urfoox
-色	soogx	soogox
-腿	tbotx	tbotox
-慢	moobx	moobox
-机	gffox	gffoox
-堆	dfotx	dfotox
-挺	tbvox	tbvoox
-错	coohx	coohox
-药	oroix	oroiox
-硬	orvox	orvoox
-懂	dgokx	dgokox
-欲	orrux	orruox
-语	ogrux	ogruox
-改	ggovx	ggovox
-旁	pffdx	pffdox
-足	zvodx	zvodox
-枪	kvvkx	kvvkox
-套	tofgx	tofgox
-猪	vrodx	vrodox
-史	utfox	utfoox
-皮	pffox	pffoox
-翻	ffobx	ffobox
-杨	ovvkx	ovvkox
-躺	tbfdx	tbfdox
-右	orfhx	orfhox
-晚	ogvtx	ogvtox
-陈	ifolx	ifolox
-肉	roomx	roomox
-电	dooux	doouox
-假	gggox	gggoox
-空	kookx	kookox
-空	kvokx	kvokox
-念	nooux	noouox
-圈	kvbox	kvboox
-平	pfvox	pfvoox
-摸	mrohx	mrohox
-必	bofox	bofoox
-文	ovfux	ovfuox
-冲	ivokx	ivokox
-吹	ivotx	ivotox
-修	hffhx	hffhox
-摇	ovoix	ovoiox
-骂	morox	moroox
-虫	ifokx	ifokox
-关	gfvtx	gfvtox
-娘	nfvkx	nfvkox
-举	ggrux	ggruox
-宽	kvvtx	kvvtox
-通	tvokx	tvokox
-领	ltvox	ltvoox
-油	ovfhx	ovfhox
-歌	gfogx	gfogox
-尚	uofdx	uofdox
-啥	ufrox	ufroox
-局	gvrux	gvruox
-够	goomx	goomox
-春	ivfux	ivfuox
-素	soodx	soodox
-灯	dfozx	dfozox
-权	kfbox	kfboox
-爹	dfrlx	dfrlox
-爬	pfrox	pfroox
-菜	coovx	coovox
-觉	gvtox	gvtoox
-藏	cffdx	cffdox
-散	soobx	soobox
-广	ggfvx	ggfvox
-造	zofgx	zofgox
-薄	bfohx	bfohox
-薄	bffgx	bffgox
-顿	dofux	dofuox
-尺	ibfox	ibfoox
-隔	gvogx	gvogox
-命	movox	movoox
-抽	ivomx	ivomox
-解	ggrlx	ggrlox
-鸟	nboix	nboiox
-丝	sffox	sffoox
-洗	hgfox	hgfoox
-腰	ofoix	ofoiox
-敌	dvfox	dvfoox
-颇	pvohx	pvohox
-民	mfrvx	mfrvox
-横	hvozx	hvozox
-准	vtfux	vtfuox
-情	kfvox	kfvoox
-抢	kbvkx	kbvkox
-咬	ogoix	ogoiox
-粗	crodx	crodox
-罢	borox	boroox
-费	fovbx	fovbox
-端	dfvtx	dfvtox
-脑	nbfgx	nbfgox
-退	tootx	tootox
-苗	mfoix	mfoiox
-波	bvohx	bvohox
-乐	loogx	loogox
-刀	dffgx	dffgox
-穷	kfvhx	kfvhox
-拖	tvohx	tvohox
-选	hgbox	hgboox
-乃	nbovx	nbovox
-亲	kvrvx	kvrvox
-产	ibobx	ibobox
-样	orvkx	orvkox
-挑	tvoix	tvoiox
-围	ovotx	ovotox
-甚	uoolx	uoolox
-酸	sfvtx	sfvtox
-态	toovx	toovox
-似	sofox	sofoox
-房	fvfdx	fvfdox
-害	hoovx	hoovox
-吓	hogox	hogoox
-争	vrozx	vrozox
-专	vrvtx	vrvtox
-闪	utobx	utobox
-整	vtozx	vtozox
-绕	rofgx	rofgox
-然	rfobx	rfobox
-善	uoobx	uoobox
-引	ogrvx	ogrvox
-唐	tffdx	tffdox
-超	ivfgx	ivfgox
-补	bbodx	bbodox
-营	ovvox	ovvoox
-雪	hgtox	hgtoox
-楼	lfomx	lfomox
-梦	moozx	moozox
-木	moodx	moodox
-龙	lfokx	lfokox
-衣	offox	offoox
-累	ltvbx	ltvbox
-孔	kbokx	kbokox
-采	ctovx	ctovox
-伤	urfdx	urfdox
-铜	tfokx	tfokox
-劝	kobox	koboox
-哼	hfozx	hfozox
-网	ogfvx	ogfvox
-屋	ofodx	ofodox
-切	kvrlx	kvrlox
-纯	iffux	iffuox
-丢	dffhx	dffhox
-猫	mrfgx	mrfgox
-移	ovfox	ovfoox
-板	bbobx	bbobox
-煤	mfvbx	mfvbox
-抗	kofdx	kofdox
-刺	cofox	cofoox
-鬼	ggotx	ggotox
-德	dvogx	dvogox
-贴	tvrlx	tvrlox
-盘	pfobx	pfobox
-果	ggohx	ggohox
-零	lfvox	lfvoox
-汉	hoobx	hoobox
-茶	ifrox	ifroox
-熟	ufodx	ufodox
-伏	fvodx	fvodox
-膜	mfohx	mfohox
-末	moohx	moohox
-插	ivrox	ivroox
-痛	tookx	tookox
-擦	crrox	crroox
-安	ofobx	ofobox
-孙	sffux	sffuox
-货	hoohx	hoohox
-阵	voolx	voolox
-居	gfrux	gfruox
-碰	poozx	poozox
-保	bbfgx	bbfgox
-恨	hoolx	hoolox
-怀	hvggx	hvggox
-挖	ofvgx	ofvgox
-浅	kboux	kbouox
-华	hvvgx	hvvgox
-星	hfvox	hfvoox
-床	iffvx	iffvox
-缺	kvtox	kvtoox
-浓	nfokx	nfokox
-环	hvvtx	hvvtox
-牙	ovgox	ovgoox
-列	lorlx	lorlox
-盛	uoozx	uoozox
-载	zgovx	zgovox
-载	zoovx	zoovox
-耳	ogflx	ogflox
-透	toomx	toomox
-卵	ltvtx	ltvtox
-搭	dfrox	dfroox
-冒	mofgx	mofgox
-秋	kvfhx	kvfhox
-泥	nffox	nffoox
-罗	lfohx	lfohox
-齐	kffox	kffoox
-串	iovtx	iovtox
-斗	doomx	doomox
-微	ofotx	ofotox
-配	povbx	povbox
-恶	orogx	orogox
-碳	toobx	toobox
-追	vrotx	vrotox
-松	sfokx	sfokox
-尾	ogotx	ogotox
-愿	orbox	orboox
-略	lotox	lotoox
-灰	hfotx	hfotox
-折	vfogx	vfogox
-肥	fvvbx	fvvbox
-粉	fgolx	fgolox
-轴	vfomx	vfomox
-运	orvdx	orvdox
-敲	kvoix	kvoiox
-斜	hvrlx	hvrlox
-品	pbrvx	pbrvox
-朵	dgohx	dgohox
-捉	vrohx	vrohox
-印	orrvx	orrvox
-持	iffox	iffoox
-测	coogx	coogox
-弯	ofvtx	ofvtox
-哎	ofovx	ofovox
-灭	morlx	morlox
-猛	mtozx	mtozox
-泡	pofgx	pofgox
-牌	pfovx	pfovox
-铺	pvodx	pvodox
-铺	poodx	poodox
-密	mofox	mofoox
-丁	dfvox	dfvoox
-增	zfozx	zfozox
-徐	hvrux	hvruox
-瞪	doozx	doozox
-轮	lffux	lffuox
-呆	dfovx	dfovox
-银	ovrvx	ovrvox
-温	offux	offuox
-额	ovogx	ovogox
-滚	ggfux	ggfuox
-遭	zffgx	zffgox
-碱	ggoux	ggouox
-趟	tofdx	tofdox
-醒	hgvox	hgvoox
-考	kbfgx	kbfgox
-苏	sfodx	sfodox
-胸	hfvhx	hfvhox
-铝	ltrux	ltruox
-蓝	lfobx	lfobox
-练	looux	loouox
-俩	ltgox	ltgoox
-胖	pofdx	pofdox
-存	cffux	cffuox
-混	hofux	hofuox
-吐	toodx	toodox
-偷	tvomx	tvomox
-淡	doobx	doobox
-夫	ffodx	ffodox
-匹	pbfox	pbfoox
-沟	gfomx	gfomox
-抹	mtohx	mtohox
-逼	bvfox	bvfoox
-秦	kfrvx	kfrvox
-嗯	ovolx	ovolox
-嗯	orolx	orolox
-猴	hvomx	hvomox
-暖	nbvtx	nbvtox
-盆	pfolx	pfolox
-许	hgrux	hgruox
-江	gfvkx	gfvkox
-贵	gootx	gootox
-嫌	hvoux	hvouox
-料	looix	looiox
-踏	torox	toroox
-汤	tvfdx	tvfdox
-噢	ofgdx	ofgdox
-虎	hgodx	hgodox
-逃	tffgx	tffgox
-蛇	ufogx	ufogox
-扎	vrrox	vrroox
-埋	mfovx	mfovox
-野	ogrlx	ogrlox
-披	pvfox	pvfoox
-逆	nofox	nofoox
-扯	ibogx	ibogox
-杂	zvrox	zvroox
-挨	ovovx	ovovox
-钠	norox	noroox
-陪	pfvbx	pfvbox
-胡	hvodx	hvodox
-嫂	sgfgx	sgfgox
-筒	tbokx	tbokox
-告	gofgx	gofgox
-畜	ioodx	ioodox
-晒	uoovx	uoovox
-特	toogx	toogox
-握	orohx	orohox
-寻	hvvdx	hvvdox
-壳	kfogx	kfogox
-缝	fvozx	fvozox
-缝	foozx	foozox
-棒	bofdx	bofdox
-艘	sfomx	sfomox
-乎	hfodx	hfodox
-棉	mfoux	mfouox
-垂	ifotx	ifotox
-耐	noovx	noovox
-显	hgoux	hgouox
-丈	vofdx	vofdox
-井	ggvox	ggvoox
-肯	kbolx	kbolox
-郭	gfohx	gfohox
-顺	uofux	uofuox
-寸	cofux	cofuox
-降	govkx	govkox
-爷	ovrlx	ovrlox
-竹	vfodx	vfodox
-扣	koomx	koomox
-灌	govtx	govtox
-影	ogvox	ogvoox
-款	kbvtx	kbvtox
-纵	zookx	zookox
-缩	sfohx	sfohox
-嚷	rtfdx	rtfdox
-瞅	ibomx	ibomox
-尊	zffux	zffuox
-矿	kofvx	kofvox
-塞	sfovx	sfovox
-摘	vrovx	vrovox
-捧	pbozx	pbozox
-烂	loobx	loobox
-催	crotx	crotox
-迷	mffox	mffoox
-标	bvoix	bvoiox
-喷	pvolx	pvolox
-溶	rfokx	rfokox
-喘	ibvtx	ibvtox
-矮	ogovx	ogovox
-踢	tvfox	tvfoox
-雄	hvvhx	hvvhox
-撒	sgrox	sgroox
-佛	fvohx	fvohox
-租	zfodx	zfodox
-吵	ibfgx	ibfgox
-疼	tfozx	tfozox
-趁	ioolx	ioolox
-窗	ivfvx	ivfvox
-摔	urggx	urggox
-脏	zffdx	zffdox
-创	iofvx	iofvox
-跨	kovgx	kovgox
-稳	ogfux	ogfuox
-皱	voomx	voomox
-凹	offgx	offgox
-残	cfobx	cfobox
-奔	bvolx	bvolox
-窝	ofohx	ofohox
-刮	gfvgx	gfvgox
-扛	kffdx	kffdox
-巧	kboix	kboiox
-拟	nbfox	nbfoox
-臭	ioomx	ioomox
-绳	ufozx	ufozox
-哈	hfrox	hfroox
-婚	hffux	hffuox
-夺	dvohx	dvohox
-庙	mooix	mooiox
-丛	cfokx	cfokox
-狼	lffdx	lffdox
-谱	pbodx	pbodox
-乳	rtodx	rtodox
-溜	lrfhx	lrfhox
-否	fgomx	fgomox
-染	rtobx	rtobox
-招	vrfgx	vrfgox
-粘	vrobx	vrobox
-讨	tbfgx	tbfgox
-消	hfoix	hfoiox
-票	pooix	pooiox
-砍	kbobx	kbobox
-凸	tvodx	tvodox
-府	fgodx	fgodox
-浪	lofdx	lofdox
-欧	ofomx	ofomox
-蒙	mrozx	mrozox
-蒙	mfozx	mfozox
-亏	kvotx	kvotox
-摊	tvobx	tvobox
-炉	lfodx	lfodox
-盏	vtobx	vtobox
-赛	soovx	soovox
-麻	mfrox	mfroox
-拜	boovx	boovox
-愁	ifomx	ifomox
-鼻	bffox	bffoox
-拔	bfrox	bfroox
-锁	sgohx	sgohox
-拆	ivovx	ivovox
-堵	dgodx	dgodox
-傻	utrox	utroox
-操	crfgx	crfgox
-谋	mfomx	mfomox
-柳	ltfhx	ltfhox
-槽	cffgx	cffgox
-炸	vfrox	vfroox
-炸	vorox	voroox
-俗	svodx	svodox
-港	ggfdx	ggfdox
-捏	nvrlx	nvrlox
-缓	hgvtx	hgvtox
-驴	lfrux	lfruox
-序	horux	horuox
-尿	nooix	nooiox
-耕	gfozx	gfozox
-咽	oroux	orouox
-汪	offvx	offvox
-叠	dvrlx	dvrlox
-甩	utggx	utggox
-咧	lrrlx	lrrlox
-咧	ltrlx	ltrlox
-雷	lfvbx	lfvbox
-凑	coomx	coomox
-捆	kbfux	kbfuox
-免	mtoux	mtouox
-奏	zoomx	zoomox
-抛	pvfgx	pvfgox
-窄	vtovx	vtovox
-慌	hffvx	hffvox
-闯	ibfvx	ibfvox
-飘	pvoix	pvoiox
-扁	bboux	bbouox
-卡	kbrox	kbroox
-扭	nbfhx	nbfhox
-沈	utolx	utolox
-晃	hofvx	hofvox
-坑	kvozx	kvozox
-柴	ifovx	ifovox
-悬	hvbox	hvboox
-栽	zfovx	zfovox
-惹	rtogx	rtogox
-欠	kooux	koouox
-歪	ofggx	ofggox
-促	coodx	coodox
-肿	vtokx	vtokox
-胚	pvvbx	pvvbox
-参	crobx	crobox
-瓦	ogvgx	ogvgox
-塔	tbrox	tbroox
-丙	bbvox	bbvoox
-咋	zgrox	zgroox
-耍	utvgx	utvgox
-舍	utogx	utogox
-训	hovdx	hovdox
-刷	urvgx	urvgox
-捞	lrfgx	lrfgox
-劳	lffgx	lffgox
-赤	iofox	iofoox
-贼	zvvbx	zvvbox
-瞎	hfgox	hfgoox
-蟹	horlx	horlox
-缠	ifobx	ifobox
-闷	mrolx	mrolox
-闷	moolx	moolox
-兜	dfomx	dfomox
-散	sgobx	sgobox
-扎	zfrox	zfroox
-难	noobx	noobox
-处	ibodx	ibodox
-冲	iookx	iookox
-挑	tboix	tboiox
-撒	sfrox	sfroox
-熟	ufomx	ufomox
-钻	zovtx	zovtox
-藏	zofdx	zofdox
-了	ltoix	ltoiox
-夹	gvgox	gvgoox
-都	dfodx	dfodox
-发	forox	foroox
-看	kvobx	kvobox
-当	dofdx	dofdox
-率	uoggx	uoggox
-横	hoozx	hoozox
-喝	hoogx	hoogox
-啊	orrox	orroox
-啊	ovrox	ovroox
-猜	crovx	crovox
-胎	tvovx	tvovox
-阔	koohx	koohox
-秧	ofvkx	ofvkox
-访	fgfdx	fgfdox
-库	koodx	koodox
-毁	hgotx	hgotox
-盼	poobx	poobox
-愣	loozx	loozox
-涌	ogvhx	ogvhox
-资	zffox	zffoox
-撤	ioogx	ioogox
-漏	loomx	loomox
-掏	tvfgx	tvfgox
-遮	vrogx	vrogox
-瞒	mfobx	mfobox
-席	hvfox	hvfoox
-熬	ovfgx	ovfgox
-困	kofux	kofuox
-怒	noodx	noodox
-友	ogfhx	ogfhox
-债	voovx	voovox
-宗	zfokx	zfokox
-嗨	hfovx	hfovox
-魂	hvfux	hvfuox
-嫩	noolx	noolox
-潘	pvobx	pvobox
-揉	rfomx	rfomox
-怎	zgolx	zgolox
-优	offhx	offhox
-鲜	hfoux	hfouox
-旋	hobox	hoboox
-囊	nffdx	nffdox
-哄	hgokx	hgokox
-绣	hofhx	hofhox
-窜	covtx	covtox
-楞	lfozx	lfozox
-忍	rtolx	rtolox
-凝	nfvox	nfvoox
-狂	kffvx	kffvox
-抖	dgomx	dgomox
-妹	movbx	movbox
-罚	fvrox	fvroox
-拧	nbvox	nbvoox
-亚	orgox	orgoox
-蹦	boozx	boozox
-贫	pfrvx	pfrvox
-仁	rfolx	rfolox
-暂	zoobx	zoobox
-赏	utfdx	utfdox
-拥	ofvhx	ofvhox
-赖	loovx	loovox
-舱	crfdx	crfdox
-狭	hvgox	hvgoox
-究	gffhx	gffhox
-确	kotox	kotoox
-轰	hfokx	hfokox
-雕	dfoix	dfoiox
-棚	pfozx	pfozox
-嚼	gvoix	gvoiox
-拐	ggggx	ggggox
-笨	boolx	boolox
-筐	kvfvx	kvfvox
-眨	vtrox	vtroox
-逛	gofvx	gofvox
-蜡	lorox	loroox
-隋	svotx	svotox
-匪	fgvbx	fgvbox
-脆	cootx	cootox
-憋	bvrlx	bvrlox
-搂	ltomx	ltomox
-胆	dgobx	dgobox
-详	hvvkx	hvvkox
-渴	kbogx	kbogox
-狠	hgolx	hgolox
-拱	ggokx	ggokox
-拴	urvtx	urvtox
-婆	pfohx	pfohox
-惨	ctobx	ctobox
-削	hftox	hftoox
-夸	kvvgx	kvvgox
-吞	tvfux	tvfuox
-渠	kfrux	kfruox
-捐	gfbox	gfboox
-宁	novox	novoox
-偶	ogomx	ogomox
-鲁	ltodx	ltodox
-僧	sfozx	sfozox
-拢	ltokx	ltokox
-凿	zvfgx	zvfgox
-绑	bbfdx	bbfdox
-喽	lromx	lromox
-责	zvogx	zvogox
-拼	pvrvx	pvrvox
-辟	pofox	pofoox
-爪	vtvgx	vtvgox
-毫	hvfgx	hvfgox
-碘	dgoux	dgouox
-辽	lfoix	lfoiox
-刨	pffgx	pffgox
-拎	lrrvx	lrrvox
-甭	bfozx	bfozox
-恩	ofolx	ofolox
-宾	bvrvx	bvrvox
-儒	rfodx	rfodox
-恰	kogox	kogoox
-髓	sgotx	sgotox
-秤	ioozx	ioozox
-欢	hfvtx	hfvtox
-闽	mtrvx	mtrvox
-孤	gfodx	gfodox
-懒	ltobx	ltobox
-晕	ofvdx	ofvdox
-损	sgfux	sgfuox
-痕	hvolx	hvolox
-缀	vootx	vootox
-雅	oggox	oggoox
-屯	tffux	tffuox
-戳	ivohx	ivohox
-趴	pvrox	pvroox
-宣	hfbox	hfboox
-康	kvfdx	kvfdox
-桑	sffdx	sffdox
-饶	rffgx	rffgox
-枕	vtolx	vtolox
-挪	nfohx	nfohox
-俺	ogobx	ogobox
-棍	gofux	gofuox
-浊	vfohx	vfohox
-撇	pbrlx	pbrlox
-撇	pvrlx	pvrlox
-驮	tfohx	tfohox
-冤	ofbox	ofboox
-眯	mrfox	mrfoox
-拽	voggx	voggox
-搓	crohx	crohox
-瞟	pboix	pboiox
-丧	sofdx	sofdox
-颠	dfoux	dfouox
-翘	kooix	kooiox
-帕	porox	poroox
-坟	fvolx	fvolox
-耸	sgokx	sgokox
-揩	kvovx	kvovox
-奴	nfodx	nfodox
-颤	ioobx	ioobox
-趣	korux	koruox
-裙	kfvdx	kfvdox
-吼	hgomx	hgomox
-庆	kovox	kovoox
-啰	lrohx	lrohox
-镍	norlx	norlox
-赠	zoozx	zoozox
-舔	tboux	tbouox
-喏	noohx	noohox
-奥	orfgx	orfgox
-娃	ovvgx	ovvgox
-捻	nboux	nbouox
-润	rofux	rofuox
-翁	ofokx	ofokox
-梗	ggozx	ggozox
-瓢	pfoix	pfoiox
-剌	lfrox	lfroox
-舵	doohx	doohox
-聘	porvx	porvox
-绷	bbozx	bbozox
-绷	bvozx	bvozox
-窘	ggvhx	ggvhox
-扰	rtfgx	rtfgox
-宅	vfovx	vfovox
-裸	ltohx	ltohox
-呛	kovkx	kovkox
-搔	sffgx	sffgox
-筛	urovx	urovox
-撩	lroix	lroiox
-抡	lrfux	lrfuox
-葡	pfodx	pfodox
-努	nbodx	nbodox
-纷	ffolx	ffolox
-森	sfolx	sfolox
-坦	tbobx	tbobox
-勒	lrvbx	lrvbox
-昨	zvohx	zvohox
-朗	ltfdx	ltfdox
-昌	ivfdx	ivfdox
-萨	sorox	soroox
-昆	kvfux	kvfuox
-瑞	rootx	rootox
-允	ogvdx	ogvdox
-匆	crokx	crokox
-昂	ovfdx	ovfdox
-妥	tbohx	tbohox
-莱	lfovx	lfovox
-凯	kbovx	kbovox
-耶	ofrlx	ofrlox
-嗓	sgfdx	sgfdox
-剖	pvomx	pvomox
-浙	voogx	voogox
-拓	toohx	toohox
-葛	ggogx	ggogox
-寡	ggvgx	ggvgox
-爽	utfvx	utfvox
-窃	korlx	korlox
-俊	govdx	govdox
-溃	kootx	kootox
-杠	gofdx	gofdox
-朽	hgfhx	hgfhox
-厦	uorox	uoroox
-奎	kfotx	kfotox
-逮	dgovx	dgovox
-喇	ltrox	ltroox
-灿	coobx	coobox
-讽	fgozx	fgozox
-嘎	gvrox	gvroox
-嘎	ggrox	ggroox
-嘎	gfrox	gfroox
-谬	mofhx	mofhox
-妮	nvfox	nvfoox
-咯	lrgdx	lrgdox
-酿	novkx	novkox
-烁	uoohx	uoohox
-乒	pvvox	pvvoox
-嗽	soomx	soomox
-乖	gfggx	gfggox
-勋	hfvdx	hfvdox
-佣	orvhx	orvhox
-谎	hgfvx	hgfvox
-犬	kbbox	kbboox
-喀	kvrox	kvroox
-蕊	rtotx	rtotox
-豁	hfohx	hfohox
-伽	kfrlx	kfrlox
-乓	pvfdx	pvfdox
-袄	ogfgx	ogfgox
-袜	orvgx	orvgox
-憨	hfobx	hfobox
-噜	lrodx	lrodox
-挠	nffgx	nffgox
-蠢	ibfux	ibfuox
-垮	kbvgx	kbvgox
-蛤	hvrox	hvroox
-宠	ibokx	ibokox
-颓	tfotx	tfotox
-沁	korvx	korvox
+老实	ltfux
+那么多	nofdx
+他在	tvozx
+超级	ivvgx
+然后	rfohx
+人格	rfvgx
+如日中天	rfvtx
+销量	hfolx
+热的	rofdx
+想着	hgrvx
+有点	oggdx
+一直在	ofozx
+大量	doolx
+大概	doogx
+挑战	tbovx
+单边	dfvbx
+呐	nvogx	nvogox
+特别是	tooux
+刺激	cofgx
+采挖	ctfox
+处置	ibovx
+增添	zfvtx
+唱歌	iofgx
+走低	zgfdx
+此后	ctohx
+结论	gvolx
+下滑	hovhx
+杭州	hvrvx
+打造	dgozx
+空间	kvfgx
+早熟	zgfux
+太阳	tovox
+可惜	kbfhx
+面试	mooux
+品貌	pbomx
+激活	gfvhx
+替他	tovtx
+屏幕	pfomx
+内幕	noomx
+快乐	koolx
+体贴	tbvtx
+拔掉	bfodx
+人生百态	rfotx
+一般	ofvbx
+网吧	ogvbx
+右边	orvbx
+邮编	ovvbx
+体面	tbomx
+口感	kbggx
+你的	nbfdx
+自律	zoolx
+普世	pboux
+前往	kfgox
+妈的	mrfdx
+取值	kbfvx
+浦东	pbfdx
+开播	kvvbx
+独家	dvfgx
+抹布	mrobx
+存档	cfodx
+才会	cfohx
+念书	norux
+臭名昭著	ioovx
+美元	mtvox
+导演	dggox
+波动	bvodx
+消灭	hfomx
+产量	ibolx
+哭笑不得	kvvdx
+司令部	sfobx
+抵触	dgoix
+武器	ogokx
+鼓励	ggolx
+新的	hffdx
+能够	nfogx
+会议	horox
+下跌	hofdx
+有个	ogogx
+漂亮	poolx
+涉及	uovgx
+下去	hookx
+不了	borlx
+想要	hgrox
+登记	dfogx
+品质	pbovx
+资讯	zfohx
+抓紧	vrggx
+水质	utovx
+冷清	ltvkx
+拉近	lrogx
+粗略	crolx
+你不	nbobx
+催熟	crfux
+控制	koovx
+产业	ibrox
+郁闷	oromx
+意识	orfux
+办事处	booix
+普通话	pbohx
+银行	ovvhx
+人的	rffdx
+操作	crozx
+咩	mrrlx	mrrlox
+贴吧	tvvbx
+孬	nvfgx	nvfgox
+转折	vtfvx
+惨痛	ctotx
+苍鹰	crfox
+反映	fgrox
+踹	ioggx	ioggox
+演讲	ogggx
+拔了	bfrlx
+爬上	pfoux
+簪	zfobx	zfobox
+最近	zoogx
+知识	vrfux
+那个	noogx
+卯	mtfgx	mtfgox
+哪边	nbvbx
+塑胶	sofgx
+拉丁	lrfdx
+妞	nvfhx	nvfhox
+抠	kvomx	kvomox
+相关	hffgx
+危险	ofghx
+蹿	crvtx	crvtox
+起跳	kbotx
+建立	goolx
+车辆	ivolx
+涮	uovtx	uovtox
+胆识	dgfux
+冗	rtokx	rtokox
+扫墓	sgomx
+总有一天	zgvtx
+属实	utfux
+掰	bvovx	bvovox
+忖	ctfux	ctfuox
+攒	zgobx	zgobox
+财政厅	cfvtx
+力争	lorvx
+掐	kvgox	kvgoox
+应当	offdx
+蹭	coozx	coozox
+瓮	orokx	orokox
+岑	cfolx	cfolox
+越来越多	orfdx
+那些	nofhx
+一个	ofogx
+可以	kbgox
+不会	boohx
+直接	vffgx
+网络	ogolx
+也要	ogrox
+矛盾	mfodx
+立刻	lookx
+粘	nfoux	nfouox
+谁	ufotx	ufotox
+隆	lrokx	lrokox
+跳绳	tofux
+阮	rtvtx	rtvtox
+不知	borvx
+瘪	bbrlx	bbrlox
+烹	pvozx	pvozox
+炒作	ibozx
+建议	gorox
+聊天	lfvtx
+寝	kbrvx	kbrvox
+两只	ltrvx
+表现	bbohx
+肘	vtomx	vtomox
+靶	bbrox	bbroox
+何处	hvoix
+邹	zfomx	zfomox
+的话	dfohx
+烙	lofgx	lofgox
+收购	urogx
+天天	tvvtx
+时间	uffgx
+掺	ivobx	ivobox
+创造性	ioohx
+莽	mtfdx	mtfdox
+医生	ofrux
+特斯拉	torlx
 揣	ibggx	ibggox
 揣	ivggx	ivggox
-帖	torlx	torlox
-淤	ofrux	ofruox
-莽	mtfdx	mtfdox
-绰	ioohx	ioohox
-掺	ivobx	ivobox
-勺	uffgx	uffgox
-湍	tvvtx	tvvtox
-畲	urogx	urogox
-虐	notox	notoox
-烙	lofgx	lofgox
-哆	dfohx	dfohox
-邹	zfomx	zfomox
-淆	hvoix	hvoiox
-靶	bbrox	bbroox
-肘	vtomx	vtomox
-倔	gotox	gotoox
-簸	bbohx	bbohox
-凛	ltrvx	ltrvox
-寝	kbrvx	kbrvox
-挛	lfvtx	lfvtox
-尬	gorox	goroox
-逞	ibozx	ibozox
-烹	pvozx	pvozox
-瘪	bbrlx	bbrlox
-鬓	borvx	borvox
-阮	rtvtx	rtvtox
-褪	tofux	tofuox
-隆	lrokx	lrokox
-谁	ufotx	ufotox
-粘	nfoux	nfouox
-着	vffgx	vffgox
-卡	kbgox	kbgoox
-模	mfodx	mfodox
-簸	boohx	boohox
-弄	lookx	lookox
-嗯	ogolx	ogolox
-啊	ogrox	ogroox
-阿	ofogx	ofogox
-拗	nofhx	nofhox
-盎	orfdx	orfdox
-岑	cfolx	cfolox
-瓮	orokx	orokox
-蹭	coozx	coozox
-肮	offdx	offdox
-掐	kvgox	kvgoox
-吝	lorvx	lorvox
-攒	zgobx	zgobox
-攒	cfvtx	cfvtox
-忖	ctfux	ctfuox
-掰	bvovx	bvovox
-吮	utfux	utfuox
-纂	zgvtx	zgvtox
-擞	sgomx	sgomox
-冗	rtokx	rtokox
-盹	dgfux	dgfuox
-涮	uovtx	uovtox
-嗔	ivolx	ivolox
-亘	goolx	goolox
-傀	kbotx	kbotox
-蹿	crvtx	crvtox
-撅	gftox	gftoox
-蔫	nvoux	nvouox
-唷	ofghx	ofghox
-蒿	hffgx	hffgox
-抠	kvomx	kvomox
-囔	nvfdx	nvfdox
-妞	nvfhx	nvfhox
-啷	lrfdx	lrfdox
-瘸	kftox	kftoox
-臊	sofgx	sofgox
-馁	nbvbx	nbvbox
-卯	mtfgx	mtfgox
-讷	noogx	noogox
-谆	vrfux	vrfuox
-仄	zoogx	zoogox
-簪	zfobx	zfobox
-骈	pfoux	pfouox
-蹩	bfrlx	bfrlox
-崴	ogggx	ogggox
-踹	ioggx	ioggox
-砝	fgrox	fgroox
-疵	crfox	crfoox
-璀	ctotx	ctotox
-囡	nvobx	nvobox
-奘	vtfvx	vtfvox
-孬	nvfgx	nvfgox
-忒	tvvbx	tvvbox
-咩	mrrlx	mrrlox
-噌	crozx	crozox
-瓤	rffdx	rffdox
-喁	ovvhx	ovvhox
-笸	pbohx	pbohox
-鳔	booix	booiox
-汶	orfux	orfuox
-沤	oromx	oromox
-衩	ibrox	ibroox
-忾	koovx	koovox
-皴	crfux	crfuox
-赧	nbobx	nbobox
-哞	mromx	mromox
-嚷	rrfdx	rrfdox
-那	nvrox	nvroox
-排	pbovx	pbovox
-肋	lrogx	lrogox
-参	crolx	crolox
-色	utovx	utovox
-哪	nfogx	nfogox
-喷	poolx	poolox
-作	zfohx	zfohox
-哈	hgrox	hgroox
-俩	ltvkx	ltvkox
-地	dfogx	dfogox
-别	borlx	borlox
-刷	uovgx	uovgox
-拽	vrggx	vrggox
-恶	ogogx	ogogox
-蹶	ggtox	ggtoox
-哄	hookx	hookox
-巷	hofdx	hofdox
-哈	horox	horoox
-夯	hffdx	hffdox
-艮	ggolx	ggolox
-蓊	ogokx	ogokox
-屌	dgoix	dgoiox
-叁	sfobx	sfobox
-逡	kvvdx	kvvdox
-碜	ibolx	ibolox
-齁	hfomx	hfomox
-逋	bvodx	bvodox
-嗲	dggox	dggoox
-酩	mtvox	mtvoox
-虿	ioovx	ioovox
-衄	norux	noruox
-矬	cfohx	cfohox
-徂	cfodx	cfodox
-颟	mrobx	mrobox
-捯	dvfgx	dvfgox
-剋	kvvbx	kvvbox
-耪	pbfdx	pbfdox
-夼	kbfvx	kbfvox
-牤	mrfdx	mrfdox
-拤	kfgox	kfgoox
-谝	pboux	pbouox
-谮	zoolx	zoolox
-馕	nbfdx	nbfdox
-蒯	kbggx	kbggox
-钭	tbomx	tbomox
-诶	ogvbx	ogvbox
-诶	ofvbx	ofvbox
-诶	ovvbx	ovvbox
-诶	orvbx	orvbox
-蕤	rfotx	rfotox
-醭	bfodx	bfodox
-疃	tbvtx	tbvtox
-裉	koolx	koolox
-耨	noomx	noomox
-裒	pfomx	pfomox
-彖	tovtx	tovtox
-扃	gfvhx	gfvhox
-喵	mroix	mroiox
-掊	pbomx	pbomox
-眄	mooux	moouox
-糗	kbfhx	kbfhox
-梃	tovox	tovoox
-撙	zgfux	zgfuox
-尻	kvfgx	kvfgox
-戥	dgozx	dgozox
-镡	hvrvx	hvrvox
-诇	hovhx	hovhox
-哏	gvolx	gvolox
-哕	ogtox	ogtoox
-脞	ctohx	ctohox
-驵	zgfdx	zgfdox
-耖	iofgx	iofgox
-躜	zfvtx	zfvtox
-茝	ibovx	ibovox
-跐	ctfox	ctfoox
-肏	cofgx	cofgox
-掭	tooux	toouox
-呐	nvogx	nvogox
-棱	lrozx	lrozox
-呔	tbovx	tbovox
-嘚	dfvbx	dfvbox
-嘚	doogx	doogox
-扽	doolx	doolox
-鞥	ofozx	ofozox
-嚄	oggdx	oggdox
-伈	hgrvx	hgrvox
-瀼	rofdx	rofdox
-噷	hfolx	hfolox
-堧	rfvtx	rfvtox
-挼	rfvgx	rfvgox
-挼	rfohx	rfohox
-欻	ivvgx	ivvgox
-熥	tvozx	tvozox
-齉	nofdx	nofdox
-𫭢	ltfux	ltfuox
+沁	korvx	korvox
+颓	tfotx	tfotox
+宠	ibokx	ibokox
+行业	hvrox
+垮	kbvgx	kbvgox
+蠢	ibfux	ibfuox
+挠	nffgx	nffgox
+噜	lrodx	lrodox
+憨	hfobx	hfobox
+袜	orvgx	orvgox
+已经	ogfgx
+乓	pvfdx	pvfdox
+伽	kfrlx	kfrlox
+豁	hfohx	hfohox
+蕊	rtotx	rtotox
+喀	kvrox	kvroox
+谎	hgfvx	hgfvox
+佣	orvhx	orvhox
+勋	hfvdx	hfvdox
+乖	gfggx	gfggox
+嗽	soomx	soomox
+乒	pvvox	pvvoox
+社会	uoohx
+酿	novkx	novkox
+咯	lrgdx	lrgdox
+妮	nvfox	nvfoox
+谬	mofhx	mofhox
+交易	gfrox
+嘎	gvrox	gvroox
+嘎	ggrox	ggroox
+讽	fgozx	fgozox
+灿	coobx	coobox
+喇	ltrox	ltroox
+逮	dgovx	dgovox
+奎	kfotx	kfotox
+厦	uorox	uoroox
+喜欢	hgfhx
+杠	gofdx	gofdox
+溃	kootx	kootox
+俊	govdx	govdox
+窃	korlx	korlox
+爽	utfvx	utfvox
+感觉	ggvgx
+葛	ggogx	ggogox
+拓	toohx	toohox
+这个	voogx
+剖	pvomx	pvomox
+嗓	sgfdx	sgfdox
+耶	ofrlx	ofrlox
+凯	kbovx	kbovox
+莱	lfovx	lfovox
+妥	tbohx	tbohox
+昂	ovfdx	ovfdox
+匆	crokx	crokox
+允	ogvdx	ogvdox
+瑞	rootx	rootox
+昆	kvfux	kvfuox
+萨	sorox	soroox
+昌	ivfdx	ivfdox
+朗	ltfdx	ltfdox
+昨	zvohx	zvohox
+勒	lrvbx	lrvbox
+坦	tbobx	tbobox
+森	sfolx	sfolox
+纷	ffolx	ffolox
+努	nbodx	nbodox
+葡	pfodx	pfodox
+撩	lroix	lroiox
+筛	urovx	urovox
+搔	sffgx	sffgox
+呛	kovkx	kovkox
+裸	ltohx	ltohox
+宅	vfovx	vfovox
+扰	rtfgx	rtfgox
+窘	ggvhx	ggvhox
+绷	bbozx	bbozox
+绷	bvozx	bvozox
+聘	porvx	porvox
+电话	doohx
+剌	lfrox	lfroox
+瓢	pfoix	pfoiox
+梗	ggozx	ggozox
+翁	ofokx	ofokox
+润	rofux	rofuox
+捻	nboux	nbouox
+娃	ovvgx	ovvgox
+奥	orfgx	orfgox
+喏	noohx	noohox
+舔	tboux	tbouox
+赠	zoozx	zoozox
+镍	norlx	norlox
+啰	lrohx	lrohox
+庆	kovox	kovoox
+吼	hgomx	hgomox
+裙	kfvdx	kfvdox
+趣	korux	koruox
+颤	ioobx	ioobox
+奴	nfodx	nfodox
+揩	kvovx	kvovox
+耸	sgokx	sgokox
+坟	fvolx	fvolox
+帕	porox	poroox
+翘	kooix	kooiox
+都是	dfoux
+丧	sofdx	sofdox
+瞟	pboix	pboiox
+搓	crohx	crohox
+拽	voggx	voggox
+眯	mrfox	mrfoox
+驮	tfohx	tfohox
+撇	pbrlx	pbrlox
+撇	pvrlx	pvrlox
+浊	vfohx	vfohox
+棍	gofux	gofuox
+俺	ogobx	ogobox
+挪	nfohx	nfohox
+枕	vtolx	vtolox
+饶	rffgx	rffgox
+桑	sffdx	sffdox
+康	kvfdx	kvfdox
+趴	pvrox	pvroox
+戳	ivohx	ivohox
+同时	tffux
+雅	oggox	oggoox
+缀	vootx	vootox
+痕	hvolx	hvolox
+损	sgfux	sgfuox
+晕	ofvdx	ofvdox
+懒	ltobx	ltobox
+孤	gfodx	gfodox
+闽	mtrvx	mtrvox
+欢	hfvtx	hfvtox
+秤	ioozx	ioozox
+髓	sgotx	sgotox
+恰	kogox	kogoox
+儒	rfodx	rfodox
+宾	bvrvx	bvrvox
+恩	ofolx	ofolox
+甭	bfozx	bfozox
+拎	lrrvx	lrrvox
+刨	pffgx	pffgox
+辽	lfoix	lfoiox
+碘	dgoux	dgouox
+毫	hvfgx	hvfgox
+爪	vtvgx	vtvgox
+辟	pofox	pofoox
+拼	pvrvx	pvrvox
+责	zvogx	zvogox
+喽	lromx	lromox
+绑	bbfdx	bbfdox
+凿	zvfgx	zvfgox
+拢	ltokx	ltokox
+僧	sfozx	sfozox
+鲁	ltodx	ltodox
+偶	ogomx	ogomox
+宁	novox	novoox
+渠	kfrux	kfruox
+吞	tvfux	tvfuox
+夸	kvvgx	kvvgox
+惨	ctobx	ctobox
+婆	pfohx	pfohox
+拴	urvtx	urvtox
+拱	ggokx	ggokox
+狠	hgolx	hgolox
+渴	kbogx	kbogox
+详	hvvkx	hvvkox
+胆	dgobx	dgobox
+里面	ltomx
+憋	bvrlx	bvrlox
+脆	cootx	cootox
+匪	fgvbx	fgvbox
+隋	svotx	svotox
+蜡	lorox	loroox
+逛	gofvx	gofvox
+主要	vtrox
+筐	kvfvx	kvfvox
+笨	boolx	boolox
+拐	ggggx	ggggox
+嚼	gvoix	gvoiox
+棚	pfozx	pfozox
+雕	dfoix	dfoiox
+轰	hfokx	hfokox
+究	gffhx	gffhox
+还有	hvgox
+舱	crfdx	crfdox
+赖	loovx	loovox
+拥	ofvhx	ofvhox
+赏	utfdx	utfdox
+暂	zoobx	zoobox
+仁	rfolx	rfolox
+贫	pfrvx	pfrvox
+蹦	boozx	boozox
+亚	orgox	orgoox
+拧	nbvox	nbvoox
+罚	fvrox	fvroox
+妹	movbx	movbox
+抖	dgomx	dgomox
+狂	kffvx	kffvox
+凝	nfvox	nfvoox
+忍	rtolx	rtolox
+楞	lfozx	lfozox
+窜	covtx	covtox
+绣	hofhx	hofhox
+哄	hgokx	hgokox
+囊	nffdx	nffdox
+鲜	hfoux	hfouox
+优	offhx	offhox
+怎	zgolx	zgolox
+揉	rfomx	rfomox
+潘	pvobx	pvobox
+嫩	noolx	noolox
+魂	hvfux	hvfuox
+嗨	hfovx	hfovox
+宗	zfokx	zfokox
+债	voovx	voovox
+友	ogfhx	ogfhox
+怒	noodx	noodox
+困	kofux	kofuox
+熬	ovfgx	ovfgox
+席	hvfox	hvfoox
+瞒	mfobx	mfobox
+遮	vrogx	vrogox
+掏	tvfgx	tvfgox
+漏	loomx	loomox
+撤	ioogx	ioogox
+资	zffox	zffoox
+涌	ogvhx	ogvhox
+愣	loozx	loozox
+盼	poobx	poobox
+毁	hgotx	hgotox
+库	koodx	koodox
+访	fgfdx	fgfdox
+秧	ofvkx	ofvkox
+客户	koohx
+胎	tvovx	tvovox
+猜	crovx	crovox
+现在	hoozx
+啊	orrox	orroox
+喝	hoogx	hoogox
+发	forox	foroox
+藏	zofdx	zofdox
+都	dfodx	dfodox
+难	noobx	noobox
+扎	zfrox	zfroox
+当	dofdx	dofdox
+啊	ovrox	ovroox
+熟	ufomx	ufomox
+钻	zovtx	zovtox
+撒	sfrox	sfroox
+夹	gvgox	gvgoox
+处	ibodx	ibodox
+率	uoggx	uoggox
+看	kvobx	kvobox
+冲	iookx	iookox
+了	ltoix	ltoiox
+散	sgobx	sgobox
+兜	dfomx	dfomox
+闷	moolx	moolox
+闷	mrolx	mrolox
+缠	ifobx	ifobox
+蟹	horlx	horlox
+瞎	hfgox	hfgoox
+贼	zvvbx	zvvbox
+赤	iofox	iofoox
+劳	lffgx	lffgox
+捞	lrfgx	lrfgox
+刷	urvgx	urvgox
+获得	hovdx
+舍	utogx	utogox
+耍	utvgx	utvgox
+咋	zgrox	zgroox
+丙	bbvox	bbvoox
+塔	tbrox	tbroox
+瓦	ogvgx	ogvgox
+参	crobx	crobox
+胚	pvvbx	pvvbox
+肿	vtokx	vtokox
+促	coodx	coodox
+歪	ofggx	ofggox
+欠	kooux	koouox
+惹	rtogx	rtogox
+栽	zfovx	zfovox
+柴	ifovx	ifovox
+坑	kvozx	kvozox
+晃	hofvx	hofvox
+沈	utolx	utolox
+扭	nbfhx	nbfhox
+卡	kbrox	kbroox
+扁	bboux	bbouox
+飘	pvoix	pvoiox
+闯	ibfvx	ibfvox
+慌	hffvx	hffvox
+窄	vtovx	vtovox
+抛	pvfgx	pvfgox
+奏	zoomx	zoomox
+免	mtoux	mtouox
+捆	kbfux	kbfuox
+凑	coomx	coomox
+雷	lfvbx	lfvbox
+咧	lrrlx	lrrlox
+咧	ltrlx	ltrlox
+甩	utggx	utggox
+叠	dvrlx	dvrlox
+汪	offvx	offvox
+咽	oroux	orouox
+工作	gfozx
+尿	nooix	nooiox
+序	horux	horuox
+驴	lfrux	lfruox
+缓	hgvtx	hgvtox
+捏	nvrlx	nvrlox
+港	ggfdx	ggfdox
+俗	svodx	svodox
+炸	vorox	voroox
+炸	vfrox	vfroox
+槽	cffgx	cffgox
+柳	ltfhx	ltfhox
+谋	mfomx	mfomox
+操	crfgx	crfgox
+傻	utrox	utroox
+堵	dgodx	dgodox
+拆	ivovx	ivovox
+锁	sgohx	sgohox
+拔	bfrox	bfroox
+鼻	bffox	bffoox
+愁	ifomx	ifomox
+拜	boovx	boovox
+麻	mfrox	mfroox
+赛	soovx	soovox
+盏	vtobx	vtobox
+炉	lfodx	lfodox
+摊	tvobx	tvobox
+亏	kvotx	kvotox
+蒙	mfozx	mfozox
+蒙	mrozx	mrozox
+欧	ofomx	ofomox
+浪	lofdx	lofdox
+府	fgodx	fgodox
+凸	tvodx	tvodox
+砍	kbobx	kbobox
+票	pooix	pooiox
+消	hfoix	hfoiox
+讨	tbfgx	tbfgox
+粘	vrobx	vrobox
+招	vrfgx	vrfgox
+染	rtobx	rtobox
+否	fgomx	fgomox
+溜	lrfhx	lrfhox
+乳	rtodx	rtodox
+谱	pbodx	pbodox
+狼	lffdx	lffdox
+丛	cfokx	cfokox
+庙	mooix	mooiox
+夺	dvohx	dvohox
+婚	hffux	hffuox
+哈	hfrox	hfroox
+绳	ufozx	ufozox
+臭	ioomx	ioomox
+拟	nbfox	nbfoox
+巧	kboix	kboiox
+扛	kffdx	kffdox
+刮	gfvgx	gfvgox
+窝	ofohx	ofohox
+奔	bvolx	bvolox
+残	cfobx	cfobox
+凹	offgx	offgox
+皱	voomx	voomox
+稳	ogfux	ogfuox
+跨	kovgx	kovgox
+创	iofvx	iofvox
+脏	zffdx	zffdox
+摔	urggx	urggox
+窗	ivfvx	ivfvox
+趁	ioolx	ioolox
+疼	tfozx	tfozox
+吵	ibfgx	ibfgox
+租	zfodx	zfodox
+佛	fvohx	fvohox
+撒	sgrox	sgroox
+雄	hvvhx	hvvhox
+踢	tvfox	tvfoox
+矮	ogovx	ogovox
+喘	ibvtx	ibvtox
+溶	rfokx	rfokox
+喷	pvolx	pvolox
+标	bvoix	bvoiox
+迷	mffox	mffoox
+催	crotx	crotox
+烂	loobx	loobox
+捧	pbozx	pbozox
+摘	vrovx	vrovox
+塞	sfovx	sfovox
+矿	kofvx	kofvox
+尊	zffux	zffuox
+瞅	ibomx	ibomox
+嚷	rtfdx	rtfdox
+缩	sfohx	sfohox
+纵	zookx	zookox
+款	kbvtx	kbvtox
+影	ogvox	ogvoox
+灌	govtx	govtox
+扣	koomx	koomox
+竹	vfodx	vfodox
+爷	ovrlx	ovrlox
+降	govkx	govkox
+顺	uofux	uofuox
+郭	gfohx	gfohox
+肯	kbolx	kbolox
+井	ggvox	ggvoox
+丈	vofdx	vofdox
+显示	hgoux
+耐	noovx	noovox
+垂	ifotx	ifotox
+棉	mfoux	mfouox
+乎	hfodx	hfodox
+艘	sfomx	sfomox
+棒	bofdx	bofdox
+缝	foozx	foozox
+缝	fvozx	fvozox
+壳	kfogx	kfogox
+寻	hvvdx	hvvdox
+握	orohx	orohox
+特	toogx	toogox
+晒	uoovx	uoovox
+畜	ioodx	ioodox
+告	gofgx	gofgox
+筒	tbokx	tbokox
+嫂	sgfgx	sgfgox
+胡	hvodx	hvodox
+陪	pfvbx	pfvbox
+钠	norox	noroox
+挨	ovovx	ovovox
+杂	zvrox	zvroox
+扯	ibogx	ibogox
+逆	nofox	nofoox
+披	pvfox	pvfoox
+野	ogrlx	ogrlox
+埋	mfovx	mfovox
+扎	vrrox	vrroox
+蛇	ufogx	ufogox
+逃	tffgx	tffgox
+虎	hgodx	hgodox
+一点	ofgdx
+汤	tvfdx	tvfdox
+踏	torox	toroox
+料	looix	looiox
+嫌	hvoux	hvouox
+贵	gootx	gootox
+江	gfvkx	gfvkox
+许	hgrux	hgruox
+盆	pfolx	pfolox
+暖	nbvtx	nbvtox
+猴	hvomx	hvomox
+嗯	ovolx	ovolox
+嗯	orolx	orolox
+秦	kfrvx	kfrvox
+逼	bvfox	bvfoox
+抹	mtohx	mtohox
+沟	gfomx	gfomox
+匹	pbfox	pbfoox
+夫	ffodx	ffodox
+淡	doobx	doobox
+偷	tvomx	tvomox
+吐	toodx	toodox
+混	hofux	hofuox
+存	cffux	cffuox
+胖	pofdx	pofdox
+俩	ltgox	ltgoox
+练	looux	loouox
+蓝	lfobx	lfobox
+铝	ltrux	ltruox
+胸	hfvhx	hfvhox
+苏	sfodx	sfodox
+考	kbfgx	kbfgox
+醒	hgvox	hgvoox
+趟	tofdx	tofdox
+碱	ggoux	ggouox
+增加	zffgx
+滚	ggfux	ggfuox
+额	ovogx	ovogox
+温	offux	offuox
+银	ovrvx	ovrvox
+呆	dfovx	dfovox
+轮	lffux	lffuox
+瞪	doozx	doozox
+徐	hvrux	hvruox
+增	zfozx	zfozox
+丁	dfvox	dfvoox
+密	mofox	mofoox
+铺	poodx	poodox
+铺	pvodx	pvodox
+牌	pfovx	pfovox
+泡	pofgx	pofgox
+猛	mtozx	mtozox
+灭	morlx	morlox
+哎	ofovx	ofovox
+弯	ofvtx	ofvtox
+测	coogx	coogox
+持	iffox	iffoox
+印	orrvx	orrvox
+捉	vrohx	vrohox
+朵	dgohx	dgohox
+品	pbrvx	pbrvox
+斜	hvrlx	hvrlox
+敲	kvoix	kvoiox
+运	orvdx	orvdox
+轴	vfomx	vfomox
+粉	fgolx	fgolox
+肥	fvvbx	fvvbox
+折	vfogx	vfogox
+灰	hfotx	hfotox
+尾	ogotx	ogotox
+松	sfokx	sfokox
+追	vrotx	vrotox
+碳	toobx	toobox
+恶	orogx	orogox
+配	povbx	povbox
+微	ofotx	ofotox
+斗	doomx	doomox
+串	iovtx	iovtox
+齐	kffox	kffoox
+罗	lfohx	lfohox
+泥	nffox	nffoox
+秋	kvfhx	kvfhox
+冒	mofgx	mofgox
+搭	dfrox	dfroox
+卵	ltvtx	ltvtox
+透	toomx	toomox
+耳	ogflx	ogflox
+载	zoovx	zoovox
+载	zgovx	zgovox
+盛	uoozx	uoozox
+列	lorlx	lorlox
+牙	ovgox	ovgoox
+环	hvvtx	hvvtox
+浓	nfokx	nfokox
+床	iffvx	iffvox
+星	hfvox	hfvoox
+华	hvvgx	hvvgox
+浅	kboux	kbouox
+挖	ofvgx	ofvgox
+怀	hvggx	hvggox
+恨	hoolx	hoolox
+保	bbfgx	bbfgox
+碰	poozx	poozox
+居	gfrux	gfruox
+阵	voolx	voolox
+货	hoohx	hoohox
+孙	sffux	sffuox
+安	ofobx	ofobox
+擦	crrox	crroox
+痛	tookx	tookox
+插	ivrox	ivroox
+末	moohx	moohox
+膜	mfohx	mfohox
+伏	fvodx	fvodox
+熟	ufodx	ufodox
+茶	ifrox	ifroox
+汉	hoobx	hoobox
+零	lfvox	lfvoox
+果	ggohx	ggohox
+盘	pfobx	pfobox
+贴	tvrlx	tvrlox
+德	dvogx	dvogox
+鬼	ggotx	ggotox
+刺	cofox	cofoox
+抗	kofdx	kofdox
+煤	mfvbx	mfvbox
+板	bbobx	bbobox
+移	ovfox	ovfoox
+猫	mrfgx	mrfgox
+丢	dffhx	dffhox
+纯	iffux	iffuox
+切	kvrlx	kvrlox
+屋	ofodx	ofodox
+网	ogfvx	ogfvox
+哼	hfozx	hfozox
+铜	tfokx	tfokox
+伤	urfdx	urfdox
+采	ctovx	ctovox
+孔	kbokx	kbokox
+累	ltvbx	ltvbox
+衣	offox	offoox
+龙	lfokx	lfokox
+木	moodx	moodox
+梦	moozx	moozox
+楼	lfomx	lfomox
+营	ovvox	ovvoox
+补	bbodx	bbodox
+超	ivfgx	ivfgox
+唐	tffdx	tffdox
+引	ogrvx	ogrvox
+善	uoobx	uoobox
+然	rfobx	rfobox
+绕	rofgx	rofgox
+整	vtozx	vtozox
+闪	utobx	utobox
+专	vrvtx	vrvtox
+争	vrozx	vrozox
+吓	hogox	hogoox
+害	hoovx	hoovox
+房	fvfdx	fvfdox
+似	sofox	sofoox
+态	toovx	toovox
+酸	sfvtx	sfvtox
+甚	uoolx	uoolox
+围	ovotx	ovotox
+挑	tvoix	tvoiox
+样	orvkx	orvkox
+产	ibobx	ibobox
+亲	kvrvx	kvrvox
+乃	nbovx	nbovox
+拖	tvohx	tvohox
+穷	kfvhx	kfvhox
+刀	dffgx	dffgox
+乐	loogx	loogox
+波	bvohx	bvohox
+苗	mfoix	mfoiox
+退	tootx	tootox
+脑	nbfgx	nbfgox
+端	dfvtx	dfvtox
+费	fovbx	fovbox
+罢	borox	boroox
+粗	crodx	crodox
+咬	ogoix	ogoiox
+抢	kbvkx	kbvkox
+情	kfvox	kfvoox
+准	vtfux	vtfuox
+横	hvozx	hvozox
+民	mfrvx	mfrvox
+颇	pvohx	pvohox
+敌	dvfox	dvfoox
+腰	ofoix	ofoiox
+洗	hgfox	hgfoox
+丝	sffox	sffoox
+鸟	nboix	nboiox
+解	ggrlx	ggrlox
+抽	ivomx	ivomox
+命	movox	movoox
+隔	gvogx	gvogox
+尺	ibfox	ibfoox
+顿	dofux	dofuox
+薄	bffgx	bffgox
+薄	bfohx	bfohox
+造	zofgx	zofgox
+广	ggfvx	ggfvox
+散	soobx	soobox
+藏	cffdx	cffdox
+菜	coovx	coovox
+爬	pfrox	pfroox
+爹	dfrlx	dfrlox
+灯	dfozx	dfozox
+素	soodx	soodox
+春	ivfux	ivfuox
+够	goomx	goomox
+局	gvrux	gvruox
+啥	ufrox	ufroox
+尚	uofdx	uofdox
+歌	gfogx	gfogox
+油	ovfhx	ovfhox
+领	ltvox	ltvoox
+通	tvokx	tvokox
+宽	kvvtx	kvvtox
+举	ggrux	ggruox
+娘	nfvkx	nfvkox
+关	gfvtx	gfvtox
+虫	ifokx	ifokox
+骂	morox	moroox
+摇	ovoix	ovoiox
+修	hffhx	hffhox
+吹	ivotx	ivotox
+冲	ivokx	ivokox
+文	ovfux	ovfuox
+必	bofox	bofoox
+平	pfvox	pfvoox
+念	nooux	noouox
+空	kookx	kookox
+空	kvokx	kvokox
+假	gggox	gggoox
+电	dooux	doouox
+肉	roomx	roomox
+陈	ifolx	ifolox
+晚	ogvtx	ogvtox
+右	orfhx	orfhox
+躺	tbfdx	tbfdox
+杨	ovvkx	ovvkox
+翻	ffobx	ffobox
+皮	pffox	pffoox
+史	utfox	utfoox
+猪	vrodx	vrodox
+套	tofgx	tofgox
+枪	kvvkx	kvvkox
+足	zvodx	zvodox
+旁	pffdx	pffdox
+改	ggovx	ggovox
+语	ogrux	ogruox
+欲	orrux	orruox
+懂	dgokx	dgokox
+硬	orvox	orvoox
+药	oroix	oroiox
+错	coohx	coohox
+挺	tbvox	tbvoox
+堆	dfotx	dfotox
+机	gffox	gffoox
+慢	moobx	moobox
+腿	tbotx	tbotox
+色	soogx	soogox
+诗	urfox	urfoox
+林	lfrvx	lfrvox
+秒	mtoix	mtoiox
+玩	ovvtx	ovvtox
+闹	nofgx	nofgox
+烧	urfgx	urfgox
+烟	ofoux	ofouox
+推	tvotx	tvotox
+份	foolx	foolox
+怪	goggx	goggox
+克	koogx	koogox
+养	ogvkx	ogvkox
+杀	urrox	urroox
+干	gfobx	gfobox
+量	lfvkx	lfvkox
+党	dgfdx	dgfdox
+少	uofgx	uofgox
+得	dgvbx	dgvbox
+长	vtfdx	vtfdox
+归	gfotx	gfotox
+草	ctfgx	ctfgox
+钟	vrokx	vrokox
+收	uromx	uromox
+吨	dffux	dffuox
+海	hgovx	hgovox
+破	poohx	poohox
+盖	goovx	goovox
+兵	bvvox	bvvoox
+坏	hoggx	hoggox
+瞧	kfoix	kfoiox
+感	ggobx	ggobox
+抱	bofgx	bofgox
+狗	ggomx	ggomox
+挂	govgx	govgox
+设	uoogx	uoogox
+主	vtodx	vtodox
+任	roolx	roolox
+凡	fvobx	fvobox
+架	gogox	gogoox
+云	ovvdx	ovvdox
+呈	ifozx	ifozox
+亩	mtodx	mtodox
+停	tfvox	tfvoox
+换	hovtx	hovtox
+咱	zvobx	zvobox
+苦	kbodx	kbodox
+供	gfokx	gfokox
+户	hoodx	hoodox
+土	tbodx	tbodox
+乱	lovtx	lovtox
+饭	foobx	foobox
+掉	dooix	dooiox
+合	hvogx	hvogox
+教	gfoix	gfoiox
+背	bvvbx	bvvbox
+清	kvvox	kvvoox
+含	hvobx	hvobox
+冷	ltozx	ltozox
+北	bbvbx	bbvbox
+拍	pvovx	pvovox
+状	vofvx	vofvox
+田	tfoux	tfouox
+读	dvodx	dvodox
+帮	bvfdx	bvfdox
+替	tofox	tofoox
+包	bvfgx	bvfgox
+直	vffox	vffoox
+照	vofgx	vofgox
+顶	dgvox	dgvoox
+股	ggodx	ggodox
+定	dovox	dovoox
+节	gvrlx	gvrlox
+需	hfrux	hfruox
+装	vrfvx	vrfvox
+嘴	zgotx	zgotox
+左	zgohx	zgohox
+抓	vrvgx	vrvgox
+落	loohx	loohox
+弄	nookx	nookox
+且	kbrlx	kbrlox
+金	gfrvx	gfrvox
+班	bvobx	bvobox
+断	dovtx	dovtox
+颗	kvogx	kvogox
+毛	mffgx	mffgox
+牛	nffhx	nffhox
+满	mtobx	mtobox
+率	lorux	loruox
+令	lovox	lovoox
+东	dfokx	dfokox
+黄	hvfvx	hvfvox
+单	dfobx	dfobox
+跳	tooix	tooiox
+铁	tbrlx	tbrlox
+届	gorlx	gorlox
+夜	orrlx	orrlox
+喊	hgobx	hgobox
+方	fffdx	fffdox
+喝	hfogx	hfogox
+接	gfrlx	gfrlox
+神	ufolx	ufolox
+台	tfovx	tfovox
+周	vromx	vromox
+睡	uootx	uootox
+言	ovoux	ovouox
+千	kvoux	kvouox
+篇	pvoux	pvouox
+均	gfvdx	gfvdox
+车	ivogx	ivogox
+卖	moovx	moovox
+组	zgodx	zgodox
+倍	bovbx	bovbox
+西	hffox	hffoox
+片	pooux	poouox
+哭	kvodx	kvodox
+求	kffhx	kffhox
+团	tfvtx	tfvtox
+唱	iofdx	iofdox
+差	iorox	ioroox
+火	hgohx	hgohox
+哩	lrfox	lrfoox
+表	bboix	bboiox
+度	doodx	doodox
+留	lffhx	lffhox
+国	gvohx	gvohox
+系	hofox	hofoox
+李	ltfox	ltfoox
+初	ivodx	ivodox
+取	kbrux	kbruox
+眼	ogoux	ogouox
+转	vovtx	vovtox
+转	vtvtx	vtvtox
+朝	iffgx	iffgox
+船	ifvtx	ifvtox
+短	dgvtx	dgvtox
+离	lffox	lffoox
+么	mrogx	mrogox
+山	urobx	urobox
+九	ggfhx	ggfhox
+提	tffox	tffoox
+称	ivozx	ivozox
+角	ggoix	ggoiox
+送	sookx	sookox
+达	dvrox	dvroox
+算	sovtx	sovtox
+底	dgfox	dgfoox
+号	hofgx	hofgox
+故	goodx	goodox
+入	roodx	roodox
+共	gookx	gookox
+厂	ibfdx	ibfdox
+黑	hfvbx	hfvbox
+深	urolx	urolox
+子	zgfox	zgfoox
+马	mtrox	mtroox
+活	hvohx	hvohox
+女	nbrux	nbruox
+线	hooux	hoouox
+忙	mffdx	mffdox
+穿	ivvtx	ivvtox
+仅	ggrvx	ggrvox
+若	roohx	roohox
+反	fgobx	fgobox
+动	dookx	dookox
+双	urfvx	urfvox
+风	ffozx	ffozox
+信	horvx	horvox
+论	lofux	lofuox
+边	bvoux	bvouox
+竟	govox	govoox
+词	cffox	cffoox
+省	utozx	utozox
+派	poovx	poovox
+王	ovfvx	ovfvox
+管	ggvtx	ggvtox
+力	lofox	lofoox
+白	bfovx	bfovox
+发	ffrox	ffroox
+物	orodx	orodox
+脸	ltoux	ltouox
+谈	tfobx	tfobox
+亦	orfox	orfoox
+百	bbovx	bbovox
+热	roogx	roogox
+化	hovgx	hovgox
+旧	gofhx	gofhox
+红	hvokx	hvokox
+路	loodx	loodox
+万	orvtx	orvtox
+靠	kofgx	kofgox
+除	ifodx	ifodox
+区	kvrux	kvruox
+重	vookx	vookox
+病	bovox	bovoox
+回	hvotx	hvotox
+虽	sfotx	sfotox
+爱	orovx	orovox
+搞	ggfgx	ggfgox
+刚	gffdx	gffdox
+买	mtovx	mtovox
+气	kofox	kofoox
+式	uofox	uofoox
+望	orfvx	orfvox
+口	kbomx	kbomox
+倒	dgfgx	dgfgox
+行	hvvox	hvvoox
+行	hvfdx	hvfdox
+某	mtomx	mtomox
+难	nfobx	nfobox
+美	mtvbx	mtvbox
+米	mtfox	mtfoox
+花	hfvgx	hfvgox
+七	kvfox	kvfoox
+光	gffvx	gffvox
+强	kfvkx	kfvkox
+仍	rfozx	rfozox
+早	zgfgx	zgfgox
+哪	nbrox	nbroox
+门	mfolx	mfolox
+近	gorvx	gorvox
+自	zofox	zofoox
+些	hfrlx	hfrlox
+书	urodx	urodox
+量	lovkx	lovkox
+副	foodx	foodox
+住	voodx	voodox
+经	gfvox	gfvoox
+半	boobx	boobox
+八	bvrox	bvroox
+死	sgfox	sgfoox
+拿	nfrox	nfroox
+第	dofox	dofoox
+低	dffox	dffoox
+您	nfrvx	nfrvox
+部	boodx	boodox
+站	voobx	voobox
+干	goobx	goobox
+请	kbvox	kbvoox
+名	mfvox	mfvoox
+非	ffvbx	ffvbox
+变	booux	boouox
+至	vofox	vofoox
+心	hfrvx	hfrvox
+六	lofhx	lofhox
+数	uoodx	uoodox
+数	utodx	utodox
+句	gorux	goruox
+少	utfgx	utfgox
+道	dofgx	dofgox
+岁	sootx	sootox
+讲	ggvkx	ggvkox
+找	vtfgx	vtfgox
+总	zgokx	zgokox
+张	vrfdx	vrfdox
+按	orobx	orobox
+既	gofox	gofoox
+写	hgrlx	hgrlox
+快	koggx	koggox
+类	lovbx	lovbox
+曾	cfozx	cfozox
+相	hfvkx	hfvkox
+笑	hooix	hooiox
+该	gfovx	gfovox
+因	ofrvx	ofrvox
+间	gfoux	gfouox
+十	uffox	uffoox
+啦	lrrox	lrroox
+连	lfoux	lfouox
+手	utomx	utomox
+声	urozx	urozox
+图	tfodx	tfodox
+啊	ofrox	ofroox
+带	doovx	doovox
+受	uoomx	uoomox
+谁	ufvbx	ufvbox
+本	bbolx	bbolox
+无	ovodx	ovodox
+头	tfomx	tfomox
+应	ofvox	ofvoox
+儿	ovflx	ovflox
+打	dgrox	dgroox
+正	voozx	voozox
+位	orotx	orotox
+听	tvvox	tvvoox
+呀	ofgox	ofgoox
+及	gvfox	gvfoox
+见	gooux	goouox
+跟	gfolx	gfolox
+五	ogodx	ogodox
+吃	ivfox	ivfoox
+水	utotx	utotox
+前	kfoux	kfouox
+家	gfgox	gfgoox
+者	vtogx	vtogox
+性	hovox	hovoox
+长	iffdx	iffdox
+真	vrolx	vrolox
+日	rofox	rofoox
+内	novbx	novbox
+起	kbfox	kbfoox
+比	bbfox	bbfoox
+老	ltfgx	ltfgox
+叫	gooix	gooiox
+天	tvoux	tvouox
+吗	mrrox	mrroox
+高	gffgx	gffgox
+条	tfoix	tfoiox
+做	zoohx	zoohox
+二	orflx	orflox
+才	cfovx	cfovox
+最	zootx	zootox
+当	dffdx	dffdox
+已	ogfox	ogfoox
+更	goozx	goozox
+几	ggfox	ggfoox
+想	hgvkx	hgvkox
+只	vtfox	vtfoox
+过	goohx	goohox
+于	ovrux	ovruox
+向	hovkx	hovkox
+后	hoomx	hoomox
+好	hgfgx	hgfgox
+会	hootx	hootox
+看	koobx	koobox
+之	vrfox	vrfoox
+小	hgoix	hgoiox
+她	tvrox	tvroox
+大	dorox	doroox
+还	hvovx	hvovox
+对	dootx	dootox
+个	googx	googox
 我们	ogrmx
 没有	mfgox
 什么	ufrmx
@@ -1323,6 +1280,7 @@ columns:
 朋友	pfgox
 影响	ogghx
 上海	uoghx
+以后	ogohx
 的人	dffrx
 支持	vrfix
 出来	ivflx
@@ -1521,6 +1479,7 @@ columns:
 总是	zgoux
 传统	ifbtx
 精神	gffux
+说话	urohx
 基础	gfbix
 因素	ofosx
 让人	rofrx
@@ -1604,6 +1563,7 @@ columns:
 每次	mtocx
 还没	hvfmx
 上升	uorux
+统一	tbfox
 作品	zobpx
 等等	dggdx
 衣服	ofvfx
@@ -1635,6 +1595,7 @@ columns:
 利润	loorx
 适合	uovhx
 宣传	hffix
+这边	vovbx
 当年	dffnx
 错误	corox
 承诺	ifonx
@@ -2230,6 +2191,7 @@ columns:
 养老	ogtlx
 此事	ctoux
 热火	roghx
+负担	fofdx
 挺好	tbghx
 看你	kobnx
 温暖	ofbnx
@@ -2285,6 +2247,7 @@ columns:
 中方	vrffx
 您好	nfghx
 生态	urotx
+能在	nfozx
 这份	voofx
 快点	kogdx
 如同	rfftx
@@ -2399,6 +2362,7 @@ columns:
 废话	foohx
 实时	uffux
 阻止	zgtvx
+月底	orgdx
 发给	ffggx
 本土	bbbtx
 研究所	ovgsx
@@ -2488,6 +2452,7 @@ columns:
 导师	dgrux
 白银	bfvox
 主张	vtrvx
+普京	pbfgx
 就此	gotcx
 天堂	tvftx
 购房	govfx
@@ -2513,6 +2478,7 @@ columns:
 哥们	gfrmx
 编码	bvtmx
 国人	gvfrx
+酒吧	ggvbx
 行驶	hvtux
 没错	mfocx
 能让	nforx
@@ -2814,6 +2780,7 @@ columns:
 土壤	tbtrx
 石家庄	ufrvx
 打死	dggsx
+预警	orggx
 从前	cffkx
 中关村	vrrcx
 深处	uroix
@@ -3865,6 +3832,7 @@ columns:
 浓重	nfovx
 铁板	tbbbx
 整套	vtotx
+姊妹	zgomx
 统领	tbtlx
 鼻涕	bfotx
 复读	fovdx
@@ -3907,6 +3875,7 @@ columns:
 错了	corlx
 回族	hvvzx
 驻足	vovzx
+严打	ovgdx
 倍增	bofzx
 错综复杂	covzx
 摸着	mrfvx
@@ -4049,6 +4018,7 @@ columns:
 抓拍	vrvpx
 怕什么	pormx
 探班	tovbx
+扔在	rrozx
 补仓	bbrcx
 刺眼	cogox
 奇虎	kfghx
@@ -4857,3 +4827,589 @@ columns:
 增促	zfocx
 杂驳	zvfbx
 则得	zvvdx
+怎么	zgrmx
+你们	nbrmx
+产品	ibbpx
+虽然	sffrx
+非常	fffix
+房地产	fvbix
+女人	nbfrx
+方法	ffgfx
+男人	nffrx
+人们	rfrmx
+品牌	pbfpx
+才能	cffnx
+资产	zfbix
+如此	rftcx
+妈妈	mrrmx
+房子	fvgzx
+仍然	rffrx
+麻烦	mfvfx
+满足	mtvzx
+美女	mtbnx
+每年	mtfnx
+农民	nffmx
+明年	mffnx
+农村	nfrcx
+采访	ctgfx
+否则	fgvzx
+搜索	sfgsx
+人民	rffmx
+名称	mfvix
+融资	rffzx
+男子	nfgzx
+能否	nfgfx
+没什么	mfrmx
+排名	pffmx
+纷纷	ffffx
+皮肤	pfffx
+人才	rffcx
+女子	nbgzx
+咱们	zvrmx
+平方米	pftmx
+充满	ivtmx
+没人	mffrx
+发出	ffvix
+组成	zgfix
+美联储	mtbix
+重组	ifgzx
+子公司	zgfsx
+民族	mfvzx
+产能	ibfnx
+财产	cfbix
+出发	ivffx
+常常	iffix
+年初	nfvix
+扫描	sgfmx
+粉丝	fgfsx
+村民	crfmx
+每个人	mtfrx
+出场	ivbix
+总裁	zgfcx
+增持	zffix
+批评	pvfpx
+处罚	ibvfx
+除非	ifffx
+出差	ivvix
+仿佛	fgvfx
+走出	zgvix
+赔偿	pffix
+牛奶	nfbnx
+增幅	zfvfx
+片子	pvgzx
+出门	ivfmx
+没法	mfgfx
+南方	nfffx
+模拟	mfbnx
+三年	sffnx
+分公司	fffsx
+频繁	pfvfx
+传媒	iffmx
+牌子	pfgzx
+奶奶	nbbnx
+查处	ifbix
+持平	iffpx
+从此	cftcx
+成人	iffrx
+扶持	fvfix
+你能	nbfnx
+索尼	sgfnx
+子女	zgbnx
+所有人	sgfrx
+场所	ibgsx
+农产品	nfbpx
+买房	mtvfx
+出资	ivfzx
+烦恼	fvbnx
+发言人	fffrx
+所持	sgfix
+明明	mffmx
+司法	sfgfx
+早盘	zgfpx
+车子	ivgzx
+人民政府	rfgfx
+传出	ifvix
+频频	pffpx
+充足	ivvzx
+厨房	ifvfx
+奶粉	nbgfx
+繁荣	fvfrx
+增资	zffzx
+持仓	ifrcx
+早餐	zgrcx
+批发	pvffx
+发明	fffmx
+难免	nftmx
+南宁	nffnx
+重返	ifgfx
+如果你	rfbnx
+乳房	rtvfx
+遵纪守法	zfgfx
+增发	zfffx
+拆除	ivfix
+法人	fgfrx
+骚扰	sftrx
+美国政府	mtgfx
+走访	zggfx
+房租	fvfzx
+筹码	iftmx
+孙子	sfgzx
+早早	zggzx
+陪你	pfbnx
+名牌	mffpx
+残疾人	cffrx
+产出	ibvix
+偏偏	pvvpx
+处女	ibbnx
+没意思	mffsx
+人品	rfbpx
+人呢	rfvnx
+储存	ibfcx
+匆匆	crrcx
+反腐	fggfx
+疲软	pftrx
+排出	pfvix
+反映出	fgvix
+超女	ivbnx
+常年	iffnx
+某某	mttmx
+买车	mtvix
+年产	nfbix
+出品	ivbpx
+所处	sgbix
+此番	ctffx
+普通人	pbfrx
+琢磨	zvfmx
+磁盘	cffpx
+此人	ctfrx
+扶贫	fvfpx
+索赔	sgfpx
+风采	fftcx
+摩擦	mfrcx
+酸奶	sfbnx
+柔软	rftrx
+跑车	pbvix
+分组	ffgzx
+发财	fffcx
+残忍	cftrx
+成品	ifbpx
+封锁	ffgsx
+走人	zgfrx
+品尝	pbfix
+方向盘	fffpx
+怎么可能	zgfnx
+你没	nbfmx
+凭什么	pfrmx
+美方	mtffx
+女排	nbfpx
+女足	nbvzx
+曹操	cfrcx
+抛出	pvvix
+层层	cffcx
+草莓	ctfmx
+三分	sfffx
+责任人	zvfrx
+服从	fvfcx
+名词	mffcx
+摸索	mrgsx
+发给你	ffbnx
+丰满	fftmx
+超人	ivfrx
+飞利浦	ffbpx
+吃什么	ivrmx
+仓储	crbix
+村子	crgzx
+如果能	rffnx
+女方	nbffx
+非凡	ffvfx
+嫂子	sggzx
+超频	ivfpx
+苹果公司	pffsx
+总资产	zgbix
+传染	iftrx
+福克斯	fvfsx
+栽培	zffpx
+明朝	mffix
+繁忙	fvfmx
+穿梭	ivfsx
+跑跑	pbbpx
+租车	zfvix
+抚摸	fgrmx
+总投资	zgfzx
+你所	nbgsx
+惨遭	ctfzx
+耻辱	ibtrx
+俗称	svvix
+筹资	iffzx
+搜房	sfvfx
+从没	cffmx
+马克思	mtfsx
+批发市场	pvbix
+捧场	pbbix
+美眉	mtfmx
+风险投资	fffzx
+能从	nffcx
+沧桑	crfsx
+总分	zgffx
+母子	mtgzx
+浓缩	nffsx
+所发	sgffx
+足足	zvvzx
+丝绸	sffix
+繁琐	fvgsx
+纺织品	fgbpx
+免除	mtfix
+买盘	mtfpx
+磨损	mfgsx
+司马	sftmx
+三层	sffcx
+私家车	sfvix
+南无	nvfmx
+出访	ivgfx
+软件开发	rtffx
+分批	ffvpx
+随风	svffx
+乳粉	rtgfx
+奶茶	nbfix
+草坪	ctfpx
+吹牛	ivfnx
+乳制品	rtbpx
+妞妞	nvvnx
+处方	ibffx
+出彩	ivtcx
+操盘	crfpx
+民俗	mfvsx
+增仓	zfrcx
+明早	mfgzx
+篇幅	pvvfx
+所称	sgvix
+方能	fffnx
+咨询公司	zffsx
+浦发	pbffx
+灾民	zffmx
+旁人	pffrx
+农资	nffzx
+孙燕姿	sffzx
+人所	rfgsx
+三名	sffmx
+满仓	mtrcx
+死死	sggsx
+风俗	ffvsx
+裁缝	cfvfx
+沉思	iffsx
+母乳	mttrx
+长篇	ifvpx
+人马	rftmx
+福彩	fvtcx
+随你	svbnx
+插槽	ivfcx
+足球场	zvbix
+猛增	mtfzx
+平仓	pfrcx
+才子	cfgzx
+人称	rfvix
+人才市场	rfbix
+牛排	nffpx
+反扑	fgvpx
+才女	cfbnx
+佛法	fvgfx
+足彩	zvtcx
+摧残	crfcx
+尺码	ibtmx
+男足	nfvzx
+藏品	cfbpx
+草草	cttcx
+嚷嚷	rrrrx
+此起彼伏	ctvfx
+软盘	rtfpx
+丝丝	sffsx
+祖母	zgtmx
+成才	iffcx
+阐明	ibfmx
+买什么	mtrmx
+粉尘	fgfix
+遵从	zffcx
+翻炒	ffbix
+穿衣服	ivvfx
+惹人	rtfrx
+燃料电池	rffix
+长足	ifvzx
+忍无可忍	rttrx
+法子	fggzx
+猫扑	mrvpx
+责成	zvfix
+你猜	nbrcx
+痞子	pbgzx
+如风	rfffx
+采暖	ctbnx
+场子	ibgzx
+则从	zvfcx
+租房子	zfgzx
+嘈杂	cfvzx
+繁杂	fvvzx
+砝码	fgtmx
+房车	fvvix
+铲除	ibfix
+飘渺	pvtmx
+频谱	pfbpx
+您们	nfrmx
+拍成	pvfix
+难不成	nffix
+婆娘	pffnx
+品名	pbfmx
+普法	pbgfx
+梅艳芳	mfffx
+扰民	rtfmx
+吃早餐	ivrcx
+则能	zvfnx
+皮草	pftcx
+虫草	iftcx
+索罗斯	sgfsx
+瞅瞅	ibbix
+喷洒	pvgsx
+聪明人	crfrx
+防风	fvffx
+马匹	mtbpx
+遭人	zffrx
+车管所	ivgsx
+草丛	ctfcx
+肥肥	fvvfx
+闷骚	mrfsx
+痤疮	cfvix
+走软	zgtrx
+苗圃	mfbpx
+盆栽	pffzx
+拿捏	nfvnx
+人族	rfvzx
+奶制品	nbbpx
+平反	pfgfx
+粗俗	crvsx
+非诚勿扰	fftrx
+毛坯	mfvpx
+草场	ctbix
+跑马	pbtmx
+苏东坡	sfvpx
+杂牌	zvfpx
+乳酸	rtfsx
+难忍	nftrx
+三尺	sfbix
+俗人	svfrx
+随访	svgfx
+法门	fgfmx
+抚平	fgfpx
+砸死	zvgsx
+尼采	nftcx
+扯皮	ibfpx
+人防	rfvfx
+随从	svfcx
+才买	cftmx
+揉搓	rfrcx
+哪呢	nbvnx
+冗长	rtfix
+三餐	sfrcx
+总则	zgvzx
+迷彩	mftcx
+三叶草	sftcx
+惨死	ctgsx
+摸出	mrvix
+猜出	crvix
+飘然	pvfrx
+组织部门	zgfmx
+妮子	nvgzx
+排场	pfbix
+爬坡	pfvpx
+每层	mtfcx
+每篇	mtvpx
+如斯	rffsx
+早死	zggsx
+参禅	crfix
+扔出	rrvix
+脑残	nbfcx
+宗族	zfvzx
+糙米	crtmx
+三陪	sffpx
+辞呈	cffix
+苍南	crfnx
+所向披靡	sgtmx
+反锁	fggsx
+草酸	ctfsx
+房奴	fvfnx
+浮想联翩	fvvpx
+索普	sgbpx
+摸不着头脑	mrbnx
+操作符	crvfx
+摸排	mrfpx
+则称	zvvix
+人民生活水平	rffpx
+名利场	mfbix
+蚕丝	cffsx
+庞杂	pfvzx
+彩超	ctvix
+抛锚	pvfmx
+普宁	pbfnx
+普罗旺斯	pbfsx
+皮层	pffcx
+参访	crgfx
+反方	fgffx
+族谱	zvbpx
+从风	cfffx
+纯牛奶	ifbnx
+妈祖	mrgzx
+粉墨登场	fgbix
+惹恼	rtbnx
+惹出	rtvix
+祖坟	zgvfx
+明码	mftmx
+草泥马	cttmx
+肥猫	fvrmx
+垂死	ifgsx
+汝南	rtfnx
+散粉	sggfx
+楚楚动人	ibfrx
+服软	fvtrx
+反义词	fgfcx
+隋朝	svfix
+催乳	crtrx
+采茶	ctfix
+绵软	mftrx
+村民们	crrmx
+抚宁	fgfnx
+曹丕	cfvpx
+滋补品	zfbpx
+肥美	fvtmx
+从法	cfgfx
+腐乳	fgtrx
+人贩子	rfgzx
+免俗	mtvsx
+三品	sfbpx
+粉彩	fgtcx
+责罚	zvvfx
+南无阿弥陀佛	nvvfx
+姊妹篇	zgvpx
+参杂	crvzx
+偏南	pvfnx
+随俗	svvsx
+纷杂	ffvzx
+乳母	rttmx
+南坡	nfvpx
+紫草	zgtcx
+彩喷	ctvpx
+捏成	nvfix
+凡俗	fvvsx
+撒拉族	sfvzx
+彩妆品	ctbpx
+男厕所	nfgsx
+滋扰	zftrx
+三脚猫	sfrmx
+拈花惹草	nvtcx
+残损	cfgsx
+捏死	nvgsx
+贼子	zvgzx
+蒙人	mrfrx
+农家肥	nfvfx
+采桑子	ctgzx
+品头论足	pbvzx
+馋猫	ifrmx
+吃软	ivtrx
+尘俗	ifvsx
+暖房	nbvfx
+胚乳	pvtrx
+随葬品	svbpx
+分餐	ffrcx
+胚层	pvfcx
+僧俗	sfvsx
+扎囊	zffnx
+冗杂	rtvzx
+哪篇	nbvpx
+偏私	pvfsx
+村女	crbnx
+批租	pvfzx
+咂摸	zfrmx
+软尺	rtbix
+曾孙女	zfbnx
+软刀子	rtgzx
+女丑	nbbix
+贼头贼脑	zvbnx
+扑粉	pvgfx
+贼风	zvffx
+贼赃	zvfzx
+满招损	mtgsx
+舴艋	zvtmx
+贼匪	zvgfx
+草泽	ctvzx
+牤牛	mrfnx
+发蔫	ffvnx
+租米	zftmx
+催租	crfzx
+铲草	ibtcx
+曾遭	cffzx
+府尊	fgfzx
+舛杂	ibvzx
+吹拍	ivvpx
+闷沉沉	mrfix
+房舱	fvrcx
+扫坟	sgvfx
+拍品	pvbpx
+赔损	pfgsx
+努出	nbvix
+攘灾	rtfzx
+捏词	nvfcx
+榫凿	sgvzx
+所以呢	sgvnx
+所存	sgfcx
+滂泽	pvvzx
+跑偏	pbvpx
+买彩	mttcx
+怎么说呢	zgvnx
+腐女	fgbnx
+曾随	cfvsx
+死拼	sgvpx
+超凡脱俗	ivvsx
+媒资	mffzx
+随年	svfnx
+闷声发大财	mrfcx
+粗品	crbpx
+催发	crffx
+匹诺曹	pbfcx
+随份子	svgzx
+子随	zgvsx
+抛扔	pvrrx
+死鸟	sgbnx
+隋明	svfmx
+炒粉	ibgfx
+猫毛	mrfmx
+普通舱	pbrcx
+铺草	pvtcx
+软趴趴	rtvpx
+死工资	sgfzx
+资料篇	zfvpx
+薮猫	sgrmx
+才摸	cfrmx
+才扔	cfrrx
+摧损	crgsx
+猜忖	crtcx
+此男	ctfnx
+分吗	ffrmx
+产丝	ibfsx
+没呢	mfvnx
+女僧	nbfsx
+你如此	nbtcx
+奶母	nbtmx
+捏泥	nvfnx
+捏人	nvfrx
+南无三	nvfsx
+呢吗	nvrmx
+跑肥	pbvfx
+披猜	pvrcx
+扔飞	rrffx
+软层	rtfcx
+软懒散	rtgsx
+骚妞	sfvnx
+随产	svbix
+随他们	svrmx
+随母	svtmx
+随拼	svvpx
+增草	zftcx
+贼呢	zvvnx
+才怪呢	cfvnx
+蠢话连篇	ibvpx
