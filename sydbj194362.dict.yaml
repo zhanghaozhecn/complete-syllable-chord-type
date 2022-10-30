@@ -16,7 +16,7 @@
 
 ---
 name: sydbj194362
-version: 20221025
+version: 20221030
 sort: original
 import_tables:
   - sydbj194362.len1bugfix
@@ -24,6 +24,8 @@ import_tables:
   - sydbj194362.lv1_fuhao
   - sydbj194362.lv2
   - sydbj194362.lv2n_danzi
+  - sydbj194362.lv3_danzi
+  - sydbj194362.lv4_danzi
   - sydbj194362.lv4_cizu
 encoder:
   exclude_patterns:
