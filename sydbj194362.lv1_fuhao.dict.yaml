@@ -2,7 +2,7 @@
 
 ---
 name: sydbj194362.lv1_fuhao
-version: 20221108
+version: 20221112
 sort: original
 columns:
   - text
@@ -11,33 +11,33 @@ columns:
 
 ，	otooo
 。	obooo
-；	otolo
+：	otolo
 ·	otovo
-）	otouo
-（	otroo
+”	otouo
+“	otroo
 0	ottoo
-：	otoho
+；	otoho
 、	otodo
 ！	otogo
 ？	otfoo
 0	otgoo
-/	ototo
-.	otobo
-,	otoko
-;	otvoo
+》	ototo
+《	otobo
+）	otoko
+（	otvoo
 0	otboo
-¥	obolo
-～	obovo
-…	obouo
-—	obroo
+〉	obolo
+〈	obovo
+’	obouo
+‘	obroo
 0	obtoo
-》	oboho
-《	obodo
-”	obogo
-“	obfoo
+;	oboho
+～	obodo
+…	obogo
+—	obfoo
 0	obgoo
-〉	oboto
-〈	obobo
-’	oboko
-‘	obvoo
+/	oboto
+.	obobo
+,	oboko
+¥	obvoo
 0	obboo
