@@ -7,7 +7,8 @@ customization:
 patch:
   ascii_composer:
     good_old_caps_lock: true
-    switch_key: {Caps_Lock: clear, Control_L: commit_text, Control_R: commit_text, Eisu_toggle: clear, Shift_L: noop, Shift_R: noop}
+    # noop/clear/commit_text
+    switch_key: {Caps_Lock: noop, Control_L: noop, Control_R: noop, Eisu_toggle: noop, Shift_L: noop, Shift_R: noop}
   menu:
     page_size: 10
   schema_list:

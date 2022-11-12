@@ -16,11 +16,12 @@
 
 ---
 name: sydbj194362
-version: 20221030
+version: 20221108
 sort: original
 import_tables:
   - sydbj194362.len1bugfix
   - sydbj194362.lv1_danzi
+  - sydbj194362.lv1_cizu
   - sydbj194362.lv1_fuhao
   - sydbj194362.lv2
   - sydbj194362.lv2n_danzi
@@ -29,9 +30,8 @@ import_tables:
   - sydbj194362.lv4_cizu
 encoder:
   exclude_patterns:
-    - '^oo[a-z][a-z]x$'
-    - '^[a-z][a-z]oox$'
-    - '^o[tb]ooo$'
+    # 符号不参与自动编码
+    - '^o[tb][a-z][a-z][a-z]$'
   rules:
     - length_equal: 2
       formula: "AaAbAcAdAeBaBbBcBdBe"

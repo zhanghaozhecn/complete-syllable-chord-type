@@ -93,9 +93,9 @@ chord_composer:
     - xform/x=d=/s/
     - xform/s=e=/c/
     - xform/s=c=/p/
-    - xform/a=d=/s/
-    - xform/q=e=/c/
-    - xform/z=c=/p/
+    #- xform/a=d=/s/
+    #- xform/q=e=/c/
+    #- xform/z=c=/p/
     - xform/d=/g/
     - xform/s=/d/
     - xform/a=/h/
@@ -135,10 +135,10 @@ chord_composer:
     - xform/J=G=/n/
     - xform/k=J=/s/
     - xform/i=l=/c/
-    - xform/m=k=/p/
-    - xform/k=F=/s/
-    - xform/i=p=/c/
-    - xform/D=G=/p/
+    - xform/D=l=/p/
+    #- xform/k=F=/s/
+    #- xform/i=p=/c/
+    #- xform/D=G=/p/
     - xform/k=/g/
     - xform/l=/d/
     - xform/F=/h/

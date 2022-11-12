@@ -2,7 +2,7 @@
 
 ---
 name: sydbj194362.lv2n_danzi
-version: 20221030
+version: 20221111
 sort: original
 columns:
   - text
@@ -10,76 +10,67 @@ columns:
   - stem
 ...
 
-个	googo	googox
-对	dooto	dootox
-还	hvovo	hvovox
+也	ogrlo	ogrlox
+又	orfho	orfhox
+与	ogruo	ogruox
+到	dofgo	dofgox
 大	doroo	doroox
 她	tvroo	tvroox
-小	hgoio	hgoiox
+多	dfoho	dfohox
+用	orvho	orvhox
+以	ogfoo	ogfoox
+但	doobo	doobox
 之	vrfoo	vrfoox
-看	koobo	koobox
 会	hooto	hootox
 好	hgfgo	hgfgox
 后	hoomo	hoomox
 向	hovko	hovkox
+由	ovfho	ovfhox
 于	ovruo	ovruox
 过	gooho	goohox
-只	vtfoo	vtfoox
+并	bovoo	bovoox
 想	hgvko	hgvkox
-几	ggfoo	ggfoox
 更	goozo	goozox
 已	ogfoo	ogfoox
 当	dffdo	dffdox
+却	kotoo	kotoox
 最	zooto	zootox
-才	cfovo	cfovox
 各	googo	googox
 像	hovko	hovkox
 二	orflo	orflox
 月	ortoo	ortoox
+便	boouo	boouox
 做	zooho	zoohox
-条	tfoio	tfoiox
-高	gffgo	gffgox
-吗	mrroo	mrroox
 天	tvouo	tvouox
 叫	gooio	gooiox
 老	ltfgo	ltfgox
-比	bbfoo	bbfoox
-起	kbfoo	kbfoox
-内	novbo	novbox
 较	gooio	gooiox
-日	rofoo	rofoox
+事	uofoo	uofoox
 真	vrolo	vrolox
-长	iffdo	iffdox
 性	hovoo	hovoox
 作	zooho	zoohox
 者	vtogo	vtogox
 家	gfgoo	gfgoox
-前	kfouo	kfouox
-水	utoto	utotox
-吃	ivfoo	ivfoox
+话	hovgo	hovgox
 五	ogodo	ogodox
 跟	gfolo	gfolox
 见	goouo	goouox
-及	gvfoo	gvfoox
-呀	ofgoo	ofgoox
 听	tvvoo	tvvoox
+问	orfuo	orfuox
+外	orggo	orggox
 位	oroto	orotox
-正	voozo	voozox
 打	dgroo	dgroox
+全	kfboo	kfboox
 儿	ovflo	ovflox
 应	ofvoo	ofvoox
 头	tfomo	tfomox
 无	ovodo	ovodox
 本	bbolo	bbolox
-谁	ufvbo	ufvbox
 受	uoomo	uoomox
 带	doovo	doovox
 啊	ofroo	ofroox
 图	tfodo	tfodox
-声	urozo	urozox
 手	utomo	utomox
-连	lfouo	lfouox
-啦	lrroo	lrroox
 十	uffoo	uffoox
 间	gfouo	gfouox
 因	ofrvo	ofrvox
@@ -88,18 +79,15 @@ columns:
 笑	hooio	hooiox
 相	hfvko	hfvkox
 曾	cfozo	cfozox
-类	lovbo	lovbox
 快	koggo	koggox
 写	hgrlo	hgrlox
 既	gofoo	gofoox
 按	orobo	orobox
 张	vrfdo	vrfdox
-总	zgoko	zgokox
 找	vtfgo	vtfgox
 学	hvtoo	hvtoox
 讲	ggvko	ggvkox
 坐	zooho	zoohox
-岁	sooto	sootox
 道	dofgo	dofgox
 极	gvfoo	gvfoox
 少	utfgo	utfgox
@@ -112,8 +100,6 @@ columns:
 至	vofoo	vofoox
 元	ovboo	ovboox
 变	boouo	boouox
-非	ffvbo	ffvbox
-名	mfvoo	mfvoox
 请	kbvoo	kbvoox
 干	goobo	goobox
 站	voobo	voobox
@@ -123,13 +109,10 @@ columns:
 低	dffoo	dffoox
 第	dofoo	dofoox
 拿	nfroo	nfroox
-死	sgfoo	sgfoox
-八	bvroo	bvroox
 半	boobo	boobox
 经	gfvoo	gfvoox
 层	cfozo	cfozox
 住	voodo	voodox
-副	foodo	foodox
 量	lovko	lovkox
 块	koggo	koggox
 书	urodo	urodox
@@ -137,18 +120,16 @@ columns:
 些	hfrlo	hfrlox
 自	zofoo	zofoox
 近	gorvo	gorvox
+往	ogfvo	ogfvox
 字	zofoo	zofoox
 门	mfolo	mfolox
-哪	nbroo	nbroox
 早	zgfgo	zgfgox
 项	hovko	hovkox
 仍	rfozo	rfozox
 强	kfvko	kfvkox
 光	gffvo	gffvox
-七	kvfoo	kvfoox
 约	oftoo	oftoox
 花	hfvgo	hfvgox
-米	mtfoo	mtfoox
 美	mtvbo	mtvbox
 难	nfobo	nfobox
 某	mtomo	mtomox
@@ -158,6 +139,7 @@ columns:
 常	iffdo	iffdox
 口	kbomo	kbomox
 生	urozo	urozox
+段	dovto	dovtox
 根	gfolo	gfolox
 望	orfvo	orfvox
 式	uofoo	uofoox
@@ -166,7 +148,6 @@ columns:
 刚	gffdo	gffdox
 搞	ggfgo	ggfgox
 爱	orovo	orovox
-虽	sfoto	sfotox
 未	oroto	orotox
 回	hvoto	hvotox
 病	bovoo	bovoox
@@ -191,13 +172,11 @@ columns:
 据	goruo	goruox
 物	orodo	orodox
 发	ffroo	ffroox
-白	bfovo	bfovox
 力	lofoo	lofoox
 画	hovgo	hovgox
 管	ggvto	ggvtox
 队	dooto	dootox
 王	ovfvo	ovfvox
-派	poovo	poovox
 省	utozo	utozox
 词	cffoo	cffoox
 竟	govoo	govoox
@@ -207,7 +186,6 @@ columns:
 风	ffozo	ffozox
 双	urfvo	urfvox
 动	dooko	dookox
-反	fgobo	fgobox
 若	rooho	roohox
 仅	ggrvo	ggrvox
 只	vrfoo	vrfoox
@@ -223,7 +201,6 @@ columns:
 深	urolo	urolox
 黑	hfvbo	hfvbox
 加	gfgoo	gfgoox
-厂	ibfdo	ibfdox
 共	gooko	gookox
 质	vofoo	vofoox
 拉	lrroo	lrroox
@@ -233,7 +210,6 @@ columns:
 号	hofgo	hofgox
 底	dgfoo	dgfoox
 算	sovto	sovtox
-达	dvroo	dvroox
 支	vrfoo	vrfoox
 送	sooko	sookox
 期	kvfoo	kvfoox
@@ -255,6 +231,7 @@ columns:
 取	kbruo	kbruox
 初	ivodo	ivodox
 李	ltfoo	ltfoox
+群	kfvdo	kfvdox
 系	hofoo	hofoox
 国	gvoho	gvohox
 鱼	ovruo	ovruox
@@ -263,7 +240,6 @@ columns:
 表	bboio	bboiox
 哩	lrfoo	lrfoox
 火	hgoho	hgohox
-差	ioroo	ioroox
 唱	iofdo	iofdox
 团	tfvto	tfvtox
 脚	ggoio	ggoiox
@@ -274,10 +250,8 @@ columns:
 西	hffoo	hffoox
 倍	bovbo	bovbox
 组	zgodo	zgodox
-卖	moovo	moovox
 车	ivogo	ivogox
 均	gfvdo	gfvdox
-篇	pvouo	pvouox
 千	kvouo	kvouox
 言	ovouo	ovouox
 原	ovboo	ovboox
@@ -295,8 +269,6 @@ columns:
 喊	hgobo	hgobox
 夜	orrlo	orrlox
 届	gorlo	gorlox
-铁	tbrlo	tbrlox
-跳	tooio	tooiox
 单	dfobo	dfobox
 黄	hvfvo	hvfvox
 东	dfoko	dfokox
@@ -332,7 +304,6 @@ columns:
 股	ggodo	ggodox
 顶	dgvoo	dgvoox
 照	vofgo	vofgox
-直	vffoo	vffoox
 身	urolo	urolox
 飞	ffvbo	ffvbox
 般	bvobo	bvobox
@@ -376,7 +347,6 @@ columns:
 呈	ifozo	ifozox
 云	ovvdo	ovvdox
 架	gogoo	gogoox
-凡	fvobo	fvobox
 任	roolo	roolox
 尽	gorvo	gorvox
 血	hotoo	hotoox
@@ -405,7 +375,6 @@ columns:
 钟	vroko	vrokox
 忘	orfvo	orfvox
 易	orfoo	orfoox
-草	ctfgo	ctfgox
 归	gfoto	gfotox
 少	uofgo	uofgox
 得	dgvbo	dgvbox
@@ -442,7 +411,6 @@ columns:
 堆	dfoto	dfotox
 挺	tbvoo	tbvoox
 意	orfoo	orfoox
-错	cooho	coohox
 药	oroio	oroiox
 硬	orvoo	orvoox
 懂	dgoko	dgokox
@@ -451,10 +419,8 @@ columns:
 语	ogruo	ogruox
 亮	lovko	lovkox
 改	ggovo	ggovox
-旁	pffdo	pffdox
 盐	ovouo	ovouox
 章	vrfdo	vrfdox
-足	zvodo	zvodox
 枪	kvvko	kvvkox
 套	tofgo	tofgox
 猪	vrodo	vrodox
@@ -586,7 +552,6 @@ columns:
 理	ltfoo	ltfoox
 抢	kbvko	kbvkox
 咬	ogoio	ogoiox
-粗	crodo	crodox
 罢	boroo	boroox
 布	boodo	boodox
 壁	bofoo	bofoox
@@ -644,6 +609,8 @@ columns:
 绕	rofgo	rofgox
 然	rfobo	rfobox
 善	uoobo	uoobox
+哦	orgdo	orgdox
+哦	ovgdo	ovgdox
 引	ogrvo	ogrvox
 唐	tffdo	tffdox
 超	ivfgo	ivfgox
@@ -809,7 +776,6 @@ columns:
 敲	kvoio	kvoiox
 芽	ovgoo	ovgoox
 斜	hvrlo	hvrlox
-品	pbrvo	pbrvox
 始	utfoo	utfoox
 味	oroto	orotox
 朵	dgoho	dgohox
@@ -845,7 +811,6 @@ columns:
 密	mofoo	mofoox
 丁	dfvoo	dfvoox
 侧	coogo	coogox
-增	zfozo	zfozox
 徐	hvruo	hvruox
 躲	dgoho	dgohox
 瞪	doozo	doozox
@@ -888,6 +853,7 @@ columns:
 铝	ltruo	ltruox
 蓝	lfobo	lfobox
 填	tfouo	tfouox
+哟	ofgho	ofghox
 泪	lovbo	lovbox
 世	uofoo	uofoox
 胜	uoozo	uoozox
@@ -1063,7 +1029,6 @@ columns:
 纵	zooko	zookox
 缩	sfoho	sfohox
 凉	lfvko	lfvkox
-嚷	rtfdo	rtfdox
 瞅	ibomo	ibomox
 注	voodo	voodox
 税	uooto	uootox
@@ -1249,11 +1214,9 @@ columns:
 炸	vfroo	vfroox
 册	coogo	coogox
 征	vrozo	vrozox
-俗	svodo	svodox
 港	ggfdo	ggfdox
 魏	oroto	orotox
 鹿	loodo	loodox
-捏	nvrlo	nvrlox
 渐	goouo	goouox
 录	loodo	loodox
 仪	ovfoo	ovfoox
@@ -1447,10 +1410,8 @@ columns:
 假	gogoo	gogoox
 差	ivroo	ivroox
 朝	vrfgo	vrfgox
-都	dfodo	dfodox
 更	gfozo	gfozox
 散	sgobo	sgobox
-还	hvvto	hvvtox
 唉	ofovo	ofovox
 啊	ovroo	ovroox
 啊	orroo	orroox
@@ -3568,6 +3529,7 @@ columns:
 囤	dofuo	dofuox
 圈	gfboo	gfboox
 圈	goboo	goboox
+中	vooko	vookox
 弄	looko	lookox
 差	ivovo	ivovox
 曾	zfozo	zfozox
@@ -3607,7 +3569,6 @@ columns:
 禅	uoobo	uoobox
 褥	roodo	roodox
 扇	urobo	urobox
-谁	ufoto	ufotox
 簸	booho	boohox
 秘	bofoo	bofoox
 笼	ltoko	ltokox
@@ -5239,8 +5200,11 @@ columns:
 屯	vrfuo	vrfuox
 瓦	orvgo	orvgox
 邪	ovrlo	ovrlox
+与	ovruo	ovruox
+与	orruo	orruox
 轴	voomo	voomox
 龈	kbolo	kbolox
+上	utfdo	utfdox
 占	vrobo	vrobox
 艾	orfoo	orfoox
 薄	booho	boohox
@@ -5356,6 +5320,7 @@ columns:
 契	horlo	horlox
 王	orfvo	orfvox
 琢	zvoho	zvohox
+并	bvvoo	bvvoox
 炮	bvfgo	bvfgox
 炮	pffgo	pffgox
 兹	cffoo	cffoox
@@ -5381,6 +5346,7 @@ columns:
 鞘	urfgo	urfgox
 覃	kfrvo	kfrvox
 甚	ufolo	ufolox
+要	ofoio	ofoiox
 鞅	orvko	orvkox
 正	vrozo	vrozox
 奔	boolo	boolox
@@ -5391,6 +5357,7 @@ columns:
 否	pbfoo	pbfoox
 碌	lofho	lofhox
 裂	ltrlo	ltrlox
+有	orfho	orfhox
 压	orgoo	orgoox
 呵	ofroo	ofroox
 呵	ovroo	ovroox
@@ -5427,13 +5394,11 @@ columns:
 吗	mfroo	mfroox
 吗	mtroo	mtroox
 喏	rtogo	rtogox
-哪	nbvbo	nbvbox
 哪	nvroo	nvroox
 哪	nfogo	nfogox
 呢	nffoo	nffoox
 喷	poolo	poolox
 跑	pffgo	pffgox
-嚷	rrfdo	rrfdox
 嘘	urfoo	urfoox
 叶	hvrlo	hvrlox
 踏	tvroo	tvroox
@@ -5539,7 +5504,6 @@ columns:
 圩	hfruo	hfruox
 垭	orgoo	orgoox
 臭	hofho	hofhox
-的	dffoo	dffoox
 的	dvfoo	dvfoox
 的	dofoo	dofoox
 迫	pbovo	pbovox
@@ -7878,7 +7842,6 @@ columns:
 蠼	gvtoo	gvtoox
 思	sfovo	sfovox
 无	mfoho	mfohox
-差	ioovo	ioovox
 炔	gooto	gootox
 烟	ofrvo	ofrvox
 孛	bfoho	bfohox
@@ -7914,7 +7877,6 @@ columns:
 呐	nvroo	nvroox
 呐	noogo	noogox
 呐	nvogo	nvogox
-哪	nbovo	nbovox
 呷	gfroo	gfroox
 咱	zvroo	zvroox
 咱	zfobo	zfobox
