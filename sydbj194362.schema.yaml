@@ -1,7 +1,7 @@
 schema:
   schema_id: sydbj194362
   name: 声韵调并击(19-4-36-2)
-  version: 1.5(20221119)
+  version: 1.5(20221120)
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -72,6 +72,19 @@ speller:
   # 作为开头的字符，若省略，则与alphabet相同
   #initials: 'abcdefghijklmnopqrstuvwxyz'
   algebra:
+    - xform/^pf/pB/
+    - xform/^(.....)pf/$1pB/
+    - xform/^pv/pA/
+    - xform/^(.....)pv/$1pA/
+    - xform/^pb/pg/
+    - xform/^(.....)pb/$1pg/
+    - xform/^(..)fp/$1Bp/
+    - xform/^(.......)fp/$1Bp/
+    - xform/^(..)vp/$1Ap/
+    - xform/^(.......)vp/$1Ap/
+    - xform/^(..)bp/$1gp/
+    - xform/^(.......)bp/$1gp/
+    - xlit/AB/fv/
 
 chord_composer:
   alphabet: 'qazwsxedcrfvtgbyhnujmik,ol.p;/ '
@@ -92,7 +105,7 @@ chord_composer:
     - xform/z=x=/n/
     - xform/x=d=/s/
     - xform/s=e=/c/
-    - xform/s=c=/p/
+    - xform/z=s=/p/
     #- xform/a=d=/s/
     #- xform/q=e=/c/
     #- xform/z=c=/p/
@@ -100,7 +113,7 @@ chord_composer:
     - xform/s=/d/
     - xform/a=/h/
     - xform/e=/u/
-    - xform/w=/v/
+    - xform/w=/v
     - xform/q=/l/
     - xform/c=/k/
     - xform/x=/b/
@@ -135,7 +148,7 @@ chord_composer:
     - xform/J=G=/n/
     - xform/k=J=/s/
     - xform/i=l=/c/
-    - xform/D=l=/p/
+    - xform/l=G=/p/
     #- xform/k=F=/s/
     #- xform/i=p=/c/
     #- xform/D=G=/p/
