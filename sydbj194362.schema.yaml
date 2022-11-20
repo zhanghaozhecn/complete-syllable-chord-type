@@ -192,6 +192,7 @@ translator:
   preedit_format:
   # 提示区格式
   comment_format:
+    - xform/.*//
     
 # 反查
 reverse_lookup:

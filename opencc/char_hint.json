@@ -1,0 +1,16 @@
+{
+  "name": "char_hint",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "char_hint.txt"
+    }
+  },
+  "conversion_chain": [{
+    "dict": {
+      "type": "text",
+      "file": "char_hint.txt"
+    }
+  }]
+}

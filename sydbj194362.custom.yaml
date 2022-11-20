@@ -1,0 +1,20 @@
+patch:
+  #加载char_hint滤镜
+  "switches/@next": 
+    name: char_hint
+    reset: 1 #初始状态,0关1开
+    states: ["️️🅻", "🄻️"]  #侯选栏显示内容,可省略,可更改
+
+  "engine/filters/@next": simplifier@char_hint
+  char_hint:
+    opencc_config: char_hint.json
+    option_name: char_hint
+    show_in_comment: true #开启编码滤镜
+    comment_format:  #编码滤镜正则处理
+      - "xform/<br>/\n/" #编码滤镜内容换行
+      - "xform/&nbsp/ /" #编码滤镜内容显示空格
+#上述带#号为编码滤镜模式, 普通滤镜直接在行首用#号屏蔽,编码滤镜
+    tags:
+      - abc
+    tips: char #none无注释,char单字注释,all全部注释
+

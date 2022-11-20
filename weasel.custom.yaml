@@ -6,5 +6,5 @@ customization:
   rime_version: 1.5.3
 patch:
   "style/color_scheme": dark_temple
-  "style/horizontal": true
+  "style/horizontal": false
   "style/inline_preedit": false
