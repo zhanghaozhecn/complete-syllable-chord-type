@@ -2,7 +2,7 @@
 
 ---
 name: sydbj194362.lv1_fuhao
-version: 20221112
+version: 20221120
 sort: original
 columns:
   - text
@@ -10,7 +10,9 @@ columns:
 ...
 
 ，	otooo
-。	obooo
+？	obooo
+。	ootoo
+！	ooboo
 ：	otolo
 ·	otovo
 ”	otouo
