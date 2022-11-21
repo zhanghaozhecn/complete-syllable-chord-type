@@ -1,13 +1,11 @@
 schema:
   schema_id: sydbj194362
   name: 声韵调并击(19-4-36-2)
-  version: 1.5(20221120)
+  version: 1.5(20221121)
   author:
     - 张皓哲（576440085@qq.com）
   description:
   dependencies:
-    # 反查方案
-    - fc
 
 switches:
   - name: zh_simp_s2t
@@ -22,6 +20,9 @@ switches:
   - name: ascii_mode
     reset: 0
     states: [ 中, 英 ]
+  - name: char_hint
+    reset: 1
+    states: [ 提示关, 提示开 ]
 
 engine:
   processors:
@@ -42,11 +43,11 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - reverse_lookup_translator
     - table_translator
   filters:
     - simplifier
     - uniquifier
+    - simplifier@char_hint
 
 # 简体转繁体
 simplifier:
@@ -193,18 +194,19 @@ translator:
   # 提示区格式
   comment_format:
     - xform/.*//
-    
-# 反查
-reverse_lookup:
-  # 默认笔画反查，可以自行修改
-  dictionary: fc
-  enable_completion: true
-  prefix: "`"  # 反查前缀
-  suffix: "'"
-  tips: 【反查】
-  preedit_format:
-  comment_format:
 
+char_hint:
+  opencc_config: char_hint.json
+  option_name: char_hint
+  show_in_comment: true #开启编码滤镜
+  comment_format:  #编码滤镜正则处理
+    - "xform/<br>/\n/" #编码滤镜内容换行
+    - "xform/&nbsp/ /" #编码滤镜内容显示空格
+#上述带#号为编码滤镜模式, 普通滤镜直接在行首用#号屏蔽,编码滤镜
+  tags:
+    - abc
+  tips: char #none无注释,char单字注释,all全部注释
+    
 # 符号
 punctuator:
   import_preset: symbols_sydbj
@@ -224,5 +226,3 @@ recognizer:
   patterns:
     # 用\引导其他符号
     punct: '^\\([0-9]0?|[A-Za-z*\[\]\{\}\$%#~`\\|/=<>]+)?$'
-    # 用`引导反查
-    reverse_lookup: "`[12345]*'?$"
