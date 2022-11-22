@@ -16,7 +16,7 @@
 
 ---
 name: sydbj194362
-version: 20221120
+version: 20221122
 sort: original
 import_tables:
   - sydbj194362.len1bugfix
@@ -33,7 +33,7 @@ import_tables:
 encoder:
   exclude_patterns:
     # 符号、反查不参与自动编码
-    - '^o[tb][a-z][a-z][a-z]|ootoo|ooboo|otoox[a-z]{5}$'
+    - '^o[tb][a-z][a-z][a-z]|ootoo|ooboo|oofoo|otoox[a-z]{5}$'
   rules:
     - length_equal: 2
       formula: "AaAbAcAdAeBaBbBcBdBe"
