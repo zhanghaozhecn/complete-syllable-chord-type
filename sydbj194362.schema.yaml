@@ -1,7 +1,7 @@
 schema:
   schema_id: sydbj194362
   name: 声韵调并击(19-4-36-2)
-  version: 1.6(20221122)
+  version: 1.6(20221127)
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -73,25 +73,6 @@ speller:
   # 作为开头的字符，若省略，则与alphabet相同
   #initials: 'abcdefghijklmnopqrstuvwxyz'
   algebra:
-    #- xform/^pf/pB/
-    #- xform/^(.....)pf/$1pB/
-    #- xform/^pv/pA/
-    #- xform/^(.....)pv/$1pA/
-    #- xform/^pb/pg/
-    #- xform/^(.....)pb/$1pg/
-    #- xform/^(..)fp/$1Bp/
-    #- xform/^(.......)fp/$1Bp/
-    #- xform/^(..)vp/$1Ap/
-    #- xform/^(.......)vp/$1Ap/
-    #- xform/^(..)bp/$1gp/
-    #- xform/^(.......)bp/$1gp/
-    - xform/pf/pB/
-    - xform/pv/pA/
-    - xform/pb/pg/
-    - xform/fp/Bp/
-    - xform/vp/Ap/
-    - xform/bp/gp/
-    - xlit/AB/fv/
 
 chord_composer:
   alphabet: 'qazwsxedcrfvtgbyhnujmik,ol.p;/ '
@@ -177,6 +158,13 @@ chord_composer:
     - xform/^(oo|go|do|ho|uo|vo|lo|ko|bo|to|zo|mo|io|fo|ro|no|so|co|po|or|gr|dr|hr|ur|vr|lr|kr|br|tr|zr|mr|ir|fr|rr|nr|sr|cr|pr|of|gf|df|hf|uf|vf|lf|kf|bf|tf|zf|mf|if|ff|rf|nf|sf|cf|pf|ov|gv|dv|hv|uv|vv|lv|kv|bv|tv|zv|mv|iv|fv|rv|nv|sv|cv|pv|ot|gt|dt|ht|ut|vt|lt|kt|bt|tt|zt|mt|it|ft|rt|nt|st|ct|pt|og|gg|dg|hg|ug|vg|lg|kg|bg|tg|zg|mg|ig|fg|rg|ng|sg|cg|pg|ob|gb|db|hb|ub|vb|lb|kb|bb|tb|zb|mb|ib|fb|rb|nb|sb|cb|pb)(oo|og|od|oh|ou|ov|ol|ok|ob|ot|oz|om|oi|of|or|on|os|oc|op|ro|rg|rd|rh|ru|rv|rl|rk|rb|rt|rz|rm|ri|rf|rr|rn|rs|rc|rp|fo|fg|fd|fh|fu|fv|fl|fk|fb|ft|fz|fm|fi|ff|fr|fn|fs|fc|fp|vo|vg|vd|vh|vu|vv|vl|vk|vb|vt|vz|vm|vi|vf|vr|vn|vs|vc|vp|to|tg|td|th|tu|tv|tl|tk|tb|tt|tz|tm|ti|tf|tr|tn|ts|tc|tp|go|gg|gd|gh|gu|gv|gl|gk|gb|gt|gz|gm|gi|gf|gr|gn|gs|gc|gp|bo|bg|bd|bh|bu|bv|bl|bk|bb|bt|bz|bm|bi|bf|br|bn|bs|bc|bp)([ox])$/#$1$2$3/
     - erase/^[^#\d ].*//
     - xform/#//
+    - xform/pf/pV/
+    - xform/pv/pF/
+    - xform/pg/pb/
+    - xform/fp/Vp/
+    - xform/vp/Fp/
+    - xform/gp/bp/
+    - xlit/VF/vf/
   # 并击过程中套用的式样
   prompt_format:
     # 过程编码不显示
@@ -188,7 +176,7 @@ translator:
   enable_completion: true  # 显示编码未输入完整的词条，如果打开并且是自由顶，部分空码就不能清码，会变成错码顶功
   enable_sentence: false  # 整句模式
   enable_user_dict: true  # 用户词典（用户词典记录动态字词频，用户词）
-  enable_encoder: false  # 自动编码
+  enable_encoder: true  # 自动编码
   encode_commit_history: true  # 上屏组词
   max_phrase_length: 7  # 造词长度
   disable_user_dict_for_patterns: # 用户词典无效格式
