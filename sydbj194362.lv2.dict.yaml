@@ -2,7 +2,7 @@
 
 ---
 name: sydbj194362.lv2
-version: 20221127
+version: 20221129
 sort: original
 columns:
   - text
@@ -1372,7 +1372,8 @@ columns:
 实际	ufogx
 传统	ifbtx
 精神	gffux
-配置	poovx
+湃	poovx	poovox
+湃	poovo	poovox
 说话	urohx
 近期	govkx
 基础	gfbix
