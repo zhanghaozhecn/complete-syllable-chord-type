@@ -16,14 +16,15 @@
 
 ---
 name: sydbj194362
-version: 20221122
+version: 20221217
 sort: original
 import_tables:
   - sydbj194362.len1bugfix
   - sydbj194362.lv1_danzi
   - sydbj194362.lv1_cizu
   - sydbj194362.lv1_fuhao
-  - sydbj194362.lv2
+  - sydbj194362.lv2_danzi
+  - sydbj194362.lv2_cizu
   - sydbj194362.lv2n_danzi
   - sydbj194362.lv3_danzi
   - sydbj194362.lv4_danzi
@@ -38,19 +39,19 @@ encoder:
     - length_equal: 2
       formula: "AaAbAcAdAeBaBbBcBdBe"
     - length_equal: 3
-      formula: "AaAbBbBaBeCaCbCcCdCf"
+      formula: "AaAbAcAdAeBaBbBcBdBfCaCbCcCdCf"
     - length_equal: 4
-      formula: "AaAbBbBaBeCaCbDbDaDe"
+      formula: "AaAbAcAdAeBaBbBcBdBfDaDbDcDdDe"
     - length_equal: 5
-      formula: "AaAbBbBaBeCaCbEbEaEe"
+      formula: "AaAbAcAdAeBaBbBcBdBfEaEbEcEdEe"
     - length_equal: 6
-      formula: "AaAbBbBaBeCaCbFbFaFe"
+      formula: "AaAbAcAdAeBaBbBcBdBfFaFbFcFdFe"
     - length_equal: 7
-      formula: "AaAbBbBaBeCaCbGbGaGe"
+      formula: "AaAbAcAdAeBaBbBcBdBfGaGbGcGdGe"
     - length_equal: 8
-      formula: "AaAbBbBaBeCaCbHbHaHe"
+      formula: "AaAbAcAdAeBaBbBcBdBfHaHbHcHdHe"
     - length_equal: 9
-      formula: "AaAbBbBaBeCaCbIbIaIe"
+      formula: "AaAbAcAdAeBaBbBcBdBfIaIbIcIdIe"
     - length_equal: 10
-      formula: "AaAbBbBaBeCaCbJbJaJe"
+      formula: "AaAbAcAdAeBaBbBcBdBfJaJbJcJdJe"
 ...

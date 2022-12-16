@@ -1,7 +1,7 @@
 schema:
   schema_id: sydbj194362
   name: 声韵调并击(19-4-36-2)
-  version: 1.6(20221207)
+  version: 1.6(20221217)
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -63,9 +63,9 @@ speller:
   auto_select: true
   # 符合格式编码唯一自动上屏，需要较精确匹配，避免第一击恰好只有一个候选上屏
   #auto_select_pattern: "^oo[a-z][a-z][ox]|[a-z][a-z]oo[ox]|[a-z]{4}x|[a-z]{10}$"
-  auto_select_pattern: "^[a-z]{5}|[a-z]{10}$"
+  auto_select_pattern: "^[a-z]{5}|[a-z]{10}|[a-z]{15}$"
   # 自动清屏空码，若设置为auto，清屏能力较强，但是需要依靠recognizer:patterns停留合法编码，很麻烦，且在字词库变动的条件下是不可行的
-  auto_clear: max_length
+  #auto_clear: max_length
   # 最大码长
   max_code_length: 10
   # 进入输入区的字符
@@ -188,7 +188,7 @@ translator:
     - xform/.*/ /
   # 提示区格式
   comment_format:
-    - xform/.*//
+    #- xform/.*//
 
 char_hint:
   opencc_config: char_hint.json
