@@ -9,4 +9,4 @@ patch:
   "style/horizontal": true
   "style/inline_preedit": false
   #preview/composition
-  "style/preedit_type": preview
+  "style/preedit_type": composition

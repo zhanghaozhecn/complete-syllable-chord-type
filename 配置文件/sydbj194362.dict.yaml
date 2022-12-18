@@ -17,6 +17,7 @@
 ---
 name: sydbj194362
 version: 20221217
+use_preset_vocabulary: false
 sort: original
 import_tables:
   - sydbj194362.len1bugfix
@@ -39,7 +40,7 @@ encoder:
     - length_equal: 2
       formula: "AaAbAcAdAeBaBbBcBdBe"
     - length_equal: 3
-      formula: "AaAbAcAdAeBaBbBcBdBfCaCbCcCdCf"
+      formula: "AaAbAcAdAeBaBbBcBdBfCaCbCcCdCe"
     - length_equal: 4
       formula: "AaAbAcAdAeBaBbBcBdBfDaDbDcDdDe"
     - length_equal: 5
