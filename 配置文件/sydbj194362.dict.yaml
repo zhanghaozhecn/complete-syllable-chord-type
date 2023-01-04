@@ -16,43 +16,60 @@
 
 ---
 name: sydbj194362
-version: 20221217
+version: 20230104
 use_preset_vocabulary: false
 sort: original
 import_tables:
+  # 避免编码长度为1无字词时出现的bug
   - sydbj194362.len1bugfix
+  # 一级字
   - sydbj194362.lv1_danzi
+  # 一级词
   - sydbj194362.lv1_cizu
+  # 符号
   - sydbj194362.lv1_fuhao
+  # 二级字
   - sydbj194362.lv2_danzi
+  # 二级词
   - sydbj194362.lv2_cizu
+  # 二级字选重
   - sydbj194362.lv2n_danzi
+  # 三级字
   - sydbj194362.lv3_danzi
+  # 四级字
   - sydbj194362.lv4_danzi
+  # 普通词
   - sydbj194362.lv4_cizu
+  # 自定义（无编码）普通词
   - sydbj194362.lv4_cizuex
+  # 反查
   - sydbj194362.fancha
 encoder:
   exclude_patterns:
     # 符号、反查不参与自动编码
     - '^o[tb][a-z][a-z][a-z]|ootoo|ooboo|oofoo|otoox[a-z]{5}$'
   rules:
+    # 二字词，字1音节+字2音节
     - length_equal: 2
       formula: "AaAbAcAdAeBaBbBcBdBe"
+    # 三字词，字1音节+[字2音节+空格]+字3音节
     - length_equal: 3
       formula: "AaAbAcAdAeBaBbBcBdBfCaCbCcCdCe"
-    - length_equal: 4
-      formula: "AaAbAcAdAeBaBbBcBdBfDaDbDcDdDe"
-    - length_equal: 5
-      formula: "AaAbAcAdAeBaBbBcBdBfEaEbEcEdEe"
-    - length_equal: 6
-      formula: "AaAbAcAdAeBaBbBcBdBfFaFbFcFdFe"
-    - length_equal: 7
-      formula: "AaAbAcAdAeBaBbBcBdBfGaGbGcGdGe"
-    - length_equal: 8
-      formula: "AaAbAcAdAeBaBbBcBdBfHaHbHcHdHe"
-    - length_equal: 9
-      formula: "AaAbAcAdAeBaBbBcBdBfIaIbIcIdIe"
-    - length_equal: 10
-      formula: "AaAbAcAdAeBaBbBcBdBfJaJbJcJdJe"
+    # 多字词，字1音节+[字2音节+空格]+[末字音节+空格]
+    - length_in_range: [4,20]
+      formula: "AaAbAcAdAeBaBbBcBdBfZaZbZcZdZf"
+    #- length_equal: 4
+    #- formula: "AaAbAcAdAeBaBbBcBdBfDaDbDcDdDf"
+    #- length_equal: 5
+    #- formula: "AaAbAcAdAeBaBbBcBdBfEaEbEcEdEf"
+    #- length_equal: 6
+    #- formula: "AaAbAcAdAeBaBbBcBdBfFaFbFcFdFf"
+    #- length_equal: 7
+    #- formula: "AaAbAcAdAeBaBbBcBdBfGaGbGcGdGf"
+    #- length_equal: 8
+    #- formula: "AaAbAcAdAeBaBbBcBdBfHaHbHcHdHf"
+    #- length_equal: 9
+    #- formula: "AaAbAcAdAeBaBbBcBdBfIaIbIcIdIf"
+    #- length_equal: 10
+    #- formula: "AaAbAcAdAeBaBbBcBdBfJaJbJcJdJf"
 ...
