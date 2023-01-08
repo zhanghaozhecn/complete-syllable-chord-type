@@ -1,7 +1,7 @@
 schema:
   schema_id: sydbj194362
   name: 声韵调并击(19-4-36-2)
-  version: 1.8(20221227)
+  version: 1.8(20230108)
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -22,10 +22,10 @@ switches:
     states: [ 中, 英 ]
   - name: hint_shape
     reset: 1
-    states: [ 提示关, 提示开 ]
+    states: [ 形码提示关, 形码提示开 ]
   - name: hint_syllable
     reset: 1
-    states: [ 提示关, 提示开 ]
+    states: [ 反查提示关, 反查提示开 ]
 
 engine:
   processors:
@@ -65,10 +65,8 @@ speller:
   # 只有选重上屏、最大码长顶上屏、自动上屏模式可以参与自动造词
   # 顶功方案无法自动造词
   auto_select: true
-  # 符合格式编码唯一自动上屏，需要较精确匹配，避免第一击恰好只有一个候选上屏
-  #auto_select_pattern: "^oo[a-z][a-z][ox]|[a-z][a-z]oo[ox]|[a-z]{4}x|[a-z]{10}$"
-  #auto_select_pattern: "^[a-z]{5}$"
-  auto_select_pattern: "^[a-z]{1,20}$"
+  # 一击编码唯一时自动上屏
+  auto_select_pattern: "^[a-z]{5}$"
   # 自动清屏空码，若设置为auto，清屏能力较强，但是需要依靠recognizer:patterns停留合法编码，很麻烦，且在字词库变动的条件下是不可行的
   #auto_clear: max_length
   # 最大码长
@@ -1522,9 +1520,9 @@ key_binder:
 # 进入翻译器前的模式判断，符合模式的会进入对应的翻译器
 recognizer:
   patterns:
-    # 用\引导其他符号
-    punct: '^\\([0-9]0?|[A-Za-z*\[\]\{\}\$%#~`\\|/=<>]+)?$'
-    # 反查提示拼音
+    # \引导特殊符号
+    punct: '^\\[a-z]*$'
+    # [t_]引导反查，提示拼音
     hint_syllable: '^otoox.....$'
-    # 主码表提示形码，仅在合法音节时有效
+    # 第一击音节，提示形码
     hint_shape: '^(dfogo|lrogo|zoovo|uofoo|hvogo|offoo|voogo|ogfho|tvroo|ogoho|ogrlo|boodo|gofho|dofoo|vrogo|vroko|uofdo|uroho|dfomo|rfolo|googo|dooto|vtoko|bbroo|oroto|ovoto|oroio|nbfoo|ovflo|lfovo|orfho|ogruo|cfoko|nfouo|dofgo|hvovo|doroo|dgozo|ltvko|koruo|ltfoo|dvogo|uffoo|dfoho|orvho|noroo|ogfoo|sgoho|hgolo|utfoo|doobo|hgoio|vrfoo|nfozo|hogoo|hooho|koobo|bovbo|sfobo|hooto|hgfgo|kbogo|hoomo|ggvbo|hovko|ovfho|rfodo|nvogo|ovruo|kffoo|gooho|bovoo|vtfoo|gfvko|hfrvo|hgvko|ggfoo|goozo|dffdo|kotoo|zooto|cfovo|ivodo|zvogo|mrolo|bvroo|orflo|cofoo|ortoo|boouo|zooho|ifozo|sofoo|zgomo|tfoko|tfoio|gffgo|mrroo|gvfoo|tvouo|gooio|ltfgo|bbfoo|kbfoo|novbo|dgouo|rofdo|rofoo|vrolo|iffdo|hovoo|vtogo|mfvbo|gfgoo|kfouo|utoto|ivfoo|hovgo|ogodo|gfolo|goouo|ofgoo|mtvbo|tvvoo|orfuo|orggo|voozo|dgroo|kfboo|ofvoo|tfomo|ovodo|bbolo|ufvbo|uoomo|doovo|ofroo|hfouo|tfodo|urozo|utomo|lfouo|lrroo|fgroo|lovoo|ffolo|gfouo|ofrvo|gfovo|hooio|hfvko|cfozo|lovbo|koggo|hgrlo|gofoo|ctfoo|orobo|vrfdo|zgoko|vtfgo|hvtoo|ggvko|kvovo|fofdo|sooto|toovo|utfgo|goruo|uoodo|utodo|lofho|vofoo|ovboo|ffvbo|mfvoo|kbvoo|goobo|voobo|ioodo|nfrvo|dffoo|nfroo|sgfoo|boobo|gfvoo|voodo|foodo|lovko|ibfdo|urodo|hfrlo|zofoo|gorvo|ogfvo|mfolo|nbroo|zgfgo|rfozo|kfvko|gffvo|kvfoo|oftoo|hfvgo|mtfoo|nfobo|mtomo|hvvoo|hvfdo|dgfgo|bfrlo|kbomo|dovto|orfvo|kofoo|mtovo|gffdo|ggfgo|orovo|sfoto|moouo|hvoto|vooko|kvruo|ifodo|kofgo|orvto|loodo|hvoko|pbfgo|poroo|roogo|bbovo|ogboo|tbfoo|orfoo|tfobo|ltouo|orodo|ffroo|bfovo|lofoo|ggvto|ovfvo|poovo|utozo|cffoo|govoo|bvouo|lofuo|horvo|ffozo|urfvo|dooko|fgobo|rooho|ggrvo|ivvto|mffdo|hoouo|nbruo|hvoho|mtroo|zgfoo|urolo|hfvbo|gooko|svoto|roodo|goodo|hofgo|dgfoo|sovto|dvroo|sooko|ggoio|ivozo|tffoo|ggfho|urobo|mrogo|lffoo|dgvto|ifvto|iffgo|vtvto|vovto|ogouo|kbruo|kfvdo|hofoo|gvoho|lffho|doodo|bboio|lrfoo|hgoho|ioroo|iofdo|tfvto|kffho|pvfoo|kvodo|poouo|hffoo|zgodo|moovo|ivogo|gfvdo|pvouo|kvouo|ovouo|uooto|vromo|tfovo|ufolo|gfrlo|hfogo|fffdo|hgobo|orrlo|gorlo|tbrlo|tooio|dfobo|hvfvo|dfoko|loruo|mtobo|nffho|mffgo|kvogo|bvobo|gfrvo|kbrlo|fvodo|nooko|looho|vrvgo|vffoo|zgoho|zgoto|vrfvo|hfruo|gvrlo|dovoo|ggodo|dgvoo|vofgo|bvfgo|crfuo|tofoo|bvfdo|dvodo|tfouo|vofvo|pvovo|bbvbo|ltozo|hvobo|kvvoo|bvvbo|gfoio|dooio|pfovo|foobo|lovto|tbodo|hoodo|gfoko|ggboo|goboo|kbodo|zvobo|hovto|tfvoo|mtodo|ovvdo|gogoo|fvobo|roolo|hotoo|vtodo|uoogo|govgo|ggomo|bofgo|ggobo|kfoio|hoggo|bvvoo|goovo|pooho|hgovo|dffuo|uromo|ctfgo|gfoto|uofgo|dgvbo|dgfdo|gfobo|vtfdo|lfvko|urroo|ogvko|koogo|goggo|foolo|tvoto|ofouo|urfgo|nofgo|ovvto|mtoio|lfrvo|urfoo|soogo|tboto|moobo|gffoo|dfoto|tbvoo|cooho|orvoo|dgoko|orruo|ggovo|pffdo|zvodo|kvvko|tofgo|vrodo|pffoo|ffobo|ovvko|tbfdo|ogvto|ifolo|roomo|doouo|gggoo|kvoko|kooko|noouo|kvboo|pfvoo|mroho|bofoo|ovfuo|ivoko|ivoto|hffho|ovoio|moroo|ifoko|gfvto|nfvko|ggruo|kvvto|tvoko|ltvoo|gfogo|ufroo|gvruo|goomo|ivfuo|soodo|dfozo|dfrlo|pfroo|coovo|gvtoo|cffdo|soobo|ggfvo|zofgo|bfoho|bffgo|dofuo|ibfoo|gvogo|movoo|ivomo|ggrlo|nboio|sffoo|hgfoo|ofoio|dvfoo|pvoho|mfrvo|hvozo|vtfuo|kfvoo|kbvko|ogoio|crodo|boroo|fovbo|dfvto|nbfgo|tooto|mfoio|bvoho|loogo|dffgo|kfvho|tvoho|hgboo|nbovo|kvrvo|ibobo|orvko|tvoio|uoolo|sfvto|fvfdo|hoovo|vrozo|vrvto|utobo|vtozo|rofgo|rfobo|uoobo|orgdo|ovgdo|ogrvo|tffdo|ivfgo|bbodo|ovvoo|hgtoo|lfomo|moozo|moodo|lfoko|ltvbo|kboko|ctovo|urfdo|koboo|hfozo|zfvto|ofodo|kvrlo|iffuo|dffho|mrfgo|ovfoo|bbobo|kofdo|rtvto|ggoto|tvrlo|pfobo|ggoho|lfvoo|hoobo|ifroo|ufodo|mfoho|mooho|ivroo|tooko|crroo|ofobo|sffuo|voolo|gfruo|poozo|bbfgo|hoolo|hvggo|ofvgo|kbouo|hvvgo|hfvoo|iffvo|kvtoo|nfoko|hvvto|ovgoo|lorlo|uoozo|zgovo|ogflo|toomo|ltvto|dfroo|mofgo|kvfho|nffoo|lfoho|iovto|doomo|ofoto|povbo|orogo|toobo|vroto|sfoko|ogoto|orboo|lotoo|hfoto|vfogo|fvvbo|fgolo|vfomo|orvdo|kvoio|hvrlo|pbrvo|dgoho|vroho|orrvo|iffoo|coogo|ofvto|ofovo|morlo|mtozo|pofgo|pvodo|poodo|mofoo|dfvoo|zfozo|hvruo|doozo|lffuo|dfovo|ovrvo|offuo|ovogo|ggfuo|zffgo|ggouo|tofdo|hgvoo|kbfgo|sfodo|hfvho|ltruo|lfobo|ofgho|loouo|ltgoo|pofdo|cffuo|hofuo|toodo|tvomo|ffodo|pbfoo|gfomo|mtoho|bvfoo|kfrvo|orolo|ovolo|hvomo|nbvto|pfolo|hgruo|gooto|hvouo|looio|toroo|tvfdo|ofgdo|hgodo|tffgo|ufogo|vrroo|mfovo|nofoo|ibogo|zvroo|ovovo|pfvbo|hvodo|sgfgo|tboko|gofgo|uoovo|toogo|oroho|hvvdo|kfogo|foozo|fvozo|bofdo|sfomo|hfodo|mfouo|ifoto|noovo|hgouo|vofdo|ggvoo|kbolo|gfoho|uofuo|cofuo|govko|ovrlo|vfodo|koomo|rrozo|govto|ogvoo|kbvto|zooko|sfoho|rtfdo|ibomo|zffuo|kofvo|sfovo|vrovo|pbozo|loobo|croto|mffoo|bvoio|pvolo|rfoko|ibvto|ogovo|tvfoo|hvvho|sgroo|fvoho|zfodo|ibfgo|tfozo|ioolo|ivfvo|urggo|zffdo|iofvo|kovgo|ogfuo|voomo|offgo|cfobo|bvolo|ofoho|gfvgo|kffdo|kboio|ioomo|ufozo|hfroo|hffuo|dvoho|mooio|lffdo|pbodo|rtodo|lrfho|fgomo|rtobo|vrfgo|vrobo|tbfgo|hfoio|pooio|kbobo|tvodo|fgodo|lofdo|ofomo|mfozo|mrozo|kvoto|tvobo|lfodo|vtobo|soovo|mfroo|boovo|ifomo|bffoo|bfroo|ivovo|dgodo|utroo|crfgo|mfomo|ltfho|cffgo|voroo|vfroo|svodo|ggfdo|nvrlo|hgvto|lfruo|horuo|nooio|gfozo|orouo|offvo|dvrlo|utggo|ltrlo|lrrlo|lfvbo|coomo|kbfuo|mtouo|zoomo|pvfgo|vtovo|hffvo|ibfvo|pvoio|bbouo|kbroo|nbfho|utolo|hofvo|kvozo|ifovo|hvboo|zfovo|rtogo|koouo|ofggo|coodo|pvvbo|crobo|ogvgo|tbroo|bbvoo|zgroo|utvgo|utogo|hovdo|urvgo|lrfgo|lffgo|iofoo|zvvbo|hfgoo|horlo|ifobo|moolo|foroo|noobo|zofdo|dofdo|dfodo|sgobo|ovroo|orroo|hoogo|gvgoo|ltoio|kvobo|ibodo|sfroo|tboio|zfroo|hoozo|iooko|uoggo|ufomo|zovto|crovo|tvovo|kooho|ofvko|fgfdo|koodo|hgoto|poobo|loozo|ogvho|zffoo|ioogo|loomo|tvfgo|mfobo|hvfoo|ovfgo|kofuo|noodo|voovo|zfoko|hfovo|hvfuo|noolo|pvobo|rfomo|zgolo|offho|hoboo|nffdo|hgoko|hofho|covto|lfozo|rtolo|nfvoo|kffvo|dgomo|movbo|fvroo|nbvoo|orgoo|boozo|pfrvo|zoobo|utfdo|ofvho|loovo|crfdo|hvgoo|gffho|hfoko|dfoio|pfozo|gvoio|ggggo|boolo|kvfvo|vtroo|gofvo|loroo|fgvbo|cooto|bvrlo|ltomo|dgobo|hvvko|ggoko|urvto|pfoho|ctobo|hftoo|kvvgo|tvfuo|kfruo|gfboo|novoo|ogomo|ltodo|sfozo|ltoko|zvfgo|bbfdo|lromo|pvrvo|pofoo|vtvgo|hvfgo|lfoio|pffgo|lrrvo|bfozo|ofolo|bvrvo|kogoo|sgoto|ioozo|hfvto|mtrvo|gfodo|ltobo|ofvdo|sgfuo|hvolo|vooto|oggoo|tffuo|ivoho|pvroo|hfboo|kvfdo|sffdo|rffgo|vtolo|nfoho|ogobo|gofuo|vfoho|pbrlo|pvrlo|tfoho|ofboo|mrfoo|voggo|croho|pboio|sofdo|dfouo|kooio|fvolo|sgoko|nfodo|ioobo|hgomo|kovoo|lroho|norlo|zoozo|tbouo|nooho|orfgo|ovvgo|nbouo|rofuo|ofoko|ggozo|pfoio|lfroo|dooho|porvo|bvozo|bbozo|ggvho|rtfgo|vfovo|ltoho|kovko|sffgo|urovo|lroio|lrfuo|pfodo|nbodo|sfolo|tbobo|lrvbo|zvoho|ltfdo|ivfdo|soroo|kvfuo|rooto|ogvdo|croko|ovfdo|tboho|kbovo|ofrlo|sgfdo|pvomo|tooho|ggogo|ggvgo|utfvo|korlo|govdo|kooto|gofdo|hgfho|uoroo|kfoto|dgovo|ltroo|coobo|fgozo|gfroo|gvroo|ggroo|mofho|nvfoo|lrgdo|novko|uooho|pvvoo|soomo|gfggo|hfvdo|hgfvo|kbboo|kvroo|rtoto|hfoho|kfrlo|pvfdo|ogfgo|orvgo|hfobo|lrodo|nffgo|ibfuo|kbvgo|hvroo|iboko|tfoto|korvo|ivggo|ibggo|torlo|ofruo|mtfdo|iooho|ivobo|uffgo|tvvto|urogo|notoo|lofgo|zfomo|hvoio|vtomo|gotoo|bboho|ltrvo|kbrvo|lfvto|goroo|ibozo|pvozo|bbrlo|borvo|tofuo|kbgoo|looko|vffgo|ogroo|ogolo|ofogo|lroko|ufoto|booho|mfodo|nofho|orfdo|cfolo|oroko|coozo|offdo|kvgoo|lorvo|zgobo|cfvto|ctfuo|bvovo|utfuo|zgvto|sgomo|rtoko|dgfuo|uovto|ivolo|goolo|kboto|crvto|gftoo|nvouo|hffgo|kvomo|nvfdo|nvfho|lrfdo|kftoo|sofgo|nbvbo|mtfgo|noogo|vrfuo|zoogo|zfobo|pfouo|ogggo|ioggo|crfoo|ctoto|nvobo|vtfvo|nvfgo|tvvbo|mrrlo|crozo|rffdo|ovvho|pboho|booio|oromo|ibroo|koovo|nbobo|mromo|crolo|zfoho|ogogo|hofdo|borlo|hgroo|horoo|hooko|ggtoo|nvroo|nfogo|poolo|rrfdo|uovgo|utovo|pbovo|vrggo|vovbo|hffdo|ggolo|ogoko|dgoio|kvvdo|ibolo|hfomo|bvodo|dggoo|mtvoo|ioovo|noruo|cfoho|cfodo|mrobo|dvfgo|kvvbo|pbfdo|kbfvo|mrfdo|kfgoo|pbouo|zoolo|nbfdo|kbggo|tbomo|ofvbo|ovvbo|ogvbo|orvbo|rfoto|bfodo|tbvto|koolo|noomo|pfomo|tovto|gfvho|mroio|pbomo|kbfho|tovoo|zgfuo|kvfgo|hvrvo|hovho|gvolo|ogtoo|ctoho|zgfdo|iofgo|ibovo|cofgo|toouo|doogo|dfvbo|tbovo|lrozo|doolo|ofozo|oggdo|hgrvo|hfolo|rfvto|rfoho|rfvgo|ivvgo|tvozo|nofdo|ltfuo)$'
