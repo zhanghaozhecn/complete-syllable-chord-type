@@ -12,11 +12,11 @@
 ## exclude_patterns 禁用encoder的模式，用正则表达式表示。针对code而不是stem。
 ## rules  自动造词规则，有length_equal和length_in_range两种项
 ### length_equal  词组长度等于
-### length_in_range 词组长度在范围内
+### length_in_range 词组长度在范围内，如果格式中有倒序的字母，则只能单独列出每一条规则
 
 ---
 name: sydbj194362
-version: 20230104
+version: 20230117
 use_preset_vocabulary: false
 sort: original
 import_tables:
@@ -49,27 +49,31 @@ encoder:
     # 符号、反查不参与自动编码
     - '^o[tb][a-z][a-z][a-z]|ootoo|ooboo|oofoo|otoox[a-z]{5}$'
   rules:
-    # 二字词，字1音节+字2音节
+    # 二字词，声韵声韵
     - length_equal: 2
       formula: "AaAbAcAdAeBaBbBcBdBe"
-    # 三字词，字1音节+[字2音节+空格]+字3音节
+    # 三字词，声声声韵
     - length_equal: 3
-      formula: "AaAbAcAdAeBaBbBcBdBfCaCbCcCdCe"
+      formula: "AaAbBbBaBeCaCbCcCdCf"
+    # 多字词，声声声声
+    - length_equal: 4
+      formula: "AaAbBbBaBeCaCbDbDaDe"
+    - length_equal: 5
+      formula: "AaAbBbBaBeCaCbEbEaEe"
+    - length_equal: 6
+      formula: "AaAbBbBaBeCaCbFbFaFe"
+    - length_equal: 7
+      formula: "AaAbBbBaBeCaCbGbGaGe"
+    - length_equal: 8
+      formula: "AaAbBbBaBeCaCbHbHaHe"
+    - length_equal: 9
+      formula: "AaAbBbBaBeCaCbIbIaIe"
+    - length_equal: 10
+      formula: "AaAbBbBaBeCaCbJbJaJe"
+    # 三字词，字1音节+[字2音节+空格]+字3音节
+    #- length_equal: 3
+    #  formula: "AaAbAcAdAeBaBbBcBdBfCaCbCcCdCe"
     # 多字词，字1音节+[字2音节+空格]+[末字音节+空格]
-    - length_in_range: [4,20]
-      formula: "AaAbAcAdAeBaBbBcBdBfZaZbZcZdZf"
-    #- length_equal: 4
-    #- formula: "AaAbAcAdAeBaBbBcBdBfDaDbDcDdDf"
-    #- length_equal: 5
-    #- formula: "AaAbAcAdAeBaBbBcBdBfEaEbEcEdEf"
-    #- length_equal: 6
-    #- formula: "AaAbAcAdAeBaBbBcBdBfFaFbFcFdFf"
-    #- length_equal: 7
-    #- formula: "AaAbAcAdAeBaBbBcBdBfGaGbGcGdGf"
-    #- length_equal: 8
-    #- formula: "AaAbAcAdAeBaBbBcBdBfHaHbHcHdHf"
-    #- length_equal: 9
-    #- formula: "AaAbAcAdAeBaBbBcBdBfIaIbIcIdIf"
-    #- length_equal: 10
-    #- formula: "AaAbAcAdAeBaBbBcBdBfJaJbJcJdJf"
+    #- length_in_range: [4,20]
+    #  formula: "AaAbAcAdAeBaBbBcBdBfZaZbZcZdZf"
 ...

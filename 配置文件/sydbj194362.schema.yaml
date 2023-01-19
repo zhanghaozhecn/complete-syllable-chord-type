@@ -1,7 +1,7 @@
 schema:
   schema_id: sydbj194362
   name: 声韵调并击(19-4-36-2)
-  version: 1.8(20230108)
+  version: 1.9(20230119)
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -65,10 +65,10 @@ speller:
   # 只有选重上屏、最大码长顶上屏、自动上屏模式可以参与自动造词
   # 顶功方案无法自动造词
   auto_select: true
-  # 一击编码唯一时自动上屏
-  auto_select_pattern: "^[a-z]{5}$"
+  # 自动上屏一击字词格式
+  auto_select_pattern: "^[a-z]{4}x|[a-z]{2}ooo|o[otb][a-z]{2}o$"
   # 自动清屏空码，若设置为auto，清屏能力较强，但是需要依靠recognizer:patterns停留合法编码，很麻烦，且在字词库变动的条件下是不可行的
-  #auto_clear: max_length
+  auto_clear: max_length
   # 最大码长
   max_code_length: 10
   # 进入输入区的字符
@@ -156,10 +156,10 @@ chord_composer:
     - xform/^(....)O=$/$1x/
     - xform/^(....)$/$1o/
     - xform/^oooox$/ /
-    # 禁止输出非法组合
+    # 非法组合输出为ooooo，占位，增加盲打时的可预测性
     # 考虑到字词库变动会影响合法组合种类，不能进行精确禁止，仅限制19*7*7*19种
     - xform/^(oo|go|do|ho|uo|vo|lo|ko|bo|to|zo|mo|io|fo|ro|no|so|co|po|or|gr|dr|hr|ur|vr|lr|kr|br|tr|zr|mr|ir|fr|rr|nr|sr|cr|pr|of|gf|df|hf|uf|vf|lf|kf|bf|tf|zf|mf|if|ff|rf|nf|sf|cf|pf|ov|gv|dv|hv|uv|vv|lv|kv|bv|tv|zv|mv|iv|fv|rv|nv|sv|cv|pv|ot|gt|dt|ht|ut|vt|lt|kt|bt|tt|zt|mt|it|ft|rt|nt|st|ct|pt|og|gg|dg|hg|ug|vg|lg|kg|bg|tg|zg|mg|ig|fg|rg|ng|sg|cg|pg|ob|gb|db|hb|ub|vb|lb|kb|bb|tb|zb|mb|ib|fb|rb|nb|sb|cb|pb)(oo|og|od|oh|ou|ov|ol|ok|ob|ot|oz|om|oi|of|or|on|os|oc|op|ro|rg|rd|rh|ru|rv|rl|rk|rb|rt|rz|rm|ri|rf|rr|rn|rs|rc|rp|fo|fg|fd|fh|fu|fv|fl|fk|fb|ft|fz|fm|fi|ff|fr|fn|fs|fc|fp|vo|vg|vd|vh|vu|vv|vl|vk|vb|vt|vz|vm|vi|vf|vr|vn|vs|vc|vp|to|tg|td|th|tu|tv|tl|tk|tb|tt|tz|tm|ti|tf|tr|tn|ts|tc|tp|go|gg|gd|gh|gu|gv|gl|gk|gb|gt|gz|gm|gi|gf|gr|gn|gs|gc|gp|bo|bg|bd|bh|bu|bv|bl|bk|bb|bt|bz|bm|bi|bf|br|bn|bs|bc|bp)([ox])$/#$1$2$3/
-    - erase/^[^#\d ].*//
+    - xform/^[^# ].*/ooooo/
     - xform/#//
     - xform/pf/pV/
     - xform/pv/pF/
@@ -188,11 +188,12 @@ translator:
     - '^[a-z]{5}[a-z][a-z]oo[ox]$'
   # 编码区格式
   preedit_format:
-    # 反查提示
-    - xform/^otoox.*/反查中/
     # 带不带空格信息相同
     - xform/(....)([ox])/$1_/
-    # 编码显示为声韵调
+    # 反查提示
+    - xform/^otoo_...../反查——/
+    - xform/^otoo_/反查/
+    # 合法音节显示为声韵调
     - xform/dfog_/de1/
     - xform/lrog_/le1/
     - xform/zoov_/zai4/
@@ -1472,8 +1473,8 @@ translator:
     - xform/tvoz_/teng1/
     - xform/nofd_/nang4/
     - xform/ltfu_/lun3/
-    # 不是音节的键位显示为X
-    - xform/...._/X/
+    # 不是音节的一击显示为——
+    - xform/...._/——/
   # 提示区格式
   comment_format:
     # 不显示词语的编码提示，但是显示待确认自造词的地球符号
