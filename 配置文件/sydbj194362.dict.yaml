@@ -16,7 +16,7 @@
 
 ---
 name: sydbj194362
-version: 20230117
+version: 20230207
 use_preset_vocabulary: false
 sort: original
 import_tables:
@@ -54,7 +54,7 @@ encoder:
       formula: "AaAbAcAdAeBaBbBcBdBe"
     # 三字词，声声声韵
     - length_equal: 3
-      formula: "AaAbBbBaBeCaCbCcCdCf"
+      formula: "AaAbBbBaBeCaCbCcCdCe"
     # 多字词，声声声声
     - length_equal: 4
       formula: "AaAbBbBaBeCaCbDbDaDe"
