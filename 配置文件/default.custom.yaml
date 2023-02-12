@@ -2,12 +2,11 @@ customization:
   distribution_code_name: Weasel
   distribution_version: 0.14.3
   generator: "Rime::SwitcherSettings"
-  modified_time: "Tue Oct  4 22:27:38 2022"
+  modified_time: "Sun Feb 12 10:05:52 2023"
   rime_version: 1.5.3
 patch:
   ascii_composer:
     good_old_caps_lock: true
-    # noop/clear/commit_text
     switch_key: {Caps_Lock: noop, Control_L: noop, Control_R: noop, Eisu_toggle: noop, Shift_L: commit_text, Shift_R: commit_text}
   menu:
     page_size: 10
