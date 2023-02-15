@@ -1,7 +1,7 @@
 schema:
   schema_id: sydbj194362
   name: 声韵调并击(19-4-36-2)
-  version: 2.0(20230214)
+  version: 2.0(20230215)
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -66,7 +66,7 @@ speller:
   # 顶功方案无法自动造词
   auto_select: true
   # 自动上屏一击字词格式
-  auto_select_pattern: "^[a-z]{4}x|[a-z]{2}ooo|o[odf][a-z]{2}o$"
+  auto_select_pattern: "^[a-z]{4}x|[a-z]{2}ooo|o[odf][a-z]{2}o|[a-z]{4}o(oo[a-z]{2}o|[a-z]{2}ooo|[a-z]{4}o)$"
   # 自动清屏空码，若设置为auto，清屏能力较强，但是需要依靠recognizer:patterns停留合法编码，很麻烦，且在字词库变动的条件下是不可行的
   auto_clear: max_length
   # 最大码长
