@@ -1,7 +1,7 @@
 schema:
   schema_id: sydbj194362
   name: 声韵调并击(19-4-36-2)
-  version: 2.0(20230215)
+  version: 2.0(20230219)
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -225,8 +225,8 @@ key_binder:
     - { accept: BackSpace, send: Escape, when: composing }
     - { accept: bracketleft, send: Page_Up, when: paging }
     - { accept: bracketright, send: Page_Down, when: has_menu }
-    - { accept: "Shift+Shift_L", send: 2, when: always }
-    - { accept: "Shift+Shift_R", send: 3, when: always }
+    #- { accept: "Shift+Shift_L", send: 2, when: always }
+    #- { accept: "Shift+Shift_R", send: 3, when: always }
     #- { accept: Tab, send: "Shift+Right", when: composing }
     #- { accept: "Shift+Tab", send: "Shift+Left", when: composing }
     #- { accept: "Shift+Shift_R", select: .next, when: always }
