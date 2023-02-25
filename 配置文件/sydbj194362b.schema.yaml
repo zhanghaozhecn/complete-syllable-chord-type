@@ -1,7 +1,7 @@
 schema:
   schema_id: sydbj194362b
-  name: 声韵调并击(19-4-36-2)不定长型
-  version: 20230224
+  name: 不定长型
+  version: 20230225
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -66,7 +66,7 @@ speller:
   # 顶功方案无法自动造词
   auto_select: true
   # 自动上屏一击字词格式
-  auto_select_pattern: "^.*$"
+  auto_select_pattern: "^[a-z]{4}[ox]|[a-z]{4}o(oo[a-z]{2}o|[a-z]{2}ooo)$"
   # 自动清屏空码，若设置为auto，清屏能力较强，但是需要依靠recognizer:patterns停留合法编码，很麻烦，且在字词库变动的条件下是不可行的
   #auto_clear: max_length
   # 最大码长
@@ -1467,6 +1467,8 @@ translator:
     - xform/tczo_/teng1/
     - xform/nodb_/nang4/
     - xform/ldub_/lun3/
+    # 其他一击显示为X
+    - xform/...._/X/
   # 提示区格式
   comment_format:
     # 不显示词语的编码提示，但是显示待确认自造词的地球符号
