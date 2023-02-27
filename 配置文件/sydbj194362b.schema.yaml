@@ -1,7 +1,7 @@
 schema:
   schema_id: sydbj194362b
   name: 不定长型
-  version: 20230225
+  version: 20230227
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -182,6 +182,8 @@ translator:
   preedit_format:
     # 带不带空格信息相同，以_区分一击
     - xform/(....)([ox])/$1_/
+    # 三击时中间显示省略号
+    - xform/^(...._...._)(...._)$/$1...$2/
     # 反查提示
     - xform/^odoo_.*/反查/
     # 显示音节
@@ -1469,6 +1471,33 @@ translator:
     - xform/ldub_/lun3/
     # 其他一击显示为X
     - xform/...._/X/
+    # 声调自然显示
+    - xform ([aeiou])(ng?|r)([1234]) $1$3$2
+    - xform ([aeo])([iuo])([1234]) $1$3$2
+    - xform a1 ā
+    - xform a2 á
+    - xform a3 ǎ
+    - xform a4 à
+    - xform e1 ē
+    - xform e2 é
+    - xform e3 ě
+    - xform e4 è
+    - xform o1 ō
+    - xform o2 ó
+    - xform o3 ǒ
+    - xform o4 ò
+    - xform i1 ī
+    - xform i2 í
+    - xform i3 ǐ
+    - xform i4 ì
+    - xform u1 ū
+    - xform u2 ú
+    - xform u3 ǔ
+    - xform u4 ù
+    - xform v1 ǖ
+    - xform v2 ǘ
+    - xform v3 ǚ
+    - xform v4 ǜ
   # 提示区格式
   comment_format:
     # 不显示词语的编码提示，但是显示待确认自造词的地球符号
