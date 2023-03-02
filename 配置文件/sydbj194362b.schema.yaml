@@ -1,7 +1,7 @@
 schema:
   schema_id: sydbj194362b
-  name: 不定长型
-  version: 20230227
+  name: B型
+  version: 20230302
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -181,9 +181,7 @@ translator:
   # 编码区格式
   preedit_format:
     # 带不带空格信息相同，以_区分一击
-    - xform/(....)([ox])/$1_/
-    # 三击时中间显示省略号
-    - xform/^(...._...._)(...._)$/$1...$2/
+    - xform/(....)([ox])/$1_ /
     # 反查提示
     - xform/^odoo_.*/反查/
     # 显示音节
