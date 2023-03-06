@@ -61,7 +61,7 @@ simplifier:
 speller:
   # 当前编码唯一自动上屏
   # 若enable_completion=true，则当前及后续编码唯一上屏（顶功）
-  # 启用最大码长或自动上屏模式，则顶功失效
+  # 启用max_code_length或auto_select_pattern，则顶功失效
   # 只有选重上屏、最大码长顶上屏、自动上屏模式可以参与自动造词
   # 顶功方案无法自动造词
   auto_select: true
@@ -493,7 +493,7 @@ translator:
     - xform/zedo_/zu3/
     - xform/movo_/mai4/
     - xform/icgo_/che1/
-    - xform/gbdc_/1-Jun/
+    - xform/gbdc_/jun1/
     - xform/pbuo_/pian1/
     - xform/kcuo_/qian1/
     - xform/ocuo_/yan2/
@@ -1243,7 +1243,7 @@ translator:
     - xform/gegc_/gua3/
     - xform/udvb_/shuang3/
     - xform/kola_/qie4/
-    - xform/godc_/4-Jun/
+    - xform/godc_/jun4/
     - xform/koto_/kui4/
     - xform/godb_/gang4/
     - xform/hehb_/xiu3/
