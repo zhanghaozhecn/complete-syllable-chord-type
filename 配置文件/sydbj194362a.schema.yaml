@@ -1496,6 +1496,7 @@ translator:
     - xform v2 ǘ
     - xform v3 ǚ
     - xform v4 ǜ
+    - xform v ü
   # 提示区格式
   comment_format:
     # 不显示词语的编码提示，但是显示待确认自造词的地球符号

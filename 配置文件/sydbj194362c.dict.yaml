@@ -36,12 +36,14 @@ import_tables:
   - sydbj194362.lv2n_danzi
   # 三级字
   - sydbj194362.lv3_danzi
-  # 四级字
+  # 前置四级字
   - sydbj194362.lv4_danzi
+  # 用户词
+  - sydbj194362.lv4_cizuex
   # 普通词
   - sydbj194362c.lv4_cizu
-  # 自定义（无编码）普通词
-  - sydbj194362.lv4_cizuex
+  # 后置四级字
+  - sydbj194362.lv4_danzi2
   # 反查
   - sydbj194362.fancha
 encoder:
