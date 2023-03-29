@@ -12,8 +12,8 @@ patch:
     page_size: 5
   schema_list:
     - {schema: sydbj194362a}
-    - {schema: sydbj194362b}
-    - {schema: sydbj194362c}
+    - {schema: sydbj194362d}
+    - {schema: sydbj194362e}
     - {schema: sydbj194362yj}
   switcher:
     abbreviate_options: true
