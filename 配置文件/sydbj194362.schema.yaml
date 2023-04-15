@@ -1,7 +1,7 @@
 schema:
-  schema_id: sydbj194362a
-  name: A型
-  version: 20230302
+  schema_id: sydbj194362
+  name: 声韵调并击
+  version: 20230415
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -59,15 +59,14 @@ simplifier:
   opencc_config: s2t.json
 
 speller:
-  # 当前编码唯一自动上屏
-  # 若enable_completion=true，则当前及后续编码唯一上屏（顶功）
-  # 启用最大码长或自动上屏模式，则顶功失效
-  # 只有选重上屏、最大码长顶上屏、自动上屏模式可以参与自动造词
-  # 顶功方案无法自动造词
+  # 自动上屏，包含唯一上屏和空码顶两个功能
+  # 若enable_completion=true，则实现空码顶
+  # 若启用auto_select_pattern或max_code_length，则空码顶失效
+  # 只有选重、最大码长、唯一上屏的字词可以参与自动造词，空码顶无法自动造词
   auto_select: true
-  # 自动上屏一击字词格式
+  # 唯一上屏模式
   auto_select_pattern: "^[a-z]{4}x|[a-z]{2}ooo|o[odf][a-z]{2}o|[a-z]{4}o(oo[a-z]{2}o|[a-z]{2}ooo)$"
-  # 自动清屏空码，若设置为auto，清屏能力较强，但是需要依靠recognizer:patterns停留合法编码，很麻烦，且在字词库变动的条件下是不可行的
+  # 空码自动清屏，auto/max_length/manual，由于缺少自动清屏模式，auto_clear和空码顶在rime中存在冲突，无法完美地使用
   #auto_clear: max_length
   # 最大码长
   max_code_length: 10
@@ -155,6 +154,19 @@ chord_composer:
     # 空格
     - xform/^(....)O=$/$1x/
     - xform/^(....)$/$1o/
+    # 声调兼容指法
+    - xform/^([uvlmrc])[ef]/$1d/
+    - xform/^(..[uvlmrc])[ef]/$1d/
+    - xform/^([uvlmrc])c/$1b/
+    - xform/^(..[uvlmrc])c/$1b/
+    - xform/^([gdhzfsp])a/$1c/
+    - xform/^(..[gdhzfsp])a/$1c/
+    - xform/^([gdhzfsp])[(df)]/$1e/
+    - xform/^(..[gdhzfsp])[(df)]/$1e/
+    - xform/^([kbtin])[de]/$1f/
+    - xform/^(..[kbtin])[de]/$1f/
+    - xform/^([kbtin])a/$1b/
+    - xform/^(..[kbtin])a/$1b/
     # 禁止非法击键组合输出
     - xform/^(oo|bb|bc|bf|bo|ca|cb|cd|co|db|dc|de|do|fb|fc|fe|fo|gb|gc|ge|go|hb|hc|he|ho|ib|ic|if|io|kb|kc|kf|ko|la|lb|ld|lo|ma|mb|md|mo|nb|nc|nf|no|oa|ob|oc|od|oe|of|pb|pc|pe|po|ra|rb|rd|ro|sb|sc|se|so|tb|tc|tf|to|ua|ub|ud|uo|va|vb|vd|vo|zb|zc|ze|zo)(oo|bb|bc|bf|bo|ca|cb|cd|co|db|dc|de|do|fb|fc|fe|fo|gb|gc|ge|go|hb|hc|he|ho|ib|ic|if|io|kb|kc|kf|ko|la|lb|ld|lo|ma|mb|md|mo|nb|nc|nf|no|oa|ob|oc|od|oe|of|pb|pc|pe|po|ra|rb|rd|ro|sb|sc|se|so|tb|tc|tf|to|ua|ub|ud|uo|va|vb|vd|vo|zb|zc|ze|zo)([ox])$/#$1$2$3/
     - xform/^[^#].*//
@@ -167,14 +179,22 @@ chord_composer:
 
 translator:
   dictionary: sydbj194362a
-  enable_charset_filter: false  # 字符集过滤
-  enable_completion: true  # 显示编码未输入完整的词条，如果打开并且是自由顶，部分空码就不能清码，会变成错码顶功
-  enable_sentence: false  # 整句模式
-  enable_user_dict: true  # 用户词典（用户词典记录动态字词频，用户词）
-  enable_encoder: true  # 自动编码
-  encode_commit_history: true  # 上屏组词
-  max_phrase_length: 5  # 造词长度
-  disable_user_dict_for_patterns: # 用户词典无效格式
+  # 字符集过滤
+  enable_charset_filter: false
+  # 显示编码未输入完整的词条
+  enable_completion: false
+  # 整句模式
+  enable_sentence: false
+  # 用户词典（自动造词+词频）
+  enable_user_dict: true
+  # 自动编码
+  enable_encoder: true
+  # 上屏组词
+  encode_commit_history: true
+  # 最大造词长度
+  max_phrase_length: 5
+  # 用户词典无效模式
+  disable_user_dict_for_patterns:
     - '^[a-z]{5}$'
     - '^[a-z]{5}oo[a-z][a-z][ox]$'
     - '^[a-z]{5}[a-z][a-z]oo[ox]$'
@@ -1499,9 +1519,10 @@ translator:
     - xform v ü
   # 提示区格式
   comment_format:
-    # 不显示词语的编码提示，但是显示待确认自造词的地球符号
+    # 不显示词语的编码提示，但是显示待确认自造词的太极符号
     - xform/~.*//
 
+# 形码提示
 hint_shape:
   opencc_config: hint_shape.json
   option_name: hint_shape
@@ -1509,11 +1530,11 @@ hint_shape:
   comment_format:  #编码滤镜正则处理
     - "xform/<br>/\n/" #编码滤镜内容换行
     - "xform/&nbsp/ /" #编码滤镜内容显示空格
-#上述带#号为编码滤镜模式, 普通滤镜直接在行首用#号屏蔽,编码滤镜
   tags:
     - hint_shape
   tips: char #none无注释,char单字注释,all全部注释
 
+# 反查滤镜
 hint_syllable:
   opencc_config: hint_syllable.json
   option_name: hint_syllable
@@ -1521,7 +1542,6 @@ hint_syllable:
   comment_format:  #编码滤镜正则处理
     - "xform/<br>/\n/" #编码滤镜内容换行
     - "xform/&nbsp/ /" #编码滤镜内容显示空格
-#上述带#号为编码滤镜模式, 普通滤镜直接在行首用#号屏蔽,编码滤镜
   tags:
     - hint_syllable
   tips: char #none无注释,char单字注释,all全部注释
@@ -1530,19 +1550,14 @@ hint_syllable:
 punctuator:
   import_preset: symbols_sydbj
 
-# 功能键、组合键功能
+# 功能键
 key_binder:
   bindings:
     - { accept: BackSpace, send: Escape, when: composing }
     - { accept: bracketleft, send: Page_Up, when: paging }
     - { accept: bracketright, send: Page_Down, when: has_menu }
-    #- { accept: "Shift+Shift_L", send: 2, when: always }
-    #- { accept: "Shift+Shift_R", send: 3, when: always }
-    #- { accept: Tab, send: "Shift+Right", when: composing }
-    #- { accept: "Shift+Tab", send: "Shift+Left", when: composing }
-    #- { accept: "Shift+Shift_R", select: .next, when: always }
-
-# 进入翻译器前的模式判断，符合模式的会进入对应的翻译器
+    
+# 符合模式的会进入对应的translator/filter
 recognizer:
   patterns:
     # `引导特殊符号
@@ -1551,3 +1566,8 @@ recognizer:
     hint_syllable: '^odoox.{5}$'
     # 第一击音节，提示形码
     hint_shape: '^(dbgo|lago|zovo|uoob|hcgo|obob|vogo|oehb|tcoa|oeho|oela|bodo|gohb|doob|vago|vako|uodb|uaho|dbmo|rblo|gogo|doto|vdko|bfoa|oato|octo|oaio|nfob|oclb|lbvo|oahb|oeua|cbko|nbuo|dogb|hcvo|dooa|dezo|ldkc|koua|ldob|dcgo|ubob|dbho|oahc|nooa|oeob|seho|helo|udob|dobo|heio|vaob|nbzo|hooe|hoho|kobo|bobc|sbbo|hoto|hegb|kfgo|homo|gebc|hokc|ochb|rbdo|ncgo|ocua|kbob|goho|booc|vdob|gbkc|hbva|hekc|geob|gozo|dbdb|kood|zoto|cbvo|icdo|zcgo|malo|bcoa|oalb|coob|oaod|bouo|zoho|ibzo|soob|zemo|tbko|tbio|gbgb|maoa|gcob|tcuo|goio|ldgb|bfob|kfob|nobc|deuo|rodb|roob|valo|ibdb|hooc|vdgo|mbbc|gboe|kbuo|udto|icob|hogc|oedo|gblo|gouo|oboe|mdbc|tcoc|oaub|oage|vozo|deoa|kbof|oboc|tbmo|ocdo|bflo|ubbc|uomo|dovo|oboa|hbuo|tbdo|uazo|udmo|lbuo|laoa|feoa|looc|fblo|gbuo|obva|gbvo|hoio|hbkc|cbzo|lobc|koge|hela|goob|cdob|oabo|vadb|zeko|vdgb|hcod|gekc|kcvo|fodb|soto|tovo|udgb|goua|uodo|uddo|lohb|voob|ocof|fbbc|mboc|kfoc|gobo|vobo|iodo|nbva|dbob|nboa|seob|bobo|gboc|vodo|fodo|lokc|ifdb|uado|hbla|zoob|gova|oevb|mblo|nfoa|zegb|rbzo|kbkc|gbvb|kcob|obod|hbgc|mdob|nbbo|mdmo|hcoc|hcdb|degb|bbla|kfmo|dotc|oavb|koob|mdvo|gbdb|gegb|oavo|sbto|mouo|hcto|voko|kcua|ibdo|kogb|oatc|lodo|hcko|pegb|pooa|rogo|bfvo|oeof|tfob|oaob|tbbo|lduo|oado|fboa|bbvo|loob|getc|ocvb|povo|udzo|cbob|gooc|bcuo|loub|hova|fbzo|uavb|doko|febo|roho|geva|ictc|mbdb|houo|nfua|hcho|mdoa|zeob|ualo|hbbc|goko|scto|rodo|godo|hogb|deob|sotc|dcoa|soko|geio|iczo|tbob|gehb|uabo|mago|lbob|detc|ibtc|ibgb|vdtc|votc|oeuo|kfua|kbdc|hoob|gcho|lbhb|dodo|bfio|laob|heho|iooa|iodb|tbtc|kbhb|pbob|kcdo|pouo|hbob|zedo|movo|icgo|gbdc|pbuo|kcuo|ocuo|uoto|vamo|tbvo|ublo|gbla|hbgo|fbdb|hebo|oala|gola|tfla|toio|dbbo|hcvb|dbko|loua|mdbo|nbhb|mbgb|kcgo|bcbo|gbva|kfla|fcdo|noko|loho|vagc|vbob|zeho|zeto|vavb|hbua|gcla|dooc|gedo|deoc|vogb|bcgb|caub|toob|bcdb|dcdo|tbuo|vovb|pbvo|bfbc|ldzo|hcbo|kcoc|bcbc|gbio|doio|pcvo|fobo|lotc|tfdo|hodo|gbko|geof|goof|kfdo|zcbo|hotc|tboc|mddo|ocdc|gooe|fcbo|rolo|hood|vddo|uogo|gogc|gemo|bogb|gebo|kbio|hoge|bcoc|govo|poho|hevo|dbub|uamo|cdgb|gbto|uogb|debc|dedb|gbbo|vddb|lbkc|uaoa|oekc|kogo|goge|folo|tcto|obuo|uagb|nogb|octc|mdio|lbva|uaob|sogo|tfto|mobo|gbob|dbto|tfoc|coho|oaoc|deko|oaua|gevo|pcdb|zcdo|kckc|togb|vado|pcob|fbbo|ockc|tfdb|oetc|iblo|romo|douo|geoe|kcko|koko|nouo|kcof|pcoc|maho|boob|ocub|icko|icto|hbhb|ocio|mooa|ibko|gbtc|nbkc|geua|kctc|tcko|ldoc|gbgo|uboa|gcua|gomo|icub|sodo|dbzo|dbla|pcoa|covo|gcod|cbdb|sobo|gevb|zogb|bbho|bbgb|doub|ifob|gcgo|mooc|icmo|gela|nfio|sbob|heob|obio|dcob|pbho|mbva|hczo|vdub|kboc|kfkc|oeio|cado|booa|fobc|dbtc|nfgb|toto|mbio|bcho|logo|dbgb|kbhc|tcho|heof|nfvo|kcva|ifbo|oakc|tcio|uolo|sbtc|fcdb|hovo|vazo|vatc|udbo|vdzo|rogb|rbbo|uobo|oade|ocde|oeva|tbdb|icgb|bfdo|ococ|heod|lbmo|mozo|modo|lbko|ldbc|kfko|cdvo|uadb|koof|hbzo|zbtc|obdo|kcla|ibub|dbhb|magb|ocob|bfbo|kodb|rdtc|geto|tcla|pcbo|geho|lboc|hobo|iboa|ubdo|mbho|moho|icoa|toko|caoa|obbo|sbub|volo|gbua|pozo|bfgb|holo|hcge|obgc|kfuo|hcgc|hboc|ibvb|kcod|nbko|hctc|ocoe|lola|uozo|zevo|oelb|tomo|ldtc|dboa|mogb|kchb|nbob|lbho|iotc|domo|obto|pobc|oago|tobo|vato|sbko|oeto|oaof|lood|hbto|vbgo|fcbc|felo|vbmo|oadc|kcio|hcla|peva|deho|vaho|oava|ibob|cogo|obtc|obvo|mola|mdzo|pogb|pbdo|podo|moob|dboc|zbzo|hcua|dozo|lbub|dbvo|ocva|obub|ocgo|geub|zbgb|geuo|todb|heoc|kfgb|sbdo|hbhc|ldua|lbbo|obhe|louo|ldoe|podb|cbub|houb|todo|tcmo|fbdo|peob|gbmo|mdho|bcob|kbva|oalo|oclo|hcmo|nftc|pclo|heua|goto|hcuo|loio|tooa|tcdb|obde|hedo|tbgb|ubgo|vaoa|mbvo|noob|ifgo|zcoa|ocvo|pcbc|hcdo|segb|tfko|gogb|uovo|togo|oaho|hcdc|kbgo|fozo|fczo|bodb|sbmo|hbdo|mbuo|ibto|novo|heuo|vodb|geoc|kflo|gbho|uoub|coub|gokc|ocla|vbdo|komo|razo|gotc|oeoc|kftc|zoko|sbho|rddb|ifmo|zbub|kovb|sbvo|vavo|pezo|lobo|cato|mbob|bcio|pblo|rbko|iftc|oevo|tcob|hchc|seoa|fcho|zbdo|ifgb|tbzo|iolo|icvb|uage|zbdb|iovb|kogc|oeub|vomo|obgb|cbbo|bclo|obho|gbgc|kbdb|kfio|iomo|ubzo|hboa|hbub|dcho|moio|lbdb|pedo|rddo|lahb|femo|rdbo|vagb|vabo|tfgb|hbio|poio|kfbo|tcdo|fedo|lodb|obmo|mbzo|mazo|kcto|tcbo|lbdo|vdbo|sovo|mboa|bovo|ibmo|bbob|bboa|icvo|dedo|udoa|cagb|mbmo|ldhb|cbgb|vooa|vboa|scdo|gedb|ncla|hetc|lbua|houa|noio|gbzo|oauo|obvb|dcla|udge|ldla|lala|lbbc|como|kfub|mduo|zomo|pbgb|vdvo|hbvb|ifvb|pbio|bfuo|kfoa|nfhb|udlo|hovb|kczo|ibvo|hcof|zbvo|rdgo|kouo|obge|codo|pbbc|cabo|oegc|tfoa|bfoc|zeoa|udgc|udgo|hodc|uagc|lagb|lbgb|ioob|zcbc|hboe|hola|ibbo|molo|fooa|nobo|zodb|dodb|dbdo|sebo|ocoa|oaoa|hogo|gcoe|ldio|kcbo|ifdo|sboa|tfio|zboa|hozo|ioko|uoge|ubmo|zotc|cavo|tcvo|koho|obkc|fedb|kodo|heto|pobo|lozo|oehc|zbob|iogo|lomo|tcgb|mbbo|hcob|ocgb|koub|nodo|vovo|zbko|hbvo|hcub|nolo|pbbo|rbmo|zelo|obhb|hoof|nbdb|heko|hohb|cotc|lbzo|rdlo|nboc|kbvb|demo|mobc|fcoa|nfoc|oaoe|bozo|pcva|zobo|uddb|obhc|lovo|cadb|hcoe|gbhb|hbko|dbio|pczo|gcio|gege|bolo|kcvb|vdoa|govb|looa|febc|coto|bcla|ldmo|debo|hckc|geko|uatc|pcho|cdbo|hbod|kcgc|tcub|kbua|gbof|nooc|oemo|lddo|sbzo|ldko|zcgb|bfdb|lamo|pbva|poob|vdgc|hcgb|lbio|pcgb|lava|bbzo|oblo|bcva|kooe|seto|iozo|hbtc|mdva|gbdo|ldbo|obdc|seub|hclo|voto|oeoe|tbub|icho|pboa|hbof|kcdb|sbdb|rbgb|vdlo|nbho|oebo|goub|vbho|pela|pbla|tbho|obof|maob|voge|caho|peio|sodb|dbuo|koio|fclo|seko|nbdo|iobo|hemo|kooc|laho|nola|zozo|tfuo|noho|oagb|ocgc|nfuo|roub|obko|gezo|pcio|lboa|doho|pova|bczo|bfzo|gehc|rdgb|vbvo|ldho|kokc|sbgb|uavo|laio|laub|pcdo|nfdo|sblo|tfbo|labc|zcho|lddb|icdb|sooa|kcub|roto|oedc|cako|ocdb|tfho|kfvo|obla|sedb|pbmo|toho|gego|gegc|udvb|kola|godc|koto|godb|hehb|uooa|kbto|devo|ldoa|cobo|fezo|gboa|gcoa|geoa|mohb|ncob|lade|nokc|uoho|pboc|somo|gbge|hbdc|hevb|kfof|kcoa|rdto|hbho|kbla|pbdb|oegb|oagc|hbbo|lado|nbgb|ifub|kfgc|hcoa|ifko|tbto|kova|icge|ifge|tola|obua|mddb|ioho|icbo|ubgb|tctc|uago|nood|logb|zbmo|hcio|vdmo|good|bfho|ldva|kfva|lbtc|gooa|ifzo|pbzo|bfla|bova|toub|kfoe|loko|vbgb|oeoa|oelo|obgo|lako|ubto|boho|mbdo|nohb|oadb|cblo|oako|cozo|obdb|kcoe|lova|zebo|cbtc|cdub|bcvo|udub|zetc|semo|rdko|deub|uotc|iclo|golo|kfto|catc|gbod|ncuo|hbgb|kcmo|ncdb|nchb|ladb|kbod|sogb|nfbc|mdgb|nogo|vaub|zogo|zbbo|pcuo|oege|ioge|caob|cdto|ncbo|vdvb|ncgb|tcbc|mala|cazo|rbdb|ochc|peho|boio|oamo|ifoa|kovo|oalo|nfbo|mamo|mbdo|modo|calo|zbho|oego|hodb|bola|heoa|hooa|hoko|geod|ncoa|nbgo|polo|radb|uogc|udvo|pevo|vage|vobc|hbdb|gelo|oeko|deio|kcdc|iflo|hbmo|bcdo|deoe|mdoc|iovo|noua|cbho|cbdo|mabo|dcgb|kcbc|pedb|kfvb|madb|kboe|peuo|zolo|nfdb|kfge|tfmo|obbc|ocbc|oebc|oabc|rbto|bbdo|tftc|kolo|nomo|pcmo|totc|gbhc|maio|pemo|kfhb|tooc|zeub|kcgb|hcva|hohc|gclo|oeod|cdho|zedb|iogb|ifvo|cogb|touo|dogo|dbbc|tfvo|lazo|dolo|obzo|oede|heva|hblo|rbtc|rbho|rbgc|icgc|tczo|nodb|ldub)o$'
+
+__patch:
+  # 选择方案分支
+  #- sydbj194362.options:/type_d
+  #- sydbj194362.options:/type_e
