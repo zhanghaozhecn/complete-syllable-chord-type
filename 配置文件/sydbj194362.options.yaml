@@ -1,3 +1,15 @@
+type_b:
+  translator/+:
+    dictionary: sydbj194362b
+  speller/+:
+    auto_select_pattern: "^[a-z]{4}[ox]|[a-z]{4}o(oo[a-z]{2}o|[a-z]{2}ooo)$"
+
+type_c:
+  translator/+:
+    dictionary: sydbj194362c
+  speller/+:
+    auto_select_pattern: "^[a-z]{4}[ox]|[a-z]{4}o(oo[a-z]{2}o|[a-z]{2}ooo)$"
+
 type_d:
   translator/+:
     dictionary: sydbj194362d
@@ -5,3 +17,6 @@ type_d:
 type_e:
   translator/+:
     dictionary: sydbj194362e
+  speller/+:
+    auto_select_pattern: "^[a-z]{4}[ox]|[a-z]{4}o(oo[a-z]{2}o|[a-z]{2}ooo)$"
+
