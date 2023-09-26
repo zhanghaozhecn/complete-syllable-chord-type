@@ -1,0 +1,55 @@
+---
+name: sydbj
+version: 20230926
+use_preset_vocabulary: false
+sort: original
+import_tables:
+  - sydbj.char
+  - sydbj.word
+  - sydbj.reverse
+encoder:
+  exclude_patterns:
+    - '^o[df]...$'
+    - '^..(ga|da|ro|fo|no|kb|bb).$'
+  rules:
+    - length_equal: 2
+      formula: "AaAbAcAdAeBaBbBcBdBe"
+    - length_equal: 3
+      formula: "AaAbAcAdAeBaBbBcBdBfCaCbCcCdCe"
+    - length_in_range: [4,10]
+      formula: "AaAbAcAdAeBaBbBcBdBfCaCbCcCdCfZaZbZcZdZe"
+...
+，	odooo
+？	odoox
+。	ofooo
+！	ofoox
+……	odloo
+——	odvoo
+》	oduoo
+《	odoao
+？”	ododo
+；	odhoo
+：	oddoo
+”	odgoo
+“	odobo
+。”	odoeo
+、	odtoo
+·	odboo
+）	odkoo
+（	odoco
+！”	odofo
+…	ofloo
+—	ofvoo
+〉	ofuoo
+〈	ofoao
+°	ofodo
+;	ofhoo
+：“	ofdoo
+’	ofgoo
+‘	ofobo
+℃	ofoeo
+/	oftoo
+.	ofboo
+,	ofkoo
+～	ofoco
+¥	ofofo
