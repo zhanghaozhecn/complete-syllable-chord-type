@@ -1,7 +1,7 @@
 schema:
   schema_id: sydbj
   name: 声韵调并击
-  version: 20230926
+  version: 20230927
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -48,7 +48,7 @@ engine:
   filters:
     - simplifier
     - uniquifier
-    - simplifier@hint_shape
+    #- simplifier@hint_shape
     - simplifier@hint_syllable
 simplifier:
   option_name: zh_simp_s2t
@@ -108,7 +108,7 @@ translator:
   enable_user_dict: true
   enable_encoder: true
   encode_commit_history: true
-  max_phrase_length: 5
+  max_phrase_length: 7
   disable_user_dict_for_patterns:
     - '^.....$'
     - '^.......(ga|da|ro|fo|no|kb|bb).$'
