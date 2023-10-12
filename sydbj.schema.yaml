@@ -1,7 +1,7 @@
 schema:
   schema_id: sydbj
   name: 声韵调并击
-  version: 20230927
+  version: 20231011
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -96,7 +96,6 @@ chord_composer:
     - xform/^[^#].*//
     - xform/#//
     - xform/^([gdhzfs])a/$1c/
-    - xform/(ga|da|ro|fo|no|kb|bb)x/$1o2/
     - xform/oooox/ /
   prompt_format:
     - xform/.*//
