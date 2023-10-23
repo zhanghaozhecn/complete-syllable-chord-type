@@ -1,6 +1,6 @@
 ---
 name: sydbj
-version: 20230927
+version: 20231023
 use_preset_vocabulary: false
 sort: original
 import_tables:
@@ -14,10 +14,8 @@ encoder:
   rules:
     - length_equal: 2
       formula: "AaAbAcAdAeBaBbBcBdBe"
-    - length_equal: 3
-      formula: "AaAbBcBdBeCaCbCcCdCf"
-    - length_in_range: [4,10]
-      formula: "AaAbBcBdBeCaCbZcZdZf"
+    - length_in_range: [3,7]
+      formula: "AaAbAcAdAeBaBbBcBdBfZaZbZcZdZe"
 ...
 ，	odooo
 ？	odoox
