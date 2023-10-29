@@ -1,7 +1,7 @@
 schema:
   schema_id: sydbj
   name: 声韵调并击
-  version: 20231023
+  version: 20231029
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -30,7 +30,6 @@ engine:
     - ascii_composer
     - recognizer
     - chord_composer
-    - lua_processor@topup_processor
     - speller
     - key_binder
     - punctuator
@@ -49,14 +48,13 @@ engine:
   filters:
     - simplifier
     - uniquifier
-    #- simplifier@hint_shape
+    - simplifier@hint_shape
     - simplifier@hint_syllable
 simplifier:
   option_name: zh_simp_s2t
   opencc_config: s2t.json
 speller:
   auto_select: true
-  auto_select_pattern: '^([a-z]{5})|([a-z]{7}(ga|da|ro|fo|no|kb|bb)[a-z])$'
   alphabet: 'abcdefghijklmnopqrstuvwxyz'
   algebra:
 chord_composer:
@@ -103,11 +101,11 @@ translator:
   dictionary: sydbj
   enable_charset_filter: false
   enable_completion: true
-  enable_sentence: true
+  enable_sentence: false
   enable_user_dict: true
   enable_encoder: true
-  encode_commit_history: true
-  max_phrase_length: 7
+  encode_commit_history: false
+  max_phrase_length: 10
   disable_user_dict_for_patterns:
     - '^([a-z]{5})|([a-z]{7}(ga|da|ro|fo|no|kb|bb)[a-z])$'
   preedit_format:
