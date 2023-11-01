@@ -1,7 +1,7 @@
 schema:
   schema_id: sydbj
   name: 声韵调并击
-  version: 20231029
+  version: 20231101
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -28,8 +28,8 @@ switches:
 engine:
   processors:
     - ascii_composer
-    - recognizer
     - chord_composer
+    - recognizer
     - speller
     - key_binder
     - punctuator
@@ -107,7 +107,7 @@ translator:
   encode_commit_history: false
   max_phrase_length: 10
   disable_user_dict_for_patterns:
-    - '^([a-z]{5})|([a-z]{7}(ga|da|ro|fo|no|kb|bb)[a-z])$'
+    - '^([a-z]{5})$'
   preedit_format:
     - xform/([a-z]{4})([ox])/$1_/
     - xform/beoo_/把/
@@ -1561,5 +1561,5 @@ key_binder:
 recognizer:
   patterns:
     punct: '^`([0-9]0?|[A-Za-z]+)?$'
-    hint_syllable: '^..(ga|da|ro|fo|no|kb|bb)o$'
+    hint_syllable: '^oofoo[a-z]{5}$'
     hint_shape: '^[bpmfdtnlgkhviurzcso][abceo](bc|bo|db|dc|de|do|gb|gc|ge|go|hb|hc|he|ho|io|kc|ko|la|lb|lo|mo|oa|ob|oc|od|oe|of|tc|to|ua|ub|uo|va|vb|vo|zo)o$'

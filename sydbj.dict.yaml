@@ -1,6 +1,6 @@
 ---
 name: sydbj
-version: 20231028
+version: 20231101
 use_preset_vocabulary: false
 sort: original
 import_tables:
@@ -10,7 +10,7 @@ import_tables:
 encoder:
   exclude_patterns:
     - '^o[df]...$'
-    - '^..(ga|da|ro|fo|no|kb|bb).$'
+    - '^oofoo.....$'
   rules:
     - length_equal: 2
       formula: "AaAbAcAdAeBaBbBcBdBe"
