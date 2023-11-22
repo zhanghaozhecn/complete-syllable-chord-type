@@ -1,6 +1,6 @@
 ---
 name: sydbj
-version: 20231101
+version: 20231122
 use_preset_vocabulary: false
 sort: original
 import_tables:
@@ -9,49 +9,37 @@ import_tables:
   - sydbj.reverse
 encoder:
   exclude_patterns:
-    - '^o[df]...$'
-    - '^oofoo.....$'
+    - '^oo[a-z]*$'
+    - '^[a-z][a-z]ooooo[a-z][a-z]o$'
   rules:
     - length_equal: 2
       formula: "AaAbAcAdAeBaBbBcBdBe"
     - length_equal: 3
-      formula: "AaAbAcAdAeBaBbBcBdBfCaCbCcCdCe"
-    - length_equal: 4
-      formula: "AaAbAcAdAeBaBbBcBdBeCaCbCcCdCeDaDbDcDdDe"
-    - length_in_range: [5,10]
-      formula: "AaAbAcAdAeBaBbBcBdBfZaZbZcZdZf"
+      formula: "AaAbBaBbBeCaCbCcCdCe"
+    - length_in_range: [4,10]
+      formula: "AaAbBaBbBeCaCbZaZbZe"
 ...
-，	odooo
-？	odoox
-。	ofooo
-！	ofoox
-……	odloo
-——	odvoo
-》	oduoo
-《	odoao
-？”	ododo
-；	odhoo
-：	oddoo
-”	odgoo
-“	odobo
-。”	odoeo
-、	odtoo
-·	odboo
-）	odkoo
-（	odoco
-！”	odofo
-…	ofloo
-—	ofvoo
-〉	ofuoo
-〈	ofoao
-°	ofodo
-;	ofhoo
-：“	ofdoo
-’	ofgoo
-‘	ofobo
-℃	ofoeo
-/	oftoo
-.	ofboo
-,	ofkoo
-～	ofoco
-¥	ofofo
+；	ooloo
+：	oovoo
+”	oouoo
+“	oooao
+——	ooodo
+！	oohoo
+？	oodoo
+。	oogoo
+，	ooobo
+、	oooeo
+》	ootoo
+《	ooboo
+）	ookoo
+（	oooco
+……	ooofo
+·	oogbo
+～	oogbo
+‘	oogbo
+’	oogbo
+〈	oogbo
+〉	oogbo
+¥	oogbo
+°	oogbo
+℃	oogbo

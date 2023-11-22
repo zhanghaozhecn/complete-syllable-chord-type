@@ -1,7 +1,7 @@
 schema:
   schema_id: sydbj
   name: 声韵调并击
-  version: 20231101
+  version: 20231121
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -55,6 +55,8 @@ simplifier:
   opencc_config: s2t.json
 speller:
   auto_select: true
+  auto_select_pattern: '^(oo[a-z][a-z]o|[a-z]{4}x)$'
+  max_code_length: 10
   alphabet: 'abcdefghijklmnopqrstuvwxyz'
   algebra:
 chord_composer:
@@ -104,124 +106,13 @@ translator:
   enable_sentence: false
   enable_user_dict: true
   enable_encoder: true
-  encode_commit_history: false
-  max_phrase_length: 10
+  encode_commit_history: true
+  max_phrase_length: 7
   disable_user_dict_for_patterns:
-    - '^([a-z]{5})$'
+    - '^(oo[a-z][a-z]o|[a-z]{4}x)$'
+    - '^[a-z][a-z]ooooo[a-z][a-z]o$'
   preedit_format:
     - xform/([a-z]{4})([ox])/$1_/
-    - xform/beoo_/把/
-    - xform/bboo_/吧/
-    - xform/bcoo_/别/
-    - xform/booo_/不/
-    - xform/caoo_/才/
-    - xform/ieoo_/场/
-    - xform/icoo_/成/
-    - xform/iboo_/出/
-    - xform/iooo_/处/
-    - xform/ceoo_/此/
-    - xform/cooo_/次/
-    - xform/cboo_/村/
-    - xform/dcoo_/得/
-    - xform/dboo_/的/
-    - xform/deoo_/等/
-    - xform/dooo_/定/
-    - xform/feoo_/法/
-    - xform/fboo_/风/
-    - xform/fcoo_/服/
-    - xform/fooo_/副/
-    - xform/gboo_/工/
-    - xform/gcoo_/极/
-    - xform/gooo_/记/
-    - xform/geoo_/仅/
-    - xform/lboo_/了/
-    - xform/leoo_/里/
-    - xform/looo_/力/
-    - xform/laoo_/连/
-    - xform/meoo_/每/
-    - xform/mboo_/们/
-    - xform/mooo_/面/
-    - xform/maoo_/名/
-    - xform/nooo_/那/
-    - xform/nboo_/呢/
-    - xform/neoo_/你/
-    - xform/ncoo_/年/
-    - xform/pooo_/怕/
-    - xform/peoo_/跑/
-    - xform/pboo_/批/
-    - xform/pcoo_/平/
-    - xform/keoo_/起/
-    - xform/kooo_/气/
-    - xform/kboo_/清/
-    - xform/kcoo_/全/
-    - xform/rooo_/让/
-    - xform/raoo_/人/
-    - xform/rboo_/扔/
-    - xform/reoo_/软/
-    - xform/sboo_/三/
-    - xform/uboo_/生/
-    - xform/uaoo_/时/
-    - xform/uooo_/事/
-    - xform/ueoo_/手/
-    - xform/sooo_/四/
-    - xform/scoo_/随/
-    - xform/seoo_/所/
-    - xform/tboo_/它/
-    - xform/tooo_/太/
-    - xform/teoo_/体/
-    - xform/tcoo_/同/
-    - xform/heoo_/想/
-    - xform/hooo_/像/
-    - xform/hboo_/心/
-    - xform/hcoo_/形/
-    - xform/oboo_/一/
-    - xform/oaoo_/意/
-    - xform/oeoo_/有/
-    - xform/ocoo_/于/
-    - xform/zooo_/在/
-    - xform/zcoo_/则/
-    - xform/vboo_/之/
-    - xform/vaoo_/值/
-    - xform/veoo_/只/
-    - xform/vooo_/制/
-    - xform/zeoo_/走/
-    - xform/zboo_/钻/
-    - xform/ooob_/是/
-    - xform/oobc_/被/
-    - xform/oovo_/带/
-    - xform/oogb_/到/
-    - xform/oomo_/都/
-    - xform/ootc_/段/
-    - xform/oolb_/而/
-    - xform/oolo_/分/
-    - xform/oogo_/个/
-    - xform/oogc_/化/
-    - xform/oooe_/加/
-    - xform/oola_/接/
-    - xform/oova_/进/
-    - xform/ooua_/句/
-    - xform/oood_/绝/
-    - xform/oodc_/军/
-    - xform/oohb_/流/
-    - xform/oode_/哦/
-    - xform/oooa_/他/
-    - xform/ooge_/外/
-    - xform/oovb_/望/
-    - xform/ooto_/为/
-    - xform/ooub_/文/
-    - xform/oodo_/物/
-    - xform/oouo_/线/
-    - xform/ookc_/向/
-    - xform/ooio_/要/
-    - xform/oooc_/应/
-    - xform/oohe_/哟/
-    - xform/oohc_/用/
-    - xform/ooof_/原/
-    - xform/oobo_/站/
-    - xform/oodb_/长/
-    - xform/oozo_/正/
-    - xform/ooko_/中/
-    - xform/ooho_/做/
     - xform/dbgo_/de1/
     - xform/lbgo_/le1/
     - xform/zovo_/zai4/
@@ -1561,5 +1452,5 @@ key_binder:
 recognizer:
   patterns:
     punct: '^`([0-9]0?|[A-Za-z]+)?$'
-    hint_syllable: '^oofoo[a-z]{5}$'
-    hint_shape: '^[bpmfdtnlgkhviurzcso][abceo](bc|bo|db|dc|de|do|gb|gc|ge|go|hb|hc|he|ho|io|kc|ko|la|lb|lo|mo|oa|ob|oc|od|oe|of|tc|to|ua|ub|uo|va|vb|vo|zo)o$'
+    hint_syllable: '^[a-z][a-z]ooooo[a-z][a-z]o$'
+    hint_shape: '^(zoho|hcoc|gbko|vobo|goob|ochb|ubzo|uoob|oato|gedo|uodo|dovo|hcgo|mabc|icdb|hbkc|ocof|boob|maho|gouo|iczo|voob|gooe|modo|bouo|houo|doob|vodb|oaob|bobc|lahb|geuo|domo|laob|oado|goua|hola|hbgo|fbzo|oeua|hbio|hcla|goto|oago|moho|kbuo|vodo|gbuo|bbho|geio|oauo|bbbo|oavo|obvo|oaua|oavb|gola|bobo|tcoc|zogb|goio|zcdo|sodo|vbob|gokc|oedo|kbgo|lola|obuo|hcof|fcdo|obob|ocua|ubdo|gekc|oelb|hogo|uaob|koho|hbob|oeto|gooc|houa|loob|laho|fodo|bcho|geko|lauo|kbob|voko|hcko|hcoe|pobo|gbio|pczo|pcoc|hokc|poob|oaod|pbho|dozo|octo|hooe|kelo|coho|madb|koob|laub|poho|loho|tbgb|vbvb|gbbo|soko|gbto|ococ|leua|gbob|tcob|gboe|ledo|oboc|gboc|rako|vbdb|zbob|pcdo|fbbc|iooa|icmo|fedo|dedo|gcob|icob|uedo|hoio|gbgb|folo|lado|uboa|gehb|tcdb|kevo|ocgo|hbva|hoto|gcgo|kcuo|bogb|ocob|bbva|hbua|oabo|tcko|ubbo|vooa|kbhb|labo|hcbo|oetc|gcua|hobo|lakc|obhc|dooc|sbgb|ocio|kcob|ocuo|gova|dboa|obmo|gcod|gcla|hcgb|hcub|icto|medo|obva|ocdo|uobo|vaho|hcuo|vogb|vebo|fbbo|laoc|kbua|iboa|febc|ibob|hboc|gohb|icoa|oehc|soto|rolo|icbo|maob|hooc|dbho|pcoa|vblo|ibko|doub|tczo|mabo|nola|zedo|obdo|vbko|sbho|ocoe|kola|gebo|peob|obkc|oahb|kboa|vago|oala|geob|kcio|soob|meva|pedo|pbob|ocgb|icdo|meio|ioob|uado|lodo|laio|vbdo|geua|oevo|kcof|latc|goof|gbua|dbzo|kogo|gbzo|tooa|leob|hotc|obto|kcva|vomo|kovb|dboc|iedb|ubgb|hodc|begb|pcva|hcdc|oadc|hcdo|godo|lako|lamo|tcgb|dcoa|gbdo|vbzo|dotc|obhb|iedo|uagb|sbmo|sbob|beob|pcbo|dobo|tcbo|oeuo|hcvb|lohb|hbdo|hoho|fedb|uooa|fobo|douo|kooc|cbdb|lava|caob|ockc|hodo|moob|oaho|iolo|bedo|tcub|fobc|maoc|bodo|debo|gbdb|gbho|gbmo|gboa|gbtc|gegc|gego|hbbc|hbgc|hogc|homo|hoof|ibgb|icko|iclo|keoa|keob|koio|lokc|maoa|ncob|noob|obbo|obio|obua|ocoa|oeob|pbuo|pcgb|podo|tboa|tcdo|uogb|uogo|uoho|uozo|vaoa|vbgo|vboa|zcgo|bolo|bbio|oevb|mezo|fcbo|koge|vaob|toob|ocdc|kcua|kchb|vbgb|kbva|vozo|kood|geoe|fbdo|vovb|uago|dcla|ncuo|bevo|tedb|oagb|ibdb|dodb|pcob|hctc|kboc|oeoc|hogb|meuo|hova|oaoe|kbbo|mogb|kbub|looa|hczo|oclb|teoa|deob|codo|gcoe|zeob|gogc|ocva|zozo|mamo|kchc|cbko|gbhb|gbva|bboa|sbko|fcoa|doko|loio|ocub|hbhb|geto|oakc|tcho|kouo|zbko|dogb|magb|mado|koto|dcdo|togo|movo|keio|ibzo|kbkc|rado|labc|ncdo|tcvo|dbbo|oboa|ubob|kcoc|kbto|boho|iodo|bbbc|sbub|nedo|geoc|fclo|gbla|gotc|zobo|gomo|sbto|zbzo|caho|rodo|ioge|gbgo|mazo|heuo|vbbo|leho|obof|doio|hbto|oeio|gbdc|kbdo|kcto|heob|booa|mava|godc|lebc|cbob|hoob|lodb|velo|doho|ubvb|pcdb|ladb|oava|vedb|novo|dcob|getc|roho|dbub|gogb|obdc|hbdc|hbuo|kobo|loua|mobc|obgc|oboe|veoa|tcuo|obho|vbmo|hbof|tbdb|gehc|ublo|coob|hbko|deho|pcmo|seoa|mebc|obvb|fblo|bodb|uedb|hohb|hcod|ictc|ubgo|bboc|kckc|heua|iblo|hbvo|veob|sogo|louo|votc|volo|molo|ncgb|gbof|roto|oebo|sbdo|ledb|gobo|rebo|vogo|iebo|leko|mobo|dbko|vedo|dodo|doto)o$'
