@@ -1,6 +1,6 @@
 ---
 name: sydbj
-version: 20231122
+version: 20231124
 use_preset_vocabulary: false
 sort: original
 import_tables:
@@ -9,8 +9,8 @@ import_tables:
   - sydbj.reverse
 encoder:
   exclude_patterns:
-    - '^oo[a-z]*$'
-    - '^[a-z][a-z]ooooo[a-z][a-z]o$'
+    - '^oo..o$'
+    - '^..ooooo..o$'
   rules:
     - length_equal: 2
       formula: "AaAbAcAdAeBaBbBcBdBe"
