@@ -1,7 +1,7 @@
 schema:
   schema_id: sydbj
   name: 声韵调并击
-  version: 20231124
+  version: 20231125
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -102,7 +102,7 @@ chord_composer:
 translator:
   dictionary: sydbj
   enable_charset_filter: false
-  enable_completion: false
+  enable_completion: true
   enable_sentence: false
   enable_user_dict: true
   enable_encoder: true
