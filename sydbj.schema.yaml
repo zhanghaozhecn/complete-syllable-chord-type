@@ -1,7 +1,7 @@
 schema:
   schema_id: sydbj
   name: 声韵调并击
-  version: 20231125
+  version: 20231127
   author:
     - 张皓哲（576440085@qq.com）
   description:
@@ -19,17 +19,14 @@ switches:
   - name: ascii_mode
     reset: 0
     states: [ 中, 英 ]
-  - name: hint_shape
-    reset: 1
-    states: [ 形码提示关, 形码提示开 ]
   - name: hint_syllable
     reset: 1
     states: [ 反查提示关, 反查提示开 ]
 engine:
   processors:
     - ascii_composer
-    - chord_composer
     - recognizer
+    - chord_composer
     - speller
     - key_binder
     - punctuator
@@ -48,7 +45,6 @@ engine:
   filters:
     - simplifier
     - uniquifier
-    - simplifier@hint_shape
     - simplifier@hint_syllable
 simplifier:
   option_name: zh_simp_s2t
@@ -1421,16 +1417,6 @@ translator:
     - xform v ü
   comment_format:
     - xform/~.*//
-hint_shape:
-  opencc_config: hint_shape.json
-  option_name: hint_shape
-  show_in_comment: true
-  comment_format:
-    - "xform/<br>/\n/"
-    - "xform/&nbsp/ /"
-  tags:
-    - hint_shape
-  tips: char
 hint_syllable:
   opencc_config: hint_syllable.json
   option_name: hint_syllable
@@ -1452,4 +1438,3 @@ recognizer:
   patterns:
     punct: '^`([0-9]0?|[A-Za-z]+)?$'
     hint_syllable: '^..ooooo..o$'
-    hint_shape: '^(zoho|hcoc|gbko|vobo|goob|ochb|ubzo|uoob|oato|gedo|uodo|dovo|hcgo|mabc|icdb|hbkc|ocof|boob|maho|gouo|iczo|voob|gooe|modo|bouo|houo|doob|vodb|oaob|bobc|lahb|geuo|domo|laob|oado|goua|hola|hbgo|fbzo|oeua|hbio|hcla|goto|oago|moho|kbuo|vodo|gbuo|bbho|geio|oauo|bbbo|oavo|obvo|oaua|oavb|gola|bobo|tcoc|zogb|goio|zcdo|sodo|vbob|gokc|oedo|kbgo|lola|obuo|hcof|fcdo|obob|ocua|ubdo|gekc|oelb|hogo|uaob|koho|hbob|oeto|gooc|houa|loob|laho|fodo|bcho|geko|lauo|kbob|voko|hcko|hcoe|pobo|gbio|pczo|pcoc|hokc|poob|oaod|pbho|dozo|octo|hooe|kelo|coho|madb|koob|laub|poho|loho|tbgb|vbvb|gbbo|soko|gbto|ococ|leua|gbob|tcob|gboe|ledo|oboc|gboc|rako|vbdb|zbob|pcdo|fbbc|iooa|icmo|fedo|dedo|gcob|icob|uedo|hoio|gbgb|folo|lado|uboa|gehb|tcdb|kevo|ocgo|hbva|hoto|gcgo|kcuo|bogb|ocob|bbva|hbua|oabo|tcko|ubbo|vooa|kbhb|labo|hcbo|oetc|gcua|hobo|lakc|obhc|dooc|sbgb|ocio|kcob|ocuo|gova|dboa|obmo|gcod|gcla|hcgb|hcub|icto|medo|obva|ocdo|uobo|vaho|hcuo|vogb|vebo|fbbo|laoc|kbua|iboa|febc|ibob|hboc|gohb|icoa|oehc|soto|rolo|icbo|maob|hooc|dbho|pcoa|vblo|ibko|doub|tczo|mabo|nola|zedo|obdo|vbko|sbho|ocoe|kola|gebo|peob|obkc|oahb|kboa|vago|oala|geob|kcio|soob|meva|pedo|pbob|ocgb|icdo|meio|ioob|uado|lodo|laio|vbdo|geua|oevo|kcof|latc|goof|gbua|dbzo|kogo|gbzo|tooa|leob|hotc|obto|kcva|vomo|kovb|dboc|iedb|ubgb|hodc|begb|pcva|hcdc|oadc|hcdo|godo|lako|lamo|tcgb|dcoa|gbdo|vbzo|dotc|obhb|iedo|uagb|sbmo|sbob|beob|pcbo|dobo|tcbo|oeuo|hcvb|lohb|hbdo|hoho|fedb|uooa|fobo|douo|kooc|cbdb|lava|caob|ockc|hodo|moob|oaho|iolo|bedo|tcub|fobc|maoc|bodo|debo|gbdb|gbho|gbmo|gboa|gbtc|gegc|gego|hbbc|hbgc|hogc|homo|hoof|ibgb|icko|iclo|keoa|keob|koio|lokc|maoa|ncob|noob|obbo|obio|obua|ocoa|oeob|pbuo|pcgb|podo|tboa|tcdo|uogb|uogo|uoho|uozo|vaoa|vbgo|vboa|zcgo|bolo|bbio|oevb|mezo|fcbo|koge|vaob|toob|ocdc|kcua|kchb|vbgb|kbva|vozo|kood|geoe|fbdo|vovb|uago|dcla|ncuo|bevo|tedb|oagb|ibdb|dodb|pcob|hctc|kboc|oeoc|hogb|meuo|hova|oaoe|kbbo|mogb|kbub|looa|hczo|oclb|teoa|deob|codo|gcoe|zeob|gogc|ocva|zozo|mamo|kchc|cbko|gbhb|gbva|bboa|sbko|fcoa|doko|loio|ocub|hbhb|geto|oakc|tcho|kouo|zbko|dogb|magb|mado|koto|dcdo|togo|movo|keio|ibzo|kbkc|rado|labc|ncdo|tcvo|dbbo|oboa|ubob|kcoc|kbto|boho|iodo|bbbc|sbub|nedo|geoc|fclo|gbla|gotc|zobo|gomo|sbto|zbzo|caho|rodo|ioge|gbgo|mazo|heuo|vbbo|leho|obof|doio|hbto|oeio|gbdc|kbdo|kcto|heob|booa|mava|godc|lebc|cbob|hoob|lodb|velo|doho|ubvb|pcdb|ladb|oava|vedb|novo|dcob|getc|roho|dbub|gogb|obdc|hbdc|hbuo|kobo|loua|mobc|obgc|oboe|veoa|tcuo|obho|vbmo|hbof|tbdb|gehc|ublo|coob|hbko|deho|pcmo|seoa|mebc|obvb|fblo|bodb|uedb|hohb|hcod|ictc|ubgo|bboc|kckc|heua|iblo|hbvo|veob|sogo|louo|votc|volo|molo|ncgb|gbof|roto|oebo|sbdo|ledb|gobo|rebo|vogo|iebo|leko|mobo|dbko|vedo|dodo|doto)o$'
