@@ -51,7 +51,7 @@ simplifier:
   opencc_config: s2t.json
 speller:
   auto_select: true
-  auto_select_pattern: '^(oo..o|....x|....ooo..o)$'
+  auto_select_pattern: '^(oo..o|....x)$'
   max_code_length: 10
   alphabet: 'abcdefghijklmnopqrstuvwxyz'
   algebra:
@@ -105,7 +105,7 @@ translator:
   encode_commit_history: true
   max_phrase_length: 7
   disable_user_dict_for_patterns:
-    - '^.....$'
+    - '^(.....|....ooo..o)$'
   preedit_format:
     - xform/([a-z]{4})([ox])/$1_/
     - xform/dbgo_/de1/
