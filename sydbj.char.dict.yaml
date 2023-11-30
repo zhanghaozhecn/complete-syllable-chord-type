@@ -1,12 +1,36 @@
 ---
 name: sydbj.char
-version: 20231124
+version: 20231130
 sort: original
 columns:
   - text
   - code
   - stem
 ...
+；	ooloo
+：	oovoo
+”	oouoo
+“	oooao
+——	ooodo
+！	oohoo
+？	oodoo
+。	oogoo
+，	ooobo
+、	oooeo
+》	ootoo
+《	ooboo
+）	ookoo
+（	oooco
+……	ooofo
+·	oogbo
+～	oogbo
+‘	oogbo
+’	oogbo
+〈	oogbo
+〉	oogbo
+¥	oogbo
+°	oogbo
+℃	oogbo
 的	dboox	dbgoox
 了	lboox	lbgoox
 在	zooox	zovoox
